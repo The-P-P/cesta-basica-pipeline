@@ -82,6 +82,20 @@ def grafico_evolucao_historica(df: pd.DataFrame) -> Path:
     )
     ax.set_xlabel("Data", fontsize=12)
     ax.set_ylabel("Custo (R$)", fontsize=12)
+
+    # Em modo híbrido, marca início dos dados reais
+    if "fonte_dado" in df.columns and (df["fonte_dado"] == "real_dieese").any():
+        data_inicio_real = df.loc[df["fonte_dado"] == "real_dieese", "data"].min()
+        ax.axvline(data_inicio_real, color="#34495e", linestyle=":", linewidth=1.6, alpha=0.8)
+        ax.text(
+            data_inicio_real,
+            ax.get_ylim()[1] * 0.98,
+            " Início dos dados reais",
+            fontsize=10,
+            color="#34495e",
+            va="top",
+        )
+
     ax.legend(loc="upper left", fontsize=11, framealpha=0.9)
     ax.grid(True, alpha=0.3)
     fig.text(0.12, 0.02, FONTE_DADOS, fontsize=9, color="gray")
@@ -238,12 +252,14 @@ def grafico_boxplot_regional(df: pd.DataFrame) -> Path:
 
 def grafico_ranking_capitais(df: pd.DataFrame) -> Path:
     """
-    Gráfico 5 — Ranking horizontal de capitais (custo médio março/2026).
+    Gráfico 5 — Ranking horizontal de capitais no último mês disponível.
     """
     fig, ax = _configurar_figura((14, 12))
 
-    mar2026 = df[(df["data"].dt.year == 2026) & (df["data"].dt.month == 3)]
-    ranking = mar2026.sort_values("custo", ascending=True)
+    data_ref = df["data"].max()
+    mes_ref = df[df["data"] == data_ref]
+    ranking = mes_ref.sort_values("custo", ascending=True)
+    label_mes = data_ref.strftime("%b/%Y")
 
     cores = [
         COR_SAO_LUIS if c == "São Luís" else COR_MEDIA_NACIONAL
@@ -263,7 +279,7 @@ def grafico_ranking_capitais(df: pd.DataFrame) -> Path:
         )
 
     ax.set_title(
-        "Custo da Cesta Básica por Capital — Março/2026",
+        f"Custo da Cesta Básica por Capital — {label_mes}",
         fontsize=16,
         fontweight="bold",
         pad=15,

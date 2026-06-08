@@ -49,6 +49,11 @@ CRESCIMENTO_ANUAL_BASE = 0.055
 RUIDO_STD = 8.0
 
 
+def _mapa_capitais() -> dict:
+    """Retorna mapa de metadados por capital."""
+    return {c["capital"]: {"estado": c["estado"], "regiao": c["regiao"]} for c in CAPITAIS_REFERENCIA}
+
+
 def _gerar_serie_capital(
     capital: str,
     custo_mar2026: float,
@@ -139,6 +144,7 @@ def get_data_simulado() -> pd.DataFrame:
                 "estado": info["estado"],
                 "regiao": info["regiao"],
                 "custo": round(custos[i], 2),
+                "fonte_dado": "simulado",
             })
 
     df = pd.DataFrame(registros)
@@ -146,12 +152,14 @@ def get_data_simulado() -> pd.DataFrame:
     return df.sort_values(["capital", "data"]).reset_index(drop=True)
 
 
-def get_data_real(caminho_csv: str = "data/raw/dieese_cesta_basica.csv") -> pd.DataFrame:
+def get_data_real(caminho_csv: str = None) -> pd.DataFrame:
     """
     PARA USAR DADOS REAIS: descomente a chamada desta função em load_data().
-    Baixe o CSV em: https://www.dieese.org.br/cestaBasica/index.html
+    Baixe o CSV em: https://www.dieese.org.br...
     Formato esperado: colunas [data, capital, custo]
     """
+    if caminho_csv is None:
+        caminho_csv = Path(__file__).resolve().parent.parent / "data" / "raw" / "dieese_cesta_basica.csv"
     caminho = Path(caminho_csv)
     if not caminho.exists():
         raise FileNotFoundError(
@@ -160,17 +168,119 @@ def get_data_real(caminho_csv: str = "data/raw/dieese_cesta_basica.csv") -> pd.D
         )
 
     df = pd.read_csv(caminho, parse_dates=["data"])
+    def _normalizar_custo(valor):
+        texto = str(valor).strip()
+        if "," in texto:
+            # Formato brasileiro: 1.234,56 -> 1234.56
+            texto = texto.replace(".", "").replace(",", ".")
+        return texto
+
+    df["custo"] = df["custo"].map(_normalizar_custo)
+    df["custo"] = pd.to_numeric(df["custo"], errors="coerce")
+    df = df.dropna(subset=["data", "capital", "custo"]).copy()
 
     # Mapeamento de capitais para estado e região
-    mapa = {c["capital"]: {"estado": c["estado"], "regiao": c["regiao"]} for c in CAPITAIS_REFERENCIA}
+    mapa = _mapa_capitais()
     df["estado"] = df["capital"].map(lambda x: mapa.get(x, {}).get("estado", ""))
     df["regiao"] = df["capital"].map(lambda x: mapa.get(x, {}).get("regiao", ""))
+    df["fonte_dado"] = "real_dieese"
 
-    colunas = ["data", "capital", "estado", "regiao", "custo"]
-    return df[colunas].sort_values(["capital", "data"]).reset_index(drop=True)
+    colunas = ["data", "capital", "estado", "regiao", "custo", "fonte_dado"]
+    df = df[colunas].copy()
+    df["data"] = pd.to_datetime(df["data"])
+    df["custo"] = pd.to_numeric(df["custo"], errors="coerce")
+    df = df.dropna(subset=["data", "capital", "custo"])
+    return df.sort_values(["capital", "data"]).reset_index(drop=True)
+
+
+def _reconstruir_historico_calibrado(df_real_capital: pd.DataFrame, capital: str) -> pd.DataFrame:
+    """
+    Reconstrói histórico de 2020 até mês anterior ao primeiro dado real.
+    Série sintética é calibrada para encaixar suavemente no primeiro valor real.
+    """
+    primeira_data_real = df_real_capital["data"].min()
+    if pd.isna(primeira_data_real):
+        return pd.DataFrame(columns=df_real_capital.columns)
+
+    inicio = pd.Timestamp("2020-01-01")
+    fim = primeira_data_real - pd.offsets.MonthBegin(1)
+    if fim < inicio:
+        return pd.DataFrame(columns=df_real_capital.columns)
+
+    datas_hist = pd.date_range(inicio, fim, freq="MS")
+    valor_ancora = float(df_real_capital.loc[df_real_capital["data"] == primeira_data_real, "custo"].iloc[0])
+    meses_ate_ancora = max(1, len(datas_hist))
+
+    # Backcasting com inflação média anual e variação por capital
+    variacao = np.random.uniform(-0.01, 0.01)
+    crescimento_anual = CRESCIMENTO_ANUAL_BASE + variacao
+    taxa_mensal = (1 + crescimento_anual) ** (1 / 12) - 1
+
+    # Gera tendência para trás a partir da âncora real
+    tendencia = np.array([
+        valor_ancora / ((1 + taxa_mensal) ** (meses_ate_ancora - i))
+        for i in range(meses_ate_ancora)
+    ])
+
+    # Sazonalidade leve
+    fator_sazonal = np.ones(len(datas_hist))
+    for i, data in enumerate(datas_hist):
+        if data.month in (1, 2):
+            fator_sazonal[i] = 1.02
+        elif data.month in (4, 5):
+            fator_sazonal[i] = 0.985
+
+    # Choque COVID no fim de 2020
+    choque = np.ones(len(datas_hist))
+    for i, data in enumerate(datas_hist):
+        if data.year == 2020 and data.month >= 8:
+            choque[i] = 1.08
+
+    ruido = np.random.normal(0, 5.0, len(datas_hist))
+    custos = np.maximum(tendencia * fator_sazonal * choque + ruido, 100.0)
+
+    # Ajuste de São Luís para partir próximo de 490 em jan/2020
+    if capital == "São Luís" and len(custos) > 0:
+        custos[0] = 490.0 + np.random.normal(0, 2)
+
+    meta = _mapa_capitais()[capital]
+    return pd.DataFrame({
+        "data": datas_hist,
+        "capital": capital,
+        "estado": meta["estado"],
+        "regiao": meta["regiao"],
+        "custo": np.round(custos, 2),
+        "fonte_dado": "simulado_calibrado",
+    })
+
+
+def get_data_hibrido(caminho_csv: str = None) -> pd.DataFrame:
+    """
+    Combina dados reais disponíveis com reconstrução histórica calibrada.
+    - Reais: período disponível no arquivo DIEESE
+    - Reconstruído: jan/2020 até mês anterior ao primeiro dado real por capital
+    """
+    df_real = get_data_real(caminho_csv=caminho_csv)
+    if df_real.empty:
+        raise ValueError("Dados reais vazios para composição híbrida.")
+
+    registros = []
+    for capital in sorted(df_real["capital"].unique()):
+        df_cap = df_real[df_real["capital"] == capital].sort_values("data").reset_index(drop=True)
+        df_hist = _reconstruir_historico_calibrado(df_cap, capital=capital)
+        combinado = pd.concat([df_hist, df_cap], ignore_index=True)
+        combinado = combinado.sort_values("data").drop_duplicates(subset=["data"], keep="last")
+        registros.append(combinado)
+
+    df_hibrido = pd.concat(registros, ignore_index=True)
+    df_hibrido["data"] = pd.to_datetime(df_hibrido["data"])
+    df_hibrido["custo"] = pd.to_numeric(df_hibrido["custo"], errors="coerce")
+    df_hibrido = df_hibrido.dropna(subset=["data", "capital", "custo"]).copy()
+    return df_hibrido.sort_values(["capital", "data"]).reset_index(drop=True)
 
 
 def load_data() -> pd.DataFrame:
-    """Ponto de entrada único. Troque aqui para alternar entre simulado e real."""
-    return get_data_simulado()
-    # return get_data_real()  # <- descomente para usar dados reais
+    """Ponto de entrada único. Troque aqui para alternar entre simulado, real e híbrido."""
+    return get_data_hibrido()
+    # return get_data_simulado()
+    # return get_data_real()

@@ -279,40 +279,26 @@ def avaliar_modelos(
 def gerar_projecoes_cenarios(
     df: pd.DataFrame,
     capital: str = "São Luís",
-) -> Tuple[pd.DataFrame, Prophet, pd.Series]:
+) -> Tuple[pd.DataFrame, Optional[Prophet], pd.Series]:
     """
-    Gera projeções em 3 cenários (abr/2026 a dez/2030) usando Prophet como base.
+    Gera projeções em 3 cenários (abr/2026 a dez/2030).
+
+    Cada cenário parte do último valor histórico e aplica inflação anual
+    composta (3%, 4,5% ou 6%), com leve sazonalidade mensal observada.
+    Prophet é usado na avaliação de modelos, não na escala destas projeções:
+    em modo multiplicativo, o componente ``trend`` não representa reais.
     """
     serie_df = obter_serie_agregada(df, capital=None if capital == "Média Nacional" else capital)
     serie = _preparar_serie(serie_df)
 
-    # Treinar Prophet com todos os dados históricos
-    df_prophet = pd.DataFrame({"ds": serie.index, "y": serie.values})
-    modelo = Prophet(
-        yearly_seasonality=True,
-        weekly_seasonality=False,
-        daily_seasonality=False,
-        seasonality_mode="multiplicative",
-    )
-    modelo.add_seasonality(name="monthly", period=30.5, fourier_order=5)
-    modelo.fit(df_prophet)
-
-    # Datas de projeção
     datas_projecao = pd.date_range(start=DATA_PROJECAO_INICIO, end=DATA_PROJECAO_FIM, freq="MS")
-    pred_base = prever_prophet(modelo, datas_projecao)
-
-    # Valor base em mar/2026 (último histórico)
     valor_base = float(serie.iloc[-1])
 
-    # Sazonalidade histórica por mês (padrão observado na série)
     serie_df_idx = serie_df.copy()
     serie_df_idx["mes"] = serie_df_idx["data"].dt.month
     sazonal_mensal = serie_df_idx.groupby("mes")["custo"].mean()
     sazonal_mensal = sazonal_mensal / sazonal_mensal.mean()
 
-    # Tendência suavizada do Prophet (evita oscilações em horizontes longos)
-    trend_prophet = pred_base["trend"].values
-    inflacao_moderada = CENARIOS["Moderado"]
     registros = []
     projecoes_cenarios = {}
 
@@ -321,16 +307,8 @@ def gerar_projecoes_cenarios(
 
         for i, data in enumerate(datas_projecao):
             meses = i + 1
+            valor_ajustado = valor_base * (1 + inflacao_anual) ** (meses / 12)
 
-            # Projeção base: tendência do Prophet ancorada no último valor histórico
-            trend_i = valor_base * (trend_prophet[i] / trend_prophet[0])
-
-            # Multiplicador de cenário sobre projeção moderada (regra do TCC)
-            fator_cenario = (1 + inflacao_anual) ** (meses / 12)
-            fator_moderado = (1 + inflacao_moderada) ** (meses / 12)
-            valor_ajustado = trend_i * (fator_cenario / fator_moderado)
-
-            # Sazonalidade mensal histórica (amplitude limitada)
             fator_sazonal = float(sazonal_mensal.get(data.month, 1.0))
             fator_sazonal = np.clip(fator_sazonal, 0.97, 1.03)
             valor_final = valor_ajustado * fator_sazonal
@@ -341,13 +319,13 @@ def gerar_projecoes_cenarios(
                 "capital": capital,
                 "cenario": nome_cenario,
                 "custo_projetado": round(valor_final, 2),
-                "modelo": "Prophet",
+                "modelo": "Cenario-Inflacao",
             })
 
         projecoes_cenarios[nome_cenario] = pd.Series(valores, index=datas_projecao)
 
     df_projecoes = pd.DataFrame(registros)
-    return df_projecoes, modelo, serie
+    return df_projecoes, None, serie
 
 
 def grafico_projecao(
@@ -445,7 +423,7 @@ def grafico_projecao(
 
     fig.text(
         0.12, 0.02,
-        "Modelos ARIMA/SARIMA e Prophet | " + FONTE_DADOS,
+        "Cenários de inflação (3% / 4,5% / 6% a.a.) | SARIMA e Prophet na validação | " + FONTE_DADOS,
         fontsize=9,
         color="gray",
     )
@@ -465,15 +443,18 @@ def executar_modelagem(df: pd.DataFrame) -> Dict:
     # Avaliar modelos
     df_metricas = avaliar_modelos(df)
 
-    # Projeções e gráficos
+    # Projeções para todas as capitais + média nacional
     todas_projecoes = []
+    capitais_projecao = sorted(df["capital"].unique().tolist()) + ["Média Nacional"]
 
-    for capital in ["São Luís", "Média Nacional"]:
+    for capital in capitais_projecao:
         print(f"\nGerando projeções para: {capital}")
         df_proj, _, serie = gerar_projecoes_cenarios(df, capital=capital)
         todas_projecoes.append(df_proj)
 
-        # Montar dicionário de cenários para gráfico
+        if capital not in ("São Luís", "Média Nacional"):
+            continue
+
         projecoes_dict = {}
         for cenario in CENARIOS:
             projecoes_dict[cenario] = pd.Series(

@@ -56,7 +56,17 @@ def executar_pipeline() -> pd.DataFrame:
     df_raw = load_data()
 
     # Salvar dados brutos
-    raw_path = BASE_DIR / "data" / "raw" / "cesta_basica_simulada.csv"
+    if "fonte_dado" in df_raw.columns:
+        if (df_raw["fonte_dado"] == "real_dieese").all():
+            nome_raw = "cesta_basica_real.csv"
+        elif (df_raw["fonte_dado"] == "simulado").all():
+            nome_raw = "cesta_basica_simulada.csv"
+        else:
+            nome_raw = "cesta_basica_hibrida.csv"
+    else:
+        nome_raw = "cesta_basica_simulada.csv"
+
+    raw_path = BASE_DIR / "data" / "raw" / nome_raw
     raw_path.parent.mkdir(parents=True, exist_ok=True)
     df_raw.to_csv(raw_path, index=False, encoding="utf-8-sig")
 

@@ -29,6 +29,10 @@ pip install -r requirements.txt
 ```bash
 # Abrir o notebook principal
 jupyter notebook notebooks/analise_completa.ipynb
+
+# Abrir o dashboard interativo (Nível 1)
+streamlit run dashboard/app.py
+# Windows: .\run_dashboard.ps1
 ```
 
 Execute todas as células do notebook. Os gráficos serão salvos automaticamente em `outputs/graficos/` e as métricas/projeções em `outputs/`.
@@ -85,6 +89,8 @@ cesta-basica-pipeline/
 │   └── model.py              # SARIMA, Prophet e projeções
 ├── notebooks/
 │   └── analise_completa.ipynb
+├── dashboard/
+│   └── app.py                  # Dashboard Streamlit (deploy + QR code)
 ├── outputs/
 │   ├── graficos/             # PNGs para slides (150 dpi)
 │   ├── metricas_modelos.csv
@@ -108,6 +114,7 @@ Ao executar o pipeline completo, os seguintes arquivos são criados em `outputs/
 | `05_ranking_capitais_marco2026.png` | Ranking horizontal — março/2026 |
 | `projecao_sao_luis_2020_2030.png` | **Gráfico principal** — projeções 3 cenários |
 | `projecao_media_nacional_2020_2030.png` | Projeção da média nacional |
+| `projecoes_2026_2030.csv` | Projeções das **27 capitais** + média nacional (3 cenários) |
 
 ### Exemplo — Gráfico Principal
 

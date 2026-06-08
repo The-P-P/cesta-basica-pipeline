@@ -1,0 +1,1971 @@
+﻿data,capital,estado,regiao,custo,fonte_dado
+2020-01-01,Aracaju,SE,Nordeste,368.69,real_dieese
+2020-02-01,Aracaju,SE,Nordeste,371.22,real_dieese
+2020-03-01,Aracaju,SE,Nordeste,390.2,real_dieese
+2020-04-01,Aracaju,SE,Nordeste,401.37,real_dieese
+2020-05-01,Aracaju,SE,Nordeste,400.15,real_dieese
+2020-06-01,Aracaju,SE,Nordeste,420.03,real_dieese
+2020-07-01,Aracaju,SE,Nordeste,392.75,real_dieese
+2020-08-01,Aracaju,SE,Nordeste,398.47,real_dieese
+2020-09-01,Aracaju,SE,Nordeste,427.11,real_dieese
+2020-10-01,Aracaju,SE,Nordeste,442.26,real_dieese
+2020-11-01,Aracaju,SE,Nordeste,451.32,real_dieese
+2020-12-01,Aracaju,SE,Nordeste,453.16,real_dieese
+2021-01-01,Aracaju,SE,Nordeste,450.84,real_dieese
+2021-02-01,Aracaju,SE,Nordeste,445.9,real_dieese
+2021-03-01,Aracaju,SE,Nordeste,468.79,real_dieese
+2021-04-01,Aracaju,SE,Nordeste,469.66,real_dieese
+2021-05-01,Aracaju,SE,Nordeste,468.43,real_dieese
+2021-06-01,Aracaju,SE,Nordeste,470.97,real_dieese
+2021-07-01,Aracaju,SE,Nordeste,488.42,real_dieese
+2021-08-01,Aracaju,SE,Nordeste,456.4,real_dieese
+2021-09-01,Aracaju,SE,Nordeste,454.03,real_dieese
+2021-10-01,Aracaju,SE,Nordeste,464.17,real_dieese
+2021-11-01,Aracaju,SE,Nordeste,473.26,real_dieese
+2021-12-01,Aracaju,SE,Nordeste,478.05,real_dieese
+2022-01-01,Aracaju,SE,Nordeste,507.82,real_dieese
+2022-02-01,Aracaju,SE,Nordeste,516.82,real_dieese
+2022-03-01,Aracaju,SE,Nordeste,524.99,real_dieese
+2022-04-01,Aracaju,SE,Nordeste,551.47,real_dieese
+2022-05-01,Aracaju,SE,Nordeste,548.38,real_dieese
+2022-06-01,Aracaju,SE,Nordeste,549.91,real_dieese
+2022-07-01,Aracaju,SE,Nordeste,542.5,real_dieese
+2022-08-01,Aracaju,SE,Nordeste,539.57,real_dieese
+2022-09-01,Aracaju,SE,Nordeste,518.68,real_dieese
+2022-10-01,Aracaju,SE,Nordeste,515.51,real_dieese
+2022-11-01,Aracaju,SE,Nordeste,511.97,real_dieese
+2022-12-01,Aracaju,SE,Nordeste,521.05,real_dieese
+2023-01-01,Aracaju,SE,Nordeste,555.28,real_dieese
+2023-02-01,Aracaju,SE,Nordeste,552.97,real_dieese
+2023-03-01,Aracaju,SE,Nordeste,546.14,real_dieese
+2023-04-01,Aracaju,SE,Nordeste,553.89,real_dieese
+2023-05-01,Aracaju,SE,Nordeste,553.76,real_dieese
+2023-06-01,Aracaju,SE,Nordeste,567.11,real_dieese
+2023-07-01,Aracaju,SE,Nordeste,547.22,real_dieese
+2023-08-01,Aracaju,SE,Nordeste,542.67,real_dieese
+2023-09-01,Aracaju,SE,Nordeste,532.34,real_dieese
+2023-10-01,Aracaju,SE,Nordeste,521.96,real_dieese
+2023-11-01,Aracaju,SE,Nordeste,516.76,real_dieese
+2023-12-01,Aracaju,SE,Nordeste,517.26,real_dieese
+2024-01-01,Aracaju,SE,Nordeste,528.48,real_dieese
+2024-02-01,Aracaju,SE,Nordeste,534.4,real_dieese
+2024-03-01,Aracaju,SE,Nordeste,555.22,real_dieese
+2024-04-01,Aracaju,SE,Nordeste,582.11,real_dieese
+2024-05-01,Aracaju,SE,Nordeste,579.55,real_dieese
+2024-06-01,Aracaju,SE,Nordeste,561.96,real_dieese
+2024-07-01,Aracaju,SE,Nordeste,524.28,real_dieese
+2024-08-01,Aracaju,SE,Nordeste,516.4,real_dieese
+2024-09-01,Aracaju,SE,Nordeste,506.19,real_dieese
+2024-10-01,Aracaju,SE,Nordeste,519.31,real_dieese
+2024-11-01,Aracaju,SE,Nordeste,533.26,real_dieese
+2024-12-01,Aracaju,SE,Nordeste,554.08,real_dieese
+2025-01-01,Aracaju,SE,Nordeste,571.43,real_dieese
+2025-02-01,Aracaju,SE,Nordeste,580.45,real_dieese
+2025-03-01,Aracaju,SE,Nordeste,569.48,real_dieese
+2025-04-01,Aracaju,SE,Nordeste,579.93,real_dieese
+2025-05-01,Aracaju,SE,Nordeste,579.54,real_dieese
+2025-06-01,Aracaju,SE,Nordeste,557.28,real_dieese
+2025-07-01,Aracaju,SE,Nordeste,568.52,real_dieese
+2025-08-01,Aracaju,SE,Nordeste,558.16,real_dieese
+2025-09-01,Aracaju,SE,Nordeste,552.65,real_dieese
+2025-10-01,Aracaju,SE,Nordeste,550.18,real_dieese
+2025-11-01,Aracaju,SE,Nordeste,538.1,real_dieese
+2025-12-01,Aracaju,SE,Nordeste,539.49,real_dieese
+2026-01-01,Aracaju,SE,Nordeste,552.65,real_dieese
+2020-01-01,Belo Horizonte,MG,Sudeste,456.35,real_dieese
+2020-02-01,Belo Horizonte,MG,Sudeste,459.1,real_dieese
+2020-03-01,Belo Horizonte,MG,Sudeste,461.28,real_dieese
+2020-04-01,Belo Horizonte,MG,Sudeste,484.55,real_dieese
+2020-05-01,Belo Horizonte,MG,Sudeste,484.02,real_dieese
+2020-06-01,Belo Horizonte,MG,Sudeste,475.19,real_dieese
+2020-07-01,Belo Horizonte,MG,Sudeste,465.06,real_dieese
+2020-08-01,Belo Horizonte,MG,Sudeste,478.07,real_dieese
+2020-09-01,Belo Horizonte,MG,Sudeste,491.62,real_dieese
+2020-10-01,Belo Horizonte,MG,Sudeste,516.82,real_dieese
+2020-11-01,Belo Horizonte,MG,Sudeste,552.37,real_dieese
+2020-12-01,Belo Horizonte,MG,Sudeste,568.53,real_dieese
+2021-01-01,Belo Horizonte,MG,Sudeste,592.26,real_dieese
+2021-02-01,Belo Horizonte,MG,Sudeste,573.53,real_dieese
+2021-03-01,Belo Horizonte,MG,Sudeste,555.67,real_dieese
+2021-04-01,Belo Horizonte,MG,Sudeste,565.78,real_dieese
+2021-06-01,Belo Horizonte,MG,Sudeste,536.88,real_dieese
+2021-07-01,Belo Horizonte,MG,Sudeste,555.12,real_dieese
+2021-08-01,Belo Horizonte,MG,Sudeste,570.07,real_dieese
+2021-09-01,Belo Horizonte,MG,Sudeste,589.74,real_dieese
+2021-10-01,Belo Horizonte,MG,Sudeste,605.02,real_dieese
+2021-11-01,Belo Horizonte,MG,Sudeste,601.42,real_dieese
+2021-12-01,Belo Horizonte,MG,Sudeste,613.94,real_dieese
+2022-01-01,Belo Horizonte,MG,Sudeste,641.83,real_dieese
+2022-02-01,Belo Horizonte,MG,Sudeste,650.63,real_dieese
+2022-03-01,Belo Horizonte,MG,Sudeste,678.02,real_dieese
+2022-04-01,Belo Horizonte,MG,Sudeste,700.54,real_dieese
+2022-05-01,Belo Horizonte,MG,Sudeste,659.72,real_dieese
+2022-06-01,Belo Horizonte,MG,Sudeste,656.72,real_dieese
+2022-07-01,Belo Horizonte,MG,Sudeste,661.67,real_dieese
+2022-08-01,Belo Horizonte,MG,Sudeste,648.01,real_dieese
+2022-09-01,Belo Horizonte,MG,Sudeste,662.24,real_dieese
+2022-10-01,Belo Horizonte,MG,Sudeste,674.82,real_dieese
+2022-11-01,Belo Horizonte,MG,Sudeste,705.52,real_dieese
+2022-12-01,Belo Horizonte,MG,Sudeste,706.52,real_dieese
+2023-01-01,Belo Horizonte,MG,Sudeste,717.53,real_dieese
+2023-02-01,Belo Horizonte,MG,Sudeste,689.09,real_dieese
+2023-03-01,Belo Horizonte,MG,Sudeste,662.9,real_dieese
+2023-04-01,Belo Horizonte,MG,Sudeste,677.51,real_dieese
+2023-05-01,Belo Horizonte,MG,Sudeste,675.3,real_dieese
+2023-06-01,Belo Horizonte,MG,Sudeste,664.42,real_dieese
+2023-07-01,Belo Horizonte,MG,Sudeste,662.38,real_dieese
+2023-08-01,Belo Horizonte,MG,Sudeste,657.57,real_dieese
+2023-09-01,Belo Horizonte,MG,Sudeste,645.33,real_dieese
+2023-10-01,Belo Horizonte,MG,Sudeste,637.4,real_dieese
+2023-11-01,Belo Horizonte,MG,Sudeste,650.33,real_dieese
+2023-12-01,Belo Horizonte,MG,Sudeste,667.39,real_dieese
+2024-01-01,Belo Horizonte,MG,Sudeste,736.36,real_dieese
+2024-02-01,Belo Horizonte,MG,Sudeste,741.71,real_dieese
+2024-03-01,Belo Horizonte,MG,Sudeste,724.96,real_dieese
+2024-04-01,Belo Horizonte,MG,Sudeste,724.1,real_dieese
+2024-05-01,Belo Horizonte,MG,Sudeste,701.79,real_dieese
+2024-06-01,Belo Horizonte,MG,Sudeste,710.77,real_dieese
+2024-07-01,Belo Horizonte,MG,Sudeste,666.52,real_dieese
+2024-08-01,Belo Horizonte,MG,Sudeste,667.63,real_dieese
+2024-09-01,Belo Horizonte,MG,Sudeste,663.22,real_dieese
+2024-10-01,Belo Horizonte,MG,Sudeste,690.15,real_dieese
+2024-11-01,Belo Horizonte,MG,Sudeste,698.83,real_dieese
+2024-12-01,Belo Horizonte,MG,Sudeste,706.32,real_dieese
+2025-01-01,Belo Horizonte,MG,Sudeste,729.06,real_dieese
+2025-02-01,Belo Horizonte,MG,Sudeste,735.31,real_dieese
+2025-03-01,Belo Horizonte,MG,Sudeste,754.07,real_dieese
+2025-04-01,Belo Horizonte,MG,Sudeste,762.35,real_dieese
+2025-05-01,Belo Horizonte,MG,Sudeste,742.53,real_dieese
+2025-06-01,Belo Horizonte,MG,Sudeste,734.73,real_dieese
+2025-07-01,Belo Horizonte,MG,Sudeste,728.69,real_dieese
+2025-08-01,Belo Horizonte,MG,Sudeste,725.9,real_dieese
+2025-09-01,Belo Horizonte,MG,Sudeste,718.74,real_dieese
+2025-10-01,Belo Horizonte,MG,Sudeste,716.53,real_dieese
+2025-11-01,Belo Horizonte,MG,Sudeste,712.01,real_dieese
+2025-12-01,Belo Horizonte,MG,Sudeste,723.26,real_dieese
+2026-01-01,Belo Horizonte,MG,Sudeste,737.86,real_dieese
+2020-01-01,Belém,PA,Norte,415.56,real_dieese
+2020-02-01,Belém,PA,Norte,432.95,real_dieese
+2020-03-01,Belém,PA,Norte,418.8,real_dieese
+2020-04-01,Belém,PA,Norte,434.19,real_dieese
+2020-05-01,Belém,PA,Norte,453.36,real_dieese
+2020-06-01,Belém,PA,Norte,453.87,real_dieese
+2020-07-01,Belém,PA,Norte,440.99,real_dieese
+2020-08-01,Belém,PA,Norte,441.51,real_dieese
+2020-09-01,Belém,PA,Norte,459.21,real_dieese
+2020-10-01,Belém,PA,Norte,468.22,real_dieese
+2020-11-01,Belém,PA,Norte,486.5,real_dieese
+2020-12-01,Belém,PA,Norte,500.89,real_dieese
+2021-01-01,Belém,PA,Norte,507.31,real_dieese
+2021-02-01,Belém,PA,Norte,512.95,real_dieese
+2021-03-01,Belém,PA,Norte,515.77,real_dieese
+2021-04-01,Belém,PA,Norte,505.87,real_dieese
+2021-05-01,Belém,PA,Norte,515.84,real_dieese
+2021-06-01,Belém,PA,Norte,518.53,real_dieese
+2021-07-01,Belém,PA,Norte,522.66,real_dieese
+2021-08-01,Belém,PA,Norte,530.13,real_dieese
+2021-09-01,Belém,PA,Norte,532.56,real_dieese
+2021-10-01,Belém,PA,Norte,538.44,real_dieese
+2021-11-01,Belém,PA,Norte,550.64,real_dieese
+2021-12-01,Belém,PA,Norte,556.87,real_dieese
+2022-01-01,Belém,PA,Norte,563.97,real_dieese
+2022-02-01,Belém,PA,Norte,574.86,real_dieese
+2022-03-01,Belém,PA,Norte,585.91,real_dieese
+2022-04-01,Belém,PA,Norte,610.31,real_dieese
+2022-05-01,Belém,PA,Norte,628.58,real_dieese
+2022-06-01,Belém,PA,Norte,632.26,real_dieese
+2022-07-01,Belém,PA,Norte,633.14,real_dieese
+2022-08-01,Belém,PA,Norte,634.85,real_dieese
+2022-09-01,Belém,PA,Norte,622.46,real_dieese
+2022-10-01,Belém,PA,Norte,615.22,real_dieese
+2022-11-01,Belém,PA,Norte,624.29,real_dieese
+2022-12-01,Belém,PA,Norte,639.44,real_dieese
+2023-01-01,Belém,PA,Norte,654.81,real_dieese
+2023-02-01,Belém,PA,Norte,662.98,real_dieese
+2023-03-01,Belém,PA,Norte,664.54,real_dieese
+2023-04-01,Belém,PA,Norte,660.77,real_dieese
+2023-05-01,Belém,PA,Norte,669.8,real_dieese
+2023-06-01,Belém,PA,Norte,659.89,real_dieese
+2023-07-01,Belém,PA,Norte,650.42,real_dieese
+2023-08-01,Belém,PA,Norte,640.11,real_dieese
+2023-09-01,Belém,PA,Norte,633.53,real_dieese
+2023-10-01,Belém,PA,Norte,632.92,real_dieese
+2023-11-01,Belém,PA,Norte,635.18,real_dieese
+2023-12-01,Belém,PA,Norte,645.44,real_dieese
+2024-01-01,Belém,PA,Norte,656.78,real_dieese
+2024-02-01,Belém,PA,Norte,665.12,real_dieese
+2024-03-01,Belém,PA,Norte,667.53,real_dieese
+2024-04-01,Belém,PA,Norte,681.45,real_dieese
+2024-05-01,Belém,PA,Norte,690.98,real_dieese
+2024-06-01,Belém,PA,Norte,695.58,real_dieese
+2024-07-01,Belém,PA,Norte,682.39,real_dieese
+2024-08-01,Belém,PA,Norte,664.92,real_dieese
+2024-09-01,Belém,PA,Norte,647.79,real_dieese
+2024-10-01,Belém,PA,Norte,649.9,real_dieese
+2024-11-01,Belém,PA,Norte,663.02,real_dieese
+2024-12-01,Belém,PA,Norte,665.83,real_dieese
+2025-01-01,Belém,PA,Norte,697.81,real_dieese
+2025-02-01,Belém,PA,Norte,700.06,real_dieese
+2025-03-01,Belém,PA,Norte,704.9,real_dieese
+2025-04-01,Belém,PA,Norte,726.21,real_dieese
+2025-05-01,Belém,PA,Norte,726.38,real_dieese
+2025-06-01,Belém,PA,Norte,709.04,real_dieese
+2025-07-01,Belém,PA,Norte,696.23,real_dieese
+2025-08-01,Belém,PA,Norte,687.3,real_dieese
+2025-09-01,Belém,PA,Norte,672.84,real_dieese
+2025-10-01,Belém,PA,Norte,664.31,real_dieese
+2025-11-01,Belém,PA,Norte,666.15,real_dieese
+2025-12-01,Belém,PA,Norte,666.57,real_dieese
+2026-01-01,Belém,PA,Norte,673.55,real_dieese
+2020-01-01,Boa Vista,RR,Norte,555.17,simulado_calibrado
+2020-02-01,Boa Vista,RR,Norte,564.72,simulado_calibrado
+2020-03-01,Boa Vista,RR,Norte,555.84,simulado_calibrado
+2020-04-01,Boa Vista,RR,Norte,553.51,simulado_calibrado
+2020-05-01,Boa Vista,RR,Norte,547.9,simulado_calibrado
+2020-06-01,Boa Vista,RR,Norte,558.96,simulado_calibrado
+2020-07-01,Boa Vista,RR,Norte,561.12,simulado_calibrado
+2020-08-01,Boa Vista,RR,Norte,607.08,simulado_calibrado
+2020-09-01,Boa Vista,RR,Norte,601.25,simulado_calibrado
+2020-10-01,Boa Vista,RR,Norte,621.69,simulado_calibrado
+2020-11-01,Boa Vista,RR,Norte,623.66,simulado_calibrado
+2020-12-01,Boa Vista,RR,Norte,614.6,simulado_calibrado
+2021-01-01,Boa Vista,RR,Norte,588.03,simulado_calibrado
+2021-02-01,Boa Vista,RR,Norte,588.97,simulado_calibrado
+2021-03-01,Boa Vista,RR,Norte,580.03,simulado_calibrado
+2021-04-01,Boa Vista,RR,Norte,566.55,simulado_calibrado
+2021-05-01,Boa Vista,RR,Norte,576.57,simulado_calibrado
+2021-06-01,Boa Vista,RR,Norte,594.05,simulado_calibrado
+2021-07-01,Boa Vista,RR,Norte,606.38,simulado_calibrado
+2021-08-01,Boa Vista,RR,Norte,598.09,simulado_calibrado
+2021-09-01,Boa Vista,RR,Norte,599.28,simulado_calibrado
+2021-10-01,Boa Vista,RR,Norte,598.65,simulado_calibrado
+2021-11-01,Boa Vista,RR,Norte,600.79,simulado_calibrado
+2021-12-01,Boa Vista,RR,Norte,611.11,simulado_calibrado
+2022-01-01,Boa Vista,RR,Norte,622.6,simulado_calibrado
+2022-02-01,Boa Vista,RR,Norte,620.62,simulado_calibrado
+2022-03-01,Boa Vista,RR,Norte,609.07,simulado_calibrado
+2022-04-01,Boa Vista,RR,Norte,606.74,simulado_calibrado
+2022-05-01,Boa Vista,RR,Norte,607.48,simulado_calibrado
+2022-06-01,Boa Vista,RR,Norte,622.06,simulado_calibrado
+2022-07-01,Boa Vista,RR,Norte,623.6,simulado_calibrado
+2022-08-01,Boa Vista,RR,Norte,629.36,simulado_calibrado
+2022-09-01,Boa Vista,RR,Norte,623.77,simulado_calibrado
+2022-10-01,Boa Vista,RR,Norte,638.24,simulado_calibrado
+2022-11-01,Boa Vista,RR,Norte,649.38,simulado_calibrado
+2022-12-01,Boa Vista,RR,Norte,644.17,simulado_calibrado
+2023-01-01,Boa Vista,RR,Norte,654.84,simulado_calibrado
+2023-02-01,Boa Vista,RR,Norte,660.95,simulado_calibrado
+2023-03-01,Boa Vista,RR,Norte,641.37,simulado_calibrado
+2023-04-01,Boa Vista,RR,Norte,631.53,simulado_calibrado
+2023-05-01,Boa Vista,RR,Norte,646.04,simulado_calibrado
+2023-06-01,Boa Vista,RR,Norte,652.05,simulado_calibrado
+2023-07-01,Boa Vista,RR,Norte,650.8,simulado_calibrado
+2023-08-01,Boa Vista,RR,Norte,655.94,simulado_calibrado
+2023-09-01,Boa Vista,RR,Norte,657.51,simulado_calibrado
+2023-10-01,Boa Vista,RR,Norte,666.67,simulado_calibrado
+2023-11-01,Boa Vista,RR,Norte,671.76,simulado_calibrado
+2023-12-01,Boa Vista,RR,Norte,676.14,simulado_calibrado
+2024-01-01,Boa Vista,RR,Norte,692.54,simulado_calibrado
+2024-02-01,Boa Vista,RR,Norte,694.78,simulado_calibrado
+2024-03-01,Boa Vista,RR,Norte,679.31,simulado_calibrado
+2024-04-01,Boa Vista,RR,Norte,669.89,simulado_calibrado
+2024-05-01,Boa Vista,RR,Norte,668.34,simulado_calibrado
+2024-06-01,Boa Vista,RR,Norte,694.6,simulado_calibrado
+2024-07-01,Boa Vista,RR,Norte,691.16,simulado_calibrado
+2024-08-01,Boa Vista,RR,Norte,692.96,simulado_calibrado
+2024-09-01,Boa Vista,RR,Norte,703.87,simulado_calibrado
+2024-10-01,Boa Vista,RR,Norte,696.47,simulado_calibrado
+2024-11-01,Boa Vista,RR,Norte,708.13,simulado_calibrado
+2024-12-01,Boa Vista,RR,Norte,708.44,simulado_calibrado
+2025-01-01,Boa Vista,RR,Norte,718.99,simulado_calibrado
+2025-02-01,Boa Vista,RR,Norte,726.9,simulado_calibrado
+2025-03-01,Boa Vista,RR,Norte,720.93,simulado_calibrado
+2025-04-01,Boa Vista,RR,Norte,719.12,real_dieese
+2025-05-01,Boa Vista,RR,Norte,723.5,real_dieese
+2025-06-01,Boa Vista,RR,Norte,717.24,real_dieese
+2025-07-01,Boa Vista,RR,Norte,712.83,real_dieese
+2025-08-01,Boa Vista,RR,Norte,693.84,real_dieese
+2025-09-01,Boa Vista,RR,Norte,681.95,real_dieese
+2025-10-01,Boa Vista,RR,Norte,678.95,real_dieese
+2025-11-01,Boa Vista,RR,Norte,669.19,real_dieese
+2025-12-01,Boa Vista,RR,Norte,652.14,real_dieese
+2026-01-01,Boa Vista,RR,Norte,655.79,real_dieese
+2020-01-01,Brasília,DF,Centro-Oeste,483.17,real_dieese
+2020-02-01,Brasília,DF,Centro-Oeste,481.78,real_dieese
+2020-03-01,Brasília,DF,Centro-Oeste,484.15,real_dieese
+2020-04-01,Brasília,DF,Centro-Oeste,471.17,real_dieese
+2020-05-01,Brasília,DF,Centro-Oeste,441.09,real_dieese
+2020-06-01,Brasília,DF,Centro-Oeste,450.45,real_dieese
+2020-07-01,Brasília,DF,Centro-Oeste,449.96,real_dieese
+2020-08-01,Brasília,DF,Centro-Oeste,443.28,real_dieese
+2020-09-01,Brasília,DF,Centro-Oeste,445.76,real_dieese
+2020-10-01,Brasília,DF,Centro-Oeste,490.48,real_dieese
+2020-11-01,Brasília,DF,Centro-Oeste,572.64,real_dieese
+2020-12-01,Brasília,DF,Centro-Oeste,591.82,real_dieese
+2021-01-01,Brasília,DF,Centro-Oeste,614.31,real_dieese
+2021-02-01,Brasília,DF,Centro-Oeste,591.44,real_dieese
+2021-03-01,Brasília,DF,Centro-Oeste,580.76,real_dieese
+2021-04-01,Brasília,DF,Centro-Oeste,587.33,real_dieese
+2021-05-01,Brasília,DF,Centro-Oeste,588.24,real_dieese
+2021-06-01,Brasília,DF,Centro-Oeste,584.99,real_dieese
+2021-07-01,Brasília,DF,Centro-Oeste,582.35,real_dieese
+2021-08-01,Brasília,DF,Centro-Oeste,594.59,real_dieese
+2021-09-01,Brasília,DF,Centro-Oeste,617.65,real_dieese
+2021-10-01,Brasília,DF,Centro-Oeste,644.09,real_dieese
+2021-11-01,Brasília,DF,Centro-Oeste,631.95,real_dieese
+2021-12-01,Brasília,DF,Centro-Oeste,621.56,real_dieese
+2022-01-01,Brasília,DF,Centro-Oeste,661.09,real_dieese
+2022-02-01,Brasília,DF,Centro-Oeste,670.98,real_dieese
+2022-03-01,Brasília,DF,Centro-Oeste,704.65,real_dieese
+2022-04-01,Brasília,DF,Centro-Oeste,741.55,real_dieese
+2022-05-01,Brasília,DF,Centro-Oeste,696.34,real_dieese
+2022-06-01,Brasília,DF,Centro-Oeste,698.36,real_dieese
+2022-07-01,Brasília,DF,Centro-Oeste,703.93,real_dieese
+2022-08-01,Brasília,DF,Centro-Oeste,689.31,real_dieese
+2022-09-01,Brasília,DF,Centro-Oeste,687.21,real_dieese
+2022-10-01,Brasília,DF,Centro-Oeste,699.09,real_dieese
+2022-11-01,Brasília,DF,Centro-Oeste,712.2,real_dieese
+2022-12-01,Brasília,DF,Centro-Oeste,728.78,real_dieese
+2023-01-01,Brasília,DF,Centro-Oeste,729.73,real_dieese
+2023-02-01,Brasília,DF,Centro-Oeste,719.74,real_dieese
+2023-03-01,Brasília,DF,Centro-Oeste,693.32,real_dieese
+2023-04-01,Brasília,DF,Centro-Oeste,717.09,real_dieese
+2023-05-01,Brasília,DF,Centro-Oeste,703.43,real_dieese
+2023-06-01,Brasília,DF,Centro-Oeste,687.33,real_dieese
+2023-07-01,Brasília,DF,Centro-Oeste,687.58,real_dieese
+2023-08-01,Brasília,DF,Centro-Oeste,689.98,real_dieese
+2023-09-01,Brasília,DF,Centro-Oeste,662.2,real_dieese
+2023-10-01,Brasília,DF,Centro-Oeste,647.76,real_dieese
+2023-11-01,Brasília,DF,Centro-Oeste,667.58,real_dieese
+2023-12-01,Brasília,DF,Centro-Oeste,698.74,real_dieese
+2024-01-01,Brasília,DF,Centro-Oeste,742.52,real_dieese
+2024-02-01,Brasília,DF,Centro-Oeste,741.91,real_dieese
+2024-03-01,Brasília,DF,Centro-Oeste,747.68,real_dieese
+2024-04-01,Brasília,DF,Centro-Oeste,727.95,real_dieese
+2024-05-01,Brasília,DF,Centro-Oeste,737.37,real_dieese
+2024-06-01,Brasília,DF,Centro-Oeste,738.93,real_dieese
+2024-07-01,Brasília,DF,Centro-Oeste,694.31,real_dieese
+2024-08-01,Brasília,DF,Centro-Oeste,673.14,real_dieese
+2024-09-01,Brasília,DF,Centro-Oeste,682.51,real_dieese
+2024-10-01,Brasília,DF,Centro-Oeste,711.05,real_dieese
+2024-11-01,Brasília,DF,Centro-Oeste,742.25,real_dieese
+2024-12-01,Brasília,DF,Centro-Oeste,743.19,real_dieese
+2025-01-01,Brasília,DF,Centro-Oeste,756.03,real_dieese
+2025-02-01,Brasília,DF,Centro-Oeste,772.3,real_dieese
+2025-03-01,Brasília,DF,Centro-Oeste,782.65,real_dieese
+2025-04-01,Brasília,DF,Centro-Oeste,775.84,real_dieese
+2025-05-01,Brasília,DF,Centro-Oeste,774.33,real_dieese
+2025-06-01,Brasília,DF,Centro-Oeste,773.35,real_dieese
+2025-07-01,Brasília,DF,Centro-Oeste,758.19,real_dieese
+2025-08-01,Brasília,DF,Centro-Oeste,739.1,real_dieese
+2025-09-01,Brasília,DF,Centro-Oeste,719.81,real_dieese
+2025-10-01,Brasília,DF,Centro-Oeste,717.65,real_dieese
+2025-11-01,Brasília,DF,Centro-Oeste,703.4,real_dieese
+2025-12-01,Brasília,DF,Centro-Oeste,714.21,real_dieese
+2026-01-01,Brasília,DF,Centro-Oeste,725.98,real_dieese
+2020-01-01,Campo Grande,MS,Centro-Oeste,458.0,real_dieese
+2020-02-01,Campo Grande,MS,Centro-Oeste,445.4,real_dieese
+2020-03-01,Campo Grande,MS,Centro-Oeste,474.53,real_dieese
+2020-04-01,Campo Grande,MS,Centro-Oeste,495.69,real_dieese
+2020-05-01,Campo Grande,MS,Centro-Oeste,455.35,real_dieese
+2020-06-01,Campo Grande,MS,Centro-Oeste,475.01,real_dieese
+2020-07-01,Campo Grande,MS,Centro-Oeste,479.79,real_dieese
+2020-08-01,Campo Grande,MS,Centro-Oeste,484.46,real_dieese
+2020-09-01,Campo Grande,MS,Centro-Oeste,492.8,real_dieese
+2020-10-01,Campo Grande,MS,Centro-Oeste,520.12,real_dieese
+2020-11-01,Campo Grande,MS,Centro-Oeste,589.08,real_dieese
+2020-12-01,Campo Grande,MS,Centro-Oeste,576.48,real_dieese
+2021-01-01,Campo Grande,MS,Centro-Oeste,578.62,real_dieese
+2021-02-01,Campo Grande,MS,Centro-Oeste,551.58,real_dieese
+2021-03-01,Campo Grande,MS,Centro-Oeste,552.99,real_dieese
+2021-04-01,Campo Grande,MS,Centro-Oeste,586.26,real_dieese
+2021-05-01,Campo Grande,MS,Centro-Oeste,575.01,real_dieese
+2021-06-01,Campo Grande,MS,Centro-Oeste,566.78,real_dieese
+2021-07-01,Campo Grande,MS,Centro-Oeste,588.84,real_dieese
+2021-08-01,Campo Grande,MS,Centro-Oeste,609.33,real_dieese
+2021-09-01,Campo Grande,MS,Centro-Oeste,630.83,real_dieese
+2021-10-01,Campo Grande,MS,Centro-Oeste,653.4,real_dieese
+2021-11-01,Campo Grande,MS,Centro-Oeste,645.17,real_dieese
+2021-12-01,Campo Grande,MS,Centro-Oeste,641.37,real_dieese
+2022-01-01,Campo Grande,MS,Centro-Oeste,660.11,real_dieese
+2022-02-01,Campo Grande,MS,Centro-Oeste,678.43,real_dieese
+2022-03-01,Campo Grande,MS,Centro-Oeste,715.81,real_dieese
+2022-04-01,Campo Grande,MS,Centro-Oeste,761.73,real_dieese
+2022-05-01,Campo Grande,MS,Centro-Oeste,706.12,real_dieese
+2022-06-01,Campo Grande,MS,Centro-Oeste,702.65,real_dieese
+2022-07-01,Campo Grande,MS,Centro-Oeste,707.0,real_dieese
+2022-08-01,Campo Grande,MS,Centro-Oeste,698.31,real_dieese
+2022-09-01,Campo Grande,MS,Centro-Oeste,711.09,real_dieese
+2022-10-01,Campo Grande,MS,Centro-Oeste,733.65,real_dieese
+2022-11-01,Campo Grande,MS,Centro-Oeste,738.53,real_dieese
+2022-12-01,Campo Grande,MS,Centro-Oeste,744.21,real_dieese
+2023-01-01,Campo Grande,MS,Centro-Oeste,743.09,real_dieese
+2023-02-01,Campo Grande,MS,Centro-Oeste,719.94,real_dieese
+2023-03-01,Campo Grande,MS,Centro-Oeste,719.15,real_dieese
+2023-04-01,Campo Grande,MS,Centro-Oeste,737.74,real_dieese
+2023-05-01,Campo Grande,MS,Centro-Oeste,724.09,real_dieese
+2023-06-01,Campo Grande,MS,Centro-Oeste,730.19,real_dieese
+2023-07-01,Campo Grande,MS,Centro-Oeste,698.31,real_dieese
+2023-08-01,Campo Grande,MS,Centro-Oeste,691.7,real_dieese
+2023-09-01,Campo Grande,MS,Centro-Oeste,675.68,real_dieese
+2023-10-01,Campo Grande,MS,Centro-Oeste,682.97,real_dieese
+2023-11-01,Campo Grande,MS,Centro-Oeste,674.79,real_dieese
+2023-12-01,Campo Grande,MS,Centro-Oeste,697.69,real_dieese
+2024-01-01,Campo Grande,MS,Centro-Oeste,736.76,real_dieese
+2024-02-01,Campo Grande,MS,Centro-Oeste,748.2,real_dieese
+2024-03-01,Campo Grande,MS,Centro-Oeste,730.02,real_dieese
+2024-04-01,Campo Grande,MS,Centro-Oeste,732.75,real_dieese
+2024-05-01,Campo Grande,MS,Centro-Oeste,748.48,real_dieese
+2024-06-01,Campo Grande,MS,Centro-Oeste,748.89,real_dieese
+2024-07-01,Campo Grande,MS,Centro-Oeste,736.98,real_dieese
+2024-08-01,Campo Grande,MS,Centro-Oeste,714.6,real_dieese
+2024-09-01,Campo Grande,MS,Centro-Oeste,714.63,real_dieese
+2024-10-01,Campo Grande,MS,Centro-Oeste,751.06,real_dieese
+2024-11-01,Campo Grande,MS,Centro-Oeste,772.45,real_dieese
+2024-12-01,Campo Grande,MS,Centro-Oeste,770.35,real_dieese
+2025-01-01,Campo Grande,MS,Centro-Oeste,764.24,real_dieese
+2025-02-01,Campo Grande,MS,Centro-Oeste,773.95,real_dieese
+2025-03-01,Campo Grande,MS,Centro-Oeste,788.58,real_dieese
+2025-04-01,Campo Grande,MS,Centro-Oeste,805.08,real_dieese
+2025-05-01,Campo Grande,MS,Centro-Oeste,789.42,real_dieese
+2025-06-01,Campo Grande,MS,Centro-Oeste,793.02,real_dieese
+2025-07-01,Campo Grande,MS,Centro-Oeste,775.76,real_dieese
+2025-08-01,Campo Grande,MS,Centro-Oeste,768.79,real_dieese
+2025-09-01,Campo Grande,MS,Centro-Oeste,780.67,real_dieese
+2025-10-01,Campo Grande,MS,Centro-Oeste,777.28,real_dieese
+2025-11-01,Campo Grande,MS,Centro-Oeste,779.56,real_dieese
+2025-12-01,Campo Grande,MS,Centro-Oeste,775.9,real_dieese
+2026-01-01,Campo Grande,MS,Centro-Oeste,783.41,real_dieese
+2020-01-01,Cuiabá,MT,Centro-Oeste,616.37,simulado_calibrado
+2020-02-01,Cuiabá,MT,Centro-Oeste,615.01,simulado_calibrado
+2020-03-01,Cuiabá,MT,Centro-Oeste,613.7,simulado_calibrado
+2020-04-01,Cuiabá,MT,Centro-Oeste,586.42,simulado_calibrado
+2020-05-01,Cuiabá,MT,Centro-Oeste,606.37,simulado_calibrado
+2020-06-01,Cuiabá,MT,Centro-Oeste,614.66,simulado_calibrado
+2020-07-01,Cuiabá,MT,Centro-Oeste,615.53,simulado_calibrado
+2020-08-01,Cuiabá,MT,Centro-Oeste,669.89,simulado_calibrado
+2020-09-01,Cuiabá,MT,Centro-Oeste,662.56,simulado_calibrado
+2020-10-01,Cuiabá,MT,Centro-Oeste,674.47,simulado_calibrado
+2020-11-01,Cuiabá,MT,Centro-Oeste,680.44,simulado_calibrado
+2020-12-01,Cuiabá,MT,Centro-Oeste,689.14,simulado_calibrado
+2021-01-01,Cuiabá,MT,Centro-Oeste,644.23,simulado_calibrado
+2021-02-01,Cuiabá,MT,Centro-Oeste,645.73,simulado_calibrado
+2021-03-01,Cuiabá,MT,Centro-Oeste,637.44,simulado_calibrado
+2021-04-01,Cuiabá,MT,Centro-Oeste,637.8,simulado_calibrado
+2021-05-01,Cuiabá,MT,Centro-Oeste,637.76,simulado_calibrado
+2021-06-01,Cuiabá,MT,Centro-Oeste,646.11,simulado_calibrado
+2021-07-01,Cuiabá,MT,Centro-Oeste,654.29,simulado_calibrado
+2021-08-01,Cuiabá,MT,Centro-Oeste,655.18,simulado_calibrado
+2021-09-01,Cuiabá,MT,Centro-Oeste,662.53,simulado_calibrado
+2021-10-01,Cuiabá,MT,Centro-Oeste,657.19,simulado_calibrado
+2021-11-01,Cuiabá,MT,Centro-Oeste,662.08,simulado_calibrado
+2021-12-01,Cuiabá,MT,Centro-Oeste,664.79,simulado_calibrado
+2022-01-01,Cuiabá,MT,Centro-Oeste,675.87,simulado_calibrado
+2022-02-01,Cuiabá,MT,Centro-Oeste,687.79,simulado_calibrado
+2022-03-01,Cuiabá,MT,Centro-Oeste,677.23,simulado_calibrado
+2022-04-01,Cuiabá,MT,Centro-Oeste,668.86,simulado_calibrado
+2022-05-01,Cuiabá,MT,Centro-Oeste,670.71,simulado_calibrado
+2022-06-01,Cuiabá,MT,Centro-Oeste,678.16,simulado_calibrado
+2022-07-01,Cuiabá,MT,Centro-Oeste,686.26,simulado_calibrado
+2022-08-01,Cuiabá,MT,Centro-Oeste,689.8,simulado_calibrado
+2022-09-01,Cuiabá,MT,Centro-Oeste,690.66,simulado_calibrado
+2022-10-01,Cuiabá,MT,Centro-Oeste,697.04,simulado_calibrado
+2022-11-01,Cuiabá,MT,Centro-Oeste,703.05,simulado_calibrado
+2022-12-01,Cuiabá,MT,Centro-Oeste,713.67,simulado_calibrado
+2023-01-01,Cuiabá,MT,Centro-Oeste,722.47,simulado_calibrado
+2023-02-01,Cuiabá,MT,Centro-Oeste,726.19,simulado_calibrado
+2023-03-01,Cuiabá,MT,Centro-Oeste,713.56,simulado_calibrado
+2023-04-01,Cuiabá,MT,Centro-Oeste,696.84,simulado_calibrado
+2023-05-01,Cuiabá,MT,Centro-Oeste,709.53,simulado_calibrado
+2023-06-01,Cuiabá,MT,Centro-Oeste,724.06,simulado_calibrado
+2023-07-01,Cuiabá,MT,Centro-Oeste,739.39,simulado_calibrado
+2023-08-01,Cuiabá,MT,Centro-Oeste,729.43,simulado_calibrado
+2023-09-01,Cuiabá,MT,Centro-Oeste,735.24,simulado_calibrado
+2023-10-01,Cuiabá,MT,Centro-Oeste,736.91,simulado_calibrado
+2023-11-01,Cuiabá,MT,Centro-Oeste,734.6,simulado_calibrado
+2023-12-01,Cuiabá,MT,Centro-Oeste,749.54,simulado_calibrado
+2024-01-01,Cuiabá,MT,Centro-Oeste,765.93,simulado_calibrado
+2024-02-01,Cuiabá,MT,Centro-Oeste,769.61,simulado_calibrado
+2024-03-01,Cuiabá,MT,Centro-Oeste,749.53,simulado_calibrado
+2024-04-01,Cuiabá,MT,Centro-Oeste,753.17,simulado_calibrado
+2024-05-01,Cuiabá,MT,Centro-Oeste,742.56,simulado_calibrado
+2024-06-01,Cuiabá,MT,Centro-Oeste,767.39,simulado_calibrado
+2024-07-01,Cuiabá,MT,Centro-Oeste,778.9,simulado_calibrado
+2024-08-01,Cuiabá,MT,Centro-Oeste,766.5,simulado_calibrado
+2024-09-01,Cuiabá,MT,Centro-Oeste,772.15,simulado_calibrado
+2024-10-01,Cuiabá,MT,Centro-Oeste,779.02,simulado_calibrado
+2024-11-01,Cuiabá,MT,Centro-Oeste,779.56,simulado_calibrado
+2024-12-01,Cuiabá,MT,Centro-Oeste,777.9,simulado_calibrado
+2025-01-01,Cuiabá,MT,Centro-Oeste,805.37,simulado_calibrado
+2025-02-01,Cuiabá,MT,Centro-Oeste,803.39,simulado_calibrado
+2025-03-01,Cuiabá,MT,Centro-Oeste,798.84,simulado_calibrado
+2025-04-01,Cuiabá,MT,Centro-Oeste,800.11,real_dieese
+2025-05-01,Cuiabá,MT,Centro-Oeste,810.69,real_dieese
+2025-06-01,Cuiabá,MT,Centro-Oeste,817.63,real_dieese
+2025-07-01,Cuiabá,MT,Centro-Oeste,813.48,real_dieese
+2025-08-01,Cuiabá,MT,Centro-Oeste,800.22,real_dieese
+2025-09-01,Cuiabá,MT,Centro-Oeste,794.03,real_dieese
+2025-10-01,Cuiabá,MT,Centro-Oeste,794.77,real_dieese
+2025-11-01,Cuiabá,MT,Centro-Oeste,789.98,real_dieese
+2025-12-01,Cuiabá,MT,Centro-Oeste,791.29,real_dieese
+2026-01-01,Cuiabá,MT,Centro-Oeste,810.82,real_dieese
+2020-01-01,Curitiba,PR,Sul,452.32,real_dieese
+2020-02-01,Curitiba,PR,Sul,447.91,real_dieese
+2020-03-01,Curitiba,PR,Sul,465.47,real_dieese
+2020-04-01,Curitiba,PR,Sul,511.23,real_dieese
+2020-05-01,Curitiba,PR,Sul,531.27,real_dieese
+2020-06-01,Curitiba,PR,Sul,506.04,real_dieese
+2020-07-01,Curitiba,PR,Sul,526.14,real_dieese
+2020-08-01,Curitiba,PR,Sul,505.54,real_dieese
+2020-09-01,Curitiba,PR,Sul,524.25,real_dieese
+2020-10-01,Curitiba,PR,Sul,521.12,real_dieese
+2020-11-01,Curitiba,PR,Sul,547.29,real_dieese
+2020-12-01,Curitiba,PR,Sul,540.36,real_dieese
+2021-01-01,Curitiba,PR,Sul,559.73,real_dieese
+2021-02-01,Curitiba,PR,Sul,572.77,real_dieese
+2021-03-01,Curitiba,PR,Sul,577.17,real_dieese
+2021-04-01,Curitiba,PR,Sul,583.61,real_dieese
+2021-05-01,Curitiba,PR,Sul,608.89,real_dieese
+2021-06-01,Curitiba,PR,Sul,618.57,real_dieese
+2021-07-01,Curitiba,PR,Sul,619.83,real_dieese
+2021-08-01,Curitiba,PR,Sul,600.47,real_dieese
+2021-09-01,Curitiba,PR,Sul,610.85,real_dieese
+2021-10-01,Curitiba,PR,Sul,639.89,real_dieese
+2021-11-01,Curitiba,PR,Sul,638.96,real_dieese
+2021-12-01,Curitiba,PR,Sul,628.46,real_dieese
+2022-01-01,Curitiba,PR,Sul,636.57,real_dieese
+2022-02-01,Curitiba,PR,Sul,652.9,real_dieese
+2022-03-01,Curitiba,PR,Sul,701.59,real_dieese
+2022-04-01,Curitiba,PR,Sul,739.28,real_dieese
+2022-05-01,Curitiba,PR,Sul,713.68,real_dieese
+2022-06-01,Curitiba,PR,Sul,701.26,real_dieese
+2022-07-01,Curitiba,PR,Sul,688.78,real_dieese
+2022-08-01,Curitiba,PR,Sul,685.69,real_dieese
+2022-09-01,Curitiba,PR,Sul,678.73,real_dieese
+2022-10-01,Curitiba,PR,Sul,696.31,real_dieese
+2022-11-01,Curitiba,PR,Sul,709.84,real_dieese
+2022-12-01,Curitiba,PR,Sul,698.66,real_dieese
+2023-01-01,Curitiba,PR,Sul,695.18,real_dieese
+2023-02-01,Curitiba,PR,Sul,678.9,real_dieese
+2023-03-01,Curitiba,PR,Sul,679.76,real_dieese
+2023-04-01,Curitiba,PR,Sul,694.05,real_dieese
+2023-05-01,Curitiba,PR,Sul,703.83,real_dieese
+2023-06-01,Curitiba,PR,Sul,701.22,real_dieese
+2023-07-01,Curitiba,PR,Sul,690.31,real_dieese
+2023-08-01,Curitiba,PR,Sul,685.13,real_dieese
+2023-09-01,Curitiba,PR,Sul,681.23,real_dieese
+2023-10-01,Curitiba,PR,Sul,675.01,real_dieese
+2023-11-01,Curitiba,PR,Sul,683.44,real_dieese
+2023-12-01,Curitiba,PR,Sul,697.22,real_dieese
+2024-01-01,Curitiba,PR,Sul,726.23,real_dieese
+2024-02-01,Curitiba,PR,Sul,731.5,real_dieese
+2024-03-01,Curitiba,PR,Sul,728.06,real_dieese
+2024-04-01,Curitiba,PR,Sul,726.64,real_dieese
+2024-05-01,Curitiba,PR,Sul,741.46,real_dieese
+2024-06-01,Curitiba,PR,Sul,754.91,real_dieese
+2024-07-01,Curitiba,PR,Sul,718.32,real_dieese
+2024-08-01,Curitiba,PR,Sul,697.08,real_dieese
+2024-09-01,Curitiba,PR,Sul,698.44,real_dieese
+2024-10-01,Curitiba,PR,Sul,726.62,real_dieese
+2024-11-01,Curitiba,PR,Sul,739.4,real_dieese
+2024-12-01,Curitiba,PR,Sul,741.9,real_dieese
+2025-01-01,Curitiba,PR,Sul,743.69,real_dieese
+2025-02-01,Curitiba,PR,Sul,745.88,real_dieese
+2025-03-01,Curitiba,PR,Sul,772.83,real_dieese
+2025-04-01,Curitiba,PR,Sul,793.72,real_dieese
+2025-05-01,Curitiba,PR,Sul,791.39,real_dieese
+2025-06-01,Curitiba,PR,Sul,789.86,real_dieese
+2025-07-01,Curitiba,PR,Sul,770.93,real_dieese
+2025-08-01,Curitiba,PR,Sul,752.7,real_dieese
+2025-09-01,Curitiba,PR,Sul,755.56,real_dieese
+2025-10-01,Curitiba,PR,Sul,761.77,real_dieese
+2025-11-01,Curitiba,PR,Sul,745.59,real_dieese
+2025-12-01,Curitiba,PR,Sul,737.88,real_dieese
+2026-01-01,Curitiba,PR,Sul,748.05,real_dieese
+2020-01-01,Florianópolis,SC,Sul,489.13,real_dieese
+2020-02-01,Florianópolis,SC,Sul,493.15,real_dieese
+2020-03-01,Florianópolis,SC,Sul,517.13,real_dieese
+2020-04-01,Florianópolis,SC,Sul,523.8,real_dieese
+2020-05-01,Florianópolis,SC,Sul,524.07,real_dieese
+2020-06-01,Florianópolis,SC,Sul,516.97,real_dieese
+2020-07-01,Florianópolis,SC,Sul,522.03,real_dieese
+2020-08-01,Florianópolis,SC,Sul,530.42,real_dieese
+2020-09-01,Florianópolis,SC,Sul,582.4,real_dieese
+2020-10-01,Florianópolis,SC,Sul,584.76,real_dieese
+2020-11-01,Florianópolis,SC,Sul,616.98,real_dieese
+2020-12-01,Florianópolis,SC,Sul,615.57,real_dieese
+2021-01-01,Florianópolis,SC,Sul,651.37,real_dieese
+2021-02-01,Florianópolis,SC,Sul,639.81,real_dieese
+2021-03-01,Florianópolis,SC,Sul,632.75,real_dieese
+2021-04-01,Florianópolis,SC,Sul,634.53,real_dieese
+2021-05-01,Florianópolis,SC,Sul,636.37,real_dieese
+2021-06-01,Florianópolis,SC,Sul,645.38,real_dieese
+2021-07-01,Florianópolis,SC,Sul,654.43,real_dieese
+2021-08-01,Florianópolis,SC,Sul,659.0,real_dieese
+2021-09-01,Florianópolis,SC,Sul,662.85,real_dieese
+2021-10-01,Florianópolis,SC,Sul,700.69,real_dieese
+2021-11-01,Florianópolis,SC,Sul,710.53,real_dieese
+2021-12-01,Florianópolis,SC,Sul,689.56,real_dieese
+2022-01-01,Florianópolis,SC,Sul,695.59,real_dieese
+2022-02-01,Florianópolis,SC,Sul,707.56,real_dieese
+2022-03-01,Florianópolis,SC,Sul,745.47,real_dieese
+2022-04-01,Florianópolis,SC,Sul,788.0,real_dieese
+2022-05-01,Florianópolis,SC,Sul,772.07,real_dieese
+2022-06-01,Florianópolis,SC,Sul,760.41,real_dieese
+2022-07-01,Florianópolis,SC,Sul,753.73,real_dieese
+2022-08-01,Florianópolis,SC,Sul,746.21,real_dieese
+2022-09-01,Florianópolis,SC,Sul,746.55,real_dieese
+2022-10-01,Florianópolis,SC,Sul,753.82,real_dieese
+2022-11-01,Florianópolis,SC,Sul,776.14,real_dieese
+2022-12-01,Florianópolis,SC,Sul,769.19,real_dieese
+2023-01-01,Florianópolis,SC,Sul,760.65,real_dieese
+2023-02-01,Florianópolis,SC,Sul,746.95,real_dieese
+2023-03-01,Florianópolis,SC,Sul,742.23,real_dieese
+2023-04-01,Florianópolis,SC,Sul,769.35,real_dieese
+2023-05-01,Florianópolis,SC,Sul,765.13,real_dieese
+2023-06-01,Florianópolis,SC,Sul,771.54,real_dieese
+2023-07-01,Florianópolis,SC,Sul,746.66,real_dieese
+2023-08-01,Florianópolis,SC,Sul,743.94,real_dieese
+2023-09-01,Florianópolis,SC,Sul,747.64,real_dieese
+2023-10-01,Florianópolis,SC,Sul,738.77,real_dieese
+2023-11-01,Florianópolis,SC,Sul,747.59,real_dieese
+2023-12-01,Florianópolis,SC,Sul,758.5,real_dieese
+2024-01-01,Florianópolis,SC,Sul,800.31,real_dieese
+2024-02-01,Florianópolis,SC,Sul,783.36,real_dieese
+2024-03-01,Florianópolis,SC,Sul,791.21,real_dieese
+2024-04-01,Florianópolis,SC,Sul,781.53,real_dieese
+2024-05-01,Florianópolis,SC,Sul,801.03,real_dieese
+2024-06-01,Florianópolis,SC,Sul,816.06,real_dieese
+2024-07-01,Florianópolis,SC,Sul,782.73,real_dieese
+2024-08-01,Florianópolis,SC,Sul,756.31,real_dieese
+2024-09-01,Florianópolis,SC,Sul,768.33,real_dieese
+2024-10-01,Florianópolis,SC,Sul,796.94,real_dieese
+2024-11-01,Florianópolis,SC,Sul,799.62,real_dieese
+2024-12-01,Florianópolis,SC,Sul,809.46,real_dieese
+2025-01-01,Florianópolis,SC,Sul,808.75,real_dieese
+2025-02-01,Florianópolis,SC,Sul,807.71,real_dieese
+2025-03-01,Florianópolis,SC,Sul,831.92,real_dieese
+2025-04-01,Florianópolis,SC,Sul,858.2,real_dieese
+2025-05-01,Florianópolis,SC,Sul,858.93,real_dieese
+2025-06-01,Florianópolis,SC,Sul,867.83,real_dieese
+2025-07-01,Florianópolis,SC,Sul,844.89,real_dieese
+2025-08-01,Florianópolis,SC,Sul,823.11,real_dieese
+2025-09-01,Florianópolis,SC,Sul,811.07,real_dieese
+2025-10-01,Florianópolis,SC,Sul,824.57,real_dieese
+2025-11-01,Florianópolis,SC,Sul,800.68,real_dieese
+2025-12-01,Florianópolis,SC,Sul,801.29,real_dieese
+2026-01-01,Florianópolis,SC,Sul,806.33,real_dieese
+2020-01-01,Fortaleza,CE,Nordeste,433.39,real_dieese
+2020-02-01,Fortaleza,CE,Nordeste,462.99,real_dieese
+2020-03-01,Fortaleza,CE,Nordeste,475.11,real_dieese
+2020-04-01,Fortaleza,CE,Nordeste,482.46,real_dieese
+2020-05-01,Fortaleza,CE,Nordeste,455.18,real_dieese
+2020-06-01,Fortaleza,CE,Nordeste,464.31,real_dieese
+2020-07-01,Fortaleza,CE,Nordeste,454.74,real_dieese
+2020-08-01,Fortaleza,CE,Nordeste,462.13,real_dieese
+2020-09-01,Fortaleza,CE,Nordeste,485.75,real_dieese
+2020-10-01,Fortaleza,CE,Nordeste,510.54,real_dieese
+2020-11-01,Fortaleza,CE,Nordeste,539.33,real_dieese
+2020-12-01,Fortaleza,CE,Nordeste,534.96,real_dieese
+2021-01-01,Fortaleza,CE,Nordeste,532.97,real_dieese
+2021-02-01,Fortaleza,CE,Nordeste,523.46,real_dieese
+2021-03-01,Fortaleza,CE,Nordeste,517.05,real_dieese
+2021-04-01,Fortaleza,CE,Nordeste,525.26,real_dieese
+2021-05-01,Fortaleza,CE,Nordeste,532.21,real_dieese
+2021-06-01,Fortaleza,CE,Nordeste,541.61,real_dieese
+2021-07-01,Fortaleza,CE,Nordeste,562.82,real_dieese
+2021-08-01,Fortaleza,CE,Nordeste,552.24,real_dieese
+2021-09-01,Fortaleza,CE,Nordeste,552.09,real_dieese
+2021-10-01,Fortaleza,CE,Nordeste,563.96,real_dieese
+2021-11-01,Fortaleza,CE,Nordeste,580.36,real_dieese
+2021-12-01,Fortaleza,CE,Nordeste,579.06,real_dieese
+2022-01-01,Fortaleza,CE,Nordeste,607.35,real_dieese
+2022-02-01,Fortaleza,CE,Nordeste,609.6,real_dieese
+2022-03-01,Fortaleza,CE,Nordeste,635.02,real_dieese
+2022-04-01,Fortaleza,CE,Nordeste,647.63,real_dieese
+2022-05-01,Fortaleza,CE,Nordeste,628.46,real_dieese
+2022-06-01,Fortaleza,CE,Nordeste,657.0,real_dieese
+2022-07-01,Fortaleza,CE,Nordeste,641.46,real_dieese
+2022-08-01,Fortaleza,CE,Nordeste,626.98,real_dieese
+2022-09-01,Fortaleza,CE,Nordeste,620.87,real_dieese
+2022-10-01,Fortaleza,CE,Nordeste,622.57,real_dieese
+2022-11-01,Fortaleza,CE,Nordeste,630.67,real_dieese
+2022-12-01,Fortaleza,CE,Nordeste,653.99,real_dieese
+2023-01-01,Fortaleza,CE,Nordeste,679.81,real_dieese
+2023-02-01,Fortaleza,CE,Nordeste,671.32,real_dieese
+2023-03-01,Fortaleza,CE,Nordeste,647.92,real_dieese
+2023-04-01,Fortaleza,CE,Nordeste,669.79,real_dieese
+2023-05-01,Fortaleza,CE,Nordeste,672.66,real_dieese
+2023-06-01,Fortaleza,CE,Nordeste,661.16,real_dieese
+2023-07-01,Fortaleza,CE,Nordeste,661.5,real_dieese
+2023-08-01,Fortaleza,CE,Nordeste,642.68,real_dieese
+2023-09-01,Fortaleza,CE,Nordeste,640.48,real_dieese
+2023-10-01,Fortaleza,CE,Nordeste,648.93,real_dieese
+2023-11-01,Fortaleza,CE,Nordeste,639.91,real_dieese
+2023-12-01,Fortaleza,CE,Nordeste,630.38,real_dieese
+2024-01-01,Fortaleza,CE,Nordeste,618.32,real_dieese
+2024-02-01,Fortaleza,CE,Nordeste,627.67,real_dieese
+2024-03-01,Fortaleza,CE,Nordeste,663.22,real_dieese
+2024-04-01,Fortaleza,CE,Nordeste,714.68,real_dieese
+2024-05-01,Fortaleza,CE,Nordeste,709.9,real_dieese
+2024-06-01,Fortaleza,CE,Nordeste,697.33,real_dieese
+2024-07-01,Fortaleza,CE,Nordeste,677.53,real_dieese
+2024-08-01,Fortaleza,CE,Nordeste,630.48,real_dieese
+2024-09-01,Fortaleza,CE,Nordeste,615.92,real_dieese
+2024-10-01,Fortaleza,CE,Nordeste,641.34,real_dieese
+2024-11-01,Fortaleza,CE,Nordeste,663.95,real_dieese
+2024-12-01,Fortaleza,CE,Nordeste,673.77,real_dieese
+2025-01-01,Fortaleza,CE,Nordeste,700.44,real_dieese
+2025-02-01,Fortaleza,CE,Nordeste,710.66,real_dieese
+2025-03-01,Fortaleza,CE,Nordeste,727.46,real_dieese
+2025-04-01,Fortaleza,CE,Nordeste,746.52,real_dieese
+2025-05-01,Fortaleza,CE,Nordeste,728.49,real_dieese
+2025-06-01,Fortaleza,CE,Nordeste,735.11,real_dieese
+2025-07-01,Fortaleza,CE,Nordeste,738.09,real_dieese
+2025-08-01,Fortaleza,CE,Nordeste,723.06,real_dieese
+2025-09-01,Fortaleza,CE,Nordeste,677.42,real_dieese
+2025-10-01,Fortaleza,CE,Nordeste,686.78,real_dieese
+2025-11-01,Fortaleza,CE,Nordeste,670.63,real_dieese
+2025-12-01,Fortaleza,CE,Nordeste,677.0,real_dieese
+2026-01-01,Fortaleza,CE,Nordeste,694.06,real_dieese
+2020-01-01,Goiânia,GO,Centro-Oeste,455.08,real_dieese
+2020-02-01,Goiânia,GO,Centro-Oeste,448.62,real_dieese
+2020-03-01,Goiânia,GO,Centro-Oeste,456.18,real_dieese
+2020-04-01,Goiânia,GO,Centro-Oeste,493.21,real_dieese
+2020-05-01,Goiânia,GO,Centro-Oeste,505.99,real_dieese
+2020-06-01,Goiânia,GO,Centro-Oeste,480.78,real_dieese
+2020-07-01,Goiânia,GO,Centro-Oeste,472.86,real_dieese
+2020-08-01,Goiânia,GO,Centro-Oeste,483.15,real_dieese
+2020-09-01,Goiânia,GO,Centro-Oeste,510.52,real_dieese
+2020-10-01,Goiânia,GO,Centro-Oeste,537.61,real_dieese
+2020-11-01,Goiânia,GO,Centro-Oeste,557.46,real_dieese
+2020-12-01,Goiânia,GO,Centro-Oeste,563.8,real_dieese
+2021-01-01,Goiânia,GO,Centro-Oeste,574.76,real_dieese
+2021-02-01,Goiânia,GO,Centro-Oeste,560.67,real_dieese
+2021-03-01,Goiânia,GO,Centro-Oeste,552.05,real_dieese
+2021-04-01,Goiânia,GO,Centro-Oeste,556.27,real_dieese
+2021-05-01,Goiânia,GO,Centro-Oeste,564.04,real_dieese
+2021-06-01,Goiânia,GO,Centro-Oeste,551.49,real_dieese
+2021-07-01,Goiânia,GO,Centro-Oeste,562.13,real_dieese
+2021-08-01,Goiânia,GO,Centro-Oeste,565.4,real_dieese
+2021-09-01,Goiânia,GO,Centro-Oeste,574.08,real_dieese
+2021-10-01,Goiânia,GO,Centro-Oeste,591.78,real_dieese
+2021-11-01,Goiânia,GO,Centro-Oeste,599.64,real_dieese
+2021-12-01,Goiânia,GO,Centro-Oeste,597.24,real_dieese
+2022-01-01,Goiânia,GO,Centro-Oeste,624.91,real_dieese
+2022-02-01,Goiânia,GO,Centro-Oeste,641.09,real_dieese
+2022-03-01,Goiânia,GO,Centro-Oeste,663.48,real_dieese
+2022-04-01,Goiânia,GO,Centro-Oeste,682.87,real_dieese
+2022-05-01,Goiânia,GO,Centro-Oeste,674.63,real_dieese
+2022-06-01,Goiânia,GO,Centro-Oeste,674.08,real_dieese
+2022-07-01,Goiânia,GO,Centro-Oeste,672.91,real_dieese
+2022-08-01,Goiânia,GO,Centro-Oeste,660.83,real_dieese
+2022-09-01,Goiânia,GO,Centro-Oeste,658.7,real_dieese
+2022-10-01,Goiânia,GO,Centro-Oeste,675.79,real_dieese
+2022-11-01,Goiânia,GO,Centro-Oeste,689.49,real_dieese
+2022-12-01,Goiânia,GO,Centro-Oeste,704.63,real_dieese
+2023-01-01,Goiânia,GO,Centro-Oeste,710.62,real_dieese
+2023-02-01,Goiânia,GO,Centro-Oeste,695.18,real_dieese
+2023-03-01,Goiânia,GO,Centro-Oeste,680.92,real_dieese
+2023-04-01,Goiânia,GO,Centro-Oeste,704.94,real_dieese
+2023-05-01,Goiânia,GO,Centro-Oeste,704.89,real_dieese
+2023-06-01,Goiânia,GO,Centro-Oeste,669.39,real_dieese
+2023-07-01,Goiânia,GO,Centro-Oeste,657.71,real_dieese
+2023-08-01,Goiânia,GO,Centro-Oeste,641.53,real_dieese
+2023-09-01,Goiânia,GO,Centro-Oeste,630.95,real_dieese
+2023-10-01,Goiânia,GO,Centro-Oeste,636.07,real_dieese
+2023-11-01,Goiânia,GO,Centro-Oeste,648.59,real_dieese
+2023-12-01,Goiânia,GO,Centro-Oeste,669.36,real_dieese
+2024-01-01,Goiânia,GO,Centro-Oeste,710.7,real_dieese
+2024-02-01,Goiânia,GO,Centro-Oeste,707.81,real_dieese
+2024-03-01,Goiânia,GO,Centro-Oeste,703.57,real_dieese
+2024-04-01,Goiânia,GO,Centro-Oeste,701.01,real_dieese
+2024-05-01,Goiânia,GO,Centro-Oeste,704.51,real_dieese
+2024-06-01,Goiânia,GO,Centro-Oeste,711.43,real_dieese
+2024-07-01,Goiânia,GO,Centro-Oeste,695.98,real_dieese
+2024-08-01,Goiânia,GO,Centro-Oeste,667.87,real_dieese
+2024-09-01,Goiânia,GO,Centro-Oeste,672.93,real_dieese
+2024-10-01,Goiânia,GO,Centro-Oeste,695.37,real_dieese
+2024-11-01,Goiânia,GO,Centro-Oeste,727.65,real_dieese
+2024-12-01,Goiânia,GO,Centro-Oeste,732.5,real_dieese
+2025-01-01,Goiânia,GO,Centro-Oeste,756.92,real_dieese
+2025-02-01,Goiânia,GO,Centro-Oeste,739.34,real_dieese
+2025-03-01,Goiânia,GO,Centro-Oeste,754.06,real_dieese
+2025-04-01,Goiânia,GO,Centro-Oeste,767.43,real_dieese
+2025-05-01,Goiânia,GO,Centro-Oeste,758.67,real_dieese
+2025-06-01,Goiânia,GO,Centro-Oeste,744.27,real_dieese
+2025-07-01,Goiânia,GO,Centro-Oeste,735.18,real_dieese
+2025-08-01,Goiânia,GO,Centro-Oeste,718.94,real_dieese
+2025-09-01,Goiânia,GO,Centro-Oeste,710.52,real_dieese
+2025-10-01,Goiânia,GO,Centro-Oeste,720.57,real_dieese
+2025-11-01,Goiânia,GO,Centro-Oeste,717.39,real_dieese
+2025-12-01,Goiânia,GO,Centro-Oeste,725.95,real_dieese
+2026-01-01,Goiânia,GO,Centro-Oeste,735.94,real_dieese
+2020-01-01,João Pessoa,PB,Nordeste,388.02,real_dieese
+2020-02-01,João Pessoa,PB,Nordeste,403.98,real_dieese
+2020-03-01,João Pessoa,PB,Nordeste,414.05,real_dieese
+2020-04-01,João Pessoa,PB,Nordeste,437.93,real_dieese
+2020-05-01,João Pessoa,PB,Nordeste,440.25,real_dieese
+2020-06-01,João Pessoa,PB,Nordeste,430.44,real_dieese
+2020-07-01,João Pessoa,PB,Nordeste,417.75,real_dieese
+2020-08-01,João Pessoa,PB,Nordeste,414.5,real_dieese
+2020-09-01,João Pessoa,PB,Nordeste,432.04,real_dieese
+2020-10-01,João Pessoa,PB,Nordeste,449.97,real_dieese
+2020-11-01,João Pessoa,PB,Nordeste,454.85,real_dieese
+2020-12-01,João Pessoa,PB,Nordeste,475.19,real_dieese
+2021-01-01,João Pessoa,PB,Nordeste,471.87,real_dieese
+2021-02-01,João Pessoa,PB,Nordeste,484.54,real_dieese
+2021-03-01,João Pessoa,PB,Nordeste,478.52,real_dieese
+2021-04-01,João Pessoa,PB,Nordeste,490.04,real_dieese
+2021-05-01,João Pessoa,PB,Nordeste,491.63,real_dieese
+2021-06-01,João Pessoa,PB,Nordeste,495.76,real_dieese
+2021-07-01,João Pessoa,PB,Nordeste,492.3,real_dieese
+2021-08-01,João Pessoa,PB,Nordeste,490.93,real_dieese
+2021-09-01,João Pessoa,PB,Nordeste,476.63,real_dieese
+2021-10-01,João Pessoa,PB,Nordeste,491.12,real_dieese
+2021-11-01,João Pessoa,PB,Nordeste,508.91,real_dieese
+2021-12-01,João Pessoa,PB,Nordeste,510.82,real_dieese
+2022-01-01,João Pessoa,PB,Nordeste,538.65,real_dieese
+2022-02-01,João Pessoa,PB,Nordeste,549.33,real_dieese
+2022-03-01,João Pessoa,PB,Nordeste,567.84,real_dieese
+2022-04-01,João Pessoa,PB,Nordeste,573.7,real_dieese
+2022-05-01,João Pessoa,PB,Nordeste,567.67,real_dieese
+2022-06-01,João Pessoa,PB,Nordeste,586.73,real_dieese
+2022-07-01,João Pessoa,PB,Nordeste,572.63,real_dieese
+2022-08-01,João Pessoa,PB,Nordeste,568.21,real_dieese
+2022-09-01,João Pessoa,PB,Nordeste,562.32,real_dieese
+2022-10-01,João Pessoa,PB,Nordeste,559.57,real_dieese
+2022-11-01,João Pessoa,PB,Nordeste,552.43,real_dieese
+2022-12-01,João Pessoa,PB,Nordeste,561.84,real_dieese
+2023-01-01,João Pessoa,PB,Nordeste,600.06,real_dieese
+2023-02-01,João Pessoa,PB,Nordeste,600.1,real_dieese
+2023-03-01,João Pessoa,PB,Nordeste,579.57,real_dieese
+2023-04-01,João Pessoa,PB,Nordeste,585.42,real_dieese
+2023-05-01,João Pessoa,PB,Nordeste,580.95,real_dieese
+2023-06-01,João Pessoa,PB,Nordeste,604.89,real_dieese
+2023-07-01,João Pessoa,PB,Nordeste,581.31,real_dieese
+2023-08-01,João Pessoa,PB,Nordeste,565.07,real_dieese
+2023-09-01,João Pessoa,PB,Nordeste,562.6,real_dieese
+2023-10-01,João Pessoa,PB,Nordeste,554.88,real_dieese
+2023-11-01,João Pessoa,PB,Nordeste,548.33,real_dieese
+2023-12-01,João Pessoa,PB,Nordeste,542.3,real_dieese
+2024-01-01,João Pessoa,PB,Nordeste,559.77,real_dieese
+2024-02-01,João Pessoa,PB,Nordeste,564.5,real_dieese
+2024-03-01,João Pessoa,PB,Nordeste,583.23,real_dieese
+2024-04-01,João Pessoa,PB,Nordeste,614.75,real_dieese
+2024-05-01,João Pessoa,PB,Nordeste,620.67,real_dieese
+2024-06-01,João Pessoa,PB,Nordeste,597.32,real_dieese
+2024-07-01,João Pessoa,PB,Nordeste,572.38,real_dieese
+2024-08-01,João Pessoa,PB,Nordeste,548.9,real_dieese
+2024-09-01,João Pessoa,PB,Nordeste,552.35,real_dieese
+2024-10-01,João Pessoa,PB,Nordeste,566.46,real_dieese
+2024-11-01,João Pessoa,PB,Nordeste,590.82,real_dieese
+2024-12-01,João Pessoa,PB,Nordeste,606.91,real_dieese
+2025-01-01,João Pessoa,PB,Nordeste,618.64,real_dieese
+2025-02-01,João Pessoa,PB,Nordeste,634.41,real_dieese
+2025-03-01,João Pessoa,PB,Nordeste,626.89,real_dieese
+2025-04-01,João Pessoa,PB,Nordeste,641.57,real_dieese
+2025-05-01,João Pessoa,PB,Nordeste,636.73,real_dieese
+2025-06-01,João Pessoa,PB,Nordeste,636.16,real_dieese
+2025-07-01,João Pessoa,PB,Nordeste,648.0,real_dieese
+2025-08-01,João Pessoa,PB,Nordeste,622.08,real_dieese
+2025-09-01,João Pessoa,PB,Nordeste,610.93,real_dieese
+2025-10-01,João Pessoa,PB,Nordeste,609.94,real_dieese
+2025-11-01,João Pessoa,PB,Nordeste,597.66,real_dieese
+2025-12-01,João Pessoa,PB,Nordeste,597.66,real_dieese
+2026-01-01,João Pessoa,PB,Nordeste,606.39,real_dieese
+2020-01-01,Macapá,AP,Norte,502.19,simulado_calibrado
+2020-02-01,Macapá,AP,Norte,500.66,simulado_calibrado
+2020-03-01,Macapá,AP,Norte,492.04,simulado_calibrado
+2020-04-01,Macapá,AP,Norte,484.47,simulado_calibrado
+2020-05-01,Macapá,AP,Norte,489.44,simulado_calibrado
+2020-06-01,Macapá,AP,Norte,503.87,simulado_calibrado
+2020-07-01,Macapá,AP,Norte,508.7,simulado_calibrado
+2020-08-01,Macapá,AP,Norte,548.99,simulado_calibrado
+2020-09-01,Macapá,AP,Norte,555.78,simulado_calibrado
+2020-10-01,Macapá,AP,Norte,564.28,simulado_calibrado
+2020-11-01,Macapá,AP,Norte,552.6,simulado_calibrado
+2020-12-01,Macapá,AP,Norte,555.83,simulado_calibrado
+2021-01-01,Macapá,AP,Norte,521.24,simulado_calibrado
+2021-02-01,Macapá,AP,Norte,536.91,simulado_calibrado
+2021-03-01,Macapá,AP,Norte,529.53,simulado_calibrado
+2021-04-01,Macapá,AP,Norte,513.31,simulado_calibrado
+2021-05-01,Macapá,AP,Norte,523.21,simulado_calibrado
+2021-06-01,Macapá,AP,Norte,536.65,simulado_calibrado
+2021-07-01,Macapá,AP,Norte,534.23,simulado_calibrado
+2021-08-01,Macapá,AP,Norte,539.88,simulado_calibrado
+2021-09-01,Macapá,AP,Norte,539.07,simulado_calibrado
+2021-10-01,Macapá,AP,Norte,534.68,simulado_calibrado
+2021-11-01,Macapá,AP,Norte,548.6,simulado_calibrado
+2021-12-01,Macapá,AP,Norte,552.57,simulado_calibrado
+2022-01-01,Macapá,AP,Norte,563.19,simulado_calibrado
+2022-02-01,Macapá,AP,Norte,557.42,simulado_calibrado
+2022-03-01,Macapá,AP,Norte,550.04,simulado_calibrado
+2022-04-01,Macapá,AP,Norte,542.44,simulado_calibrado
+2022-05-01,Macapá,AP,Norte,554.56,simulado_calibrado
+2022-06-01,Macapá,AP,Norte,568.11,simulado_calibrado
+2022-07-01,Macapá,AP,Norte,566.57,simulado_calibrado
+2022-08-01,Macapá,AP,Norte,571.85,simulado_calibrado
+2022-09-01,Macapá,AP,Norte,565.52,simulado_calibrado
+2022-10-01,Macapá,AP,Norte,573.3,simulado_calibrado
+2022-11-01,Macapá,AP,Norte,568.46,simulado_calibrado
+2022-12-01,Macapá,AP,Norte,574.2,simulado_calibrado
+2023-01-01,Macapá,AP,Norte,596.82,simulado_calibrado
+2023-02-01,Macapá,AP,Norte,594.06,simulado_calibrado
+2023-03-01,Macapá,AP,Norte,592.42,simulado_calibrado
+2023-04-01,Macapá,AP,Norte,583.03,simulado_calibrado
+2023-05-01,Macapá,AP,Norte,596.78,simulado_calibrado
+2023-06-01,Macapá,AP,Norte,595.28,simulado_calibrado
+2023-07-01,Macapá,AP,Norte,590.62,simulado_calibrado
+2023-08-01,Macapá,AP,Norte,600.33,simulado_calibrado
+2023-09-01,Macapá,AP,Norte,598.56,simulado_calibrado
+2023-10-01,Macapá,AP,Norte,611.14,simulado_calibrado
+2023-11-01,Macapá,AP,Norte,609.36,simulado_calibrado
+2023-12-01,Macapá,AP,Norte,611.37,simulado_calibrado
+2024-01-01,Macapá,AP,Norte,626.66,simulado_calibrado
+2024-02-01,Macapá,AP,Norte,633.97,simulado_calibrado
+2024-03-01,Macapá,AP,Norte,618.6,simulado_calibrado
+2024-04-01,Macapá,AP,Norte,618.36,simulado_calibrado
+2024-05-01,Macapá,AP,Norte,622.63,simulado_calibrado
+2024-06-01,Macapá,AP,Norte,628.09,simulado_calibrado
+2024-07-01,Macapá,AP,Norte,628.17,simulado_calibrado
+2024-08-01,Macapá,AP,Norte,633.26,simulado_calibrado
+2024-09-01,Macapá,AP,Norte,642.41,simulado_calibrado
+2024-10-01,Macapá,AP,Norte,642.37,simulado_calibrado
+2024-11-01,Macapá,AP,Norte,648.13,simulado_calibrado
+2024-12-01,Macapá,AP,Norte,656.87,simulado_calibrado
+2025-01-01,Macapá,AP,Norte,665.33,simulado_calibrado
+2025-02-01,Macapá,AP,Norte,663.3,simulado_calibrado
+2025-03-01,Macapá,AP,Norte,662.67,simulado_calibrado
+2025-04-01,Macapá,AP,Norte,660.52,real_dieese
+2025-05-01,Macapá,AP,Norte,669.59,real_dieese
+2025-06-01,Macapá,AP,Norte,665.13,real_dieese
+2025-07-01,Macapá,AP,Norte,666.41,real_dieese
+2025-08-01,Macapá,AP,Norte,672.5,real_dieese
+2025-09-01,Macapá,AP,Norte,672.72,real_dieese
+2025-10-01,Macapá,AP,Norte,679.09,real_dieese
+2025-11-01,Macapá,AP,Norte,643.25,real_dieese
+2025-12-01,Macapá,AP,Norte,651.15,real_dieese
+2026-01-01,Macapá,AP,Norte,661.96,real_dieese
+2020-01-01,Maceió,AL,Nordeste,468.35,simulado_calibrado
+2020-02-01,Maceió,AL,Nordeste,475.78,simulado_calibrado
+2020-03-01,Maceió,AL,Nordeste,468.65,simulado_calibrado
+2020-04-01,Maceió,AL,Nordeste,451.75,simulado_calibrado
+2020-05-01,Maceió,AL,Nordeste,456.18,simulado_calibrado
+2020-06-01,Maceió,AL,Nordeste,472.73,simulado_calibrado
+2020-07-01,Maceió,AL,Nordeste,475.01,simulado_calibrado
+2020-08-01,Maceió,AL,Nordeste,515.28,simulado_calibrado
+2020-09-01,Maceió,AL,Nordeste,534.46,simulado_calibrado
+2020-10-01,Maceió,AL,Nordeste,520.55,simulado_calibrado
+2020-11-01,Maceió,AL,Nordeste,525.89,simulado_calibrado
+2020-12-01,Maceió,AL,Nordeste,527.5,simulado_calibrado
+2021-01-01,Maceió,AL,Nordeste,499.35,simulado_calibrado
+2021-02-01,Maceió,AL,Nordeste,496.92,simulado_calibrado
+2021-03-01,Maceió,AL,Nordeste,494.89,simulado_calibrado
+2021-04-01,Maceió,AL,Nordeste,482.21,simulado_calibrado
+2021-05-01,Maceió,AL,Nordeste,487.25,simulado_calibrado
+2021-06-01,Maceió,AL,Nordeste,495.85,simulado_calibrado
+2021-07-01,Maceió,AL,Nordeste,501.11,simulado_calibrado
+2021-08-01,Maceió,AL,Nordeste,514.7,simulado_calibrado
+2021-09-01,Maceió,AL,Nordeste,496.23,simulado_calibrado
+2021-10-01,Maceió,AL,Nordeste,511.45,simulado_calibrado
+2021-11-01,Maceió,AL,Nordeste,502.42,simulado_calibrado
+2021-12-01,Maceió,AL,Nordeste,510.61,simulado_calibrado
+2022-01-01,Maceió,AL,Nordeste,531.21,simulado_calibrado
+2022-02-01,Maceió,AL,Nordeste,528.64,simulado_calibrado
+2022-03-01,Maceió,AL,Nordeste,515.08,simulado_calibrado
+2022-04-01,Maceió,AL,Nordeste,511.57,simulado_calibrado
+2022-05-01,Maceió,AL,Nordeste,521.05,simulado_calibrado
+2022-06-01,Maceió,AL,Nordeste,524.43,simulado_calibrado
+2022-07-01,Maceió,AL,Nordeste,531.73,simulado_calibrado
+2022-08-01,Maceió,AL,Nordeste,533.45,simulado_calibrado
+2022-09-01,Maceió,AL,Nordeste,532.55,simulado_calibrado
+2022-10-01,Maceió,AL,Nordeste,549.13,simulado_calibrado
+2022-11-01,Maceió,AL,Nordeste,544.19,simulado_calibrado
+2022-12-01,Maceió,AL,Nordeste,533.52,simulado_calibrado
+2023-01-01,Maceió,AL,Nordeste,558.14,simulado_calibrado
+2023-02-01,Maceió,AL,Nordeste,556.61,simulado_calibrado
+2023-03-01,Maceió,AL,Nordeste,555.86,simulado_calibrado
+2023-04-01,Maceió,AL,Nordeste,542.0,simulado_calibrado
+2023-05-01,Maceió,AL,Nordeste,548.04,simulado_calibrado
+2023-06-01,Maceió,AL,Nordeste,562.2,simulado_calibrado
+2023-07-01,Maceió,AL,Nordeste,566.72,simulado_calibrado
+2023-08-01,Maceió,AL,Nordeste,559.11,simulado_calibrado
+2023-09-01,Maceió,AL,Nordeste,566.19,simulado_calibrado
+2023-10-01,Maceió,AL,Nordeste,568.24,simulado_calibrado
+2023-11-01,Maceió,AL,Nordeste,570.12,simulado_calibrado
+2023-12-01,Maceió,AL,Nordeste,584.99,simulado_calibrado
+2024-01-01,Maceió,AL,Nordeste,592.57,simulado_calibrado
+2024-02-01,Maceió,AL,Nordeste,587.1,simulado_calibrado
+2024-03-01,Maceió,AL,Nordeste,589.18,simulado_calibrado
+2024-04-01,Maceió,AL,Nordeste,589.23,simulado_calibrado
+2024-05-01,Maceió,AL,Nordeste,586.59,simulado_calibrado
+2024-06-01,Maceió,AL,Nordeste,585.55,simulado_calibrado
+2024-07-01,Maceió,AL,Nordeste,593.61,simulado_calibrado
+2024-08-01,Maceió,AL,Nordeste,605.25,simulado_calibrado
+2024-09-01,Maceió,AL,Nordeste,598.29,simulado_calibrado
+2024-10-01,Maceió,AL,Nordeste,606.97,simulado_calibrado
+2024-11-01,Maceió,AL,Nordeste,611.55,simulado_calibrado
+2024-12-01,Maceió,AL,Nordeste,606.0,simulado_calibrado
+2025-01-01,Maceió,AL,Nordeste,625.57,simulado_calibrado
+2025-02-01,Maceió,AL,Nordeste,612.7,simulado_calibrado
+2025-03-01,Maceió,AL,Nordeste,614.44,simulado_calibrado
+2025-04-01,Maceió,AL,Nordeste,622.57,real_dieese
+2025-05-01,Maceió,AL,Nordeste,616.92,real_dieese
+2025-06-01,Maceió,AL,Nordeste,609.04,real_dieese
+2025-07-01,Maceió,AL,Nordeste,621.74,real_dieese
+2025-08-01,Maceió,AL,Nordeste,596.23,real_dieese
+2025-09-01,Maceió,AL,Nordeste,593.17,real_dieese
+2025-10-01,Maceió,AL,Nordeste,592.25,real_dieese
+2025-11-01,Maceió,AL,Nordeste,571.47,real_dieese
+2025-12-01,Maceió,AL,Nordeste,589.69,real_dieese
+2026-01-01,Maceió,AL,Nordeste,592.83,real_dieese
+2020-01-01,Manaus,AM,Norte,524.48,simulado_calibrado
+2020-02-01,Manaus,AM,Norte,530.07,simulado_calibrado
+2020-03-01,Manaus,AM,Norte,535.84,simulado_calibrado
+2020-04-01,Manaus,AM,Norte,528.88,simulado_calibrado
+2020-05-01,Manaus,AM,Norte,523.68,simulado_calibrado
+2020-06-01,Manaus,AM,Norte,532.09,simulado_calibrado
+2020-07-01,Manaus,AM,Norte,536.82,simulado_calibrado
+2020-08-01,Manaus,AM,Norte,593.48,simulado_calibrado
+2020-09-01,Manaus,AM,Norte,586.06,simulado_calibrado
+2020-10-01,Manaus,AM,Norte,590.89,simulado_calibrado
+2020-11-01,Manaus,AM,Norte,587.65,simulado_calibrado
+2020-12-01,Manaus,AM,Norte,591.29,simulado_calibrado
+2021-01-01,Manaus,AM,Norte,563.6,simulado_calibrado
+2021-02-01,Manaus,AM,Norte,563.21,simulado_calibrado
+2021-03-01,Manaus,AM,Norte,544.24,simulado_calibrado
+2021-04-01,Manaus,AM,Norte,553.98,simulado_calibrado
+2021-05-01,Manaus,AM,Norte,546.66,simulado_calibrado
+2021-06-01,Manaus,AM,Norte,570.87,simulado_calibrado
+2021-07-01,Manaus,AM,Norte,565.96,simulado_calibrado
+2021-08-01,Manaus,AM,Norte,565.11,simulado_calibrado
+2021-09-01,Manaus,AM,Norte,569.18,simulado_calibrado
+2021-10-01,Manaus,AM,Norte,568.68,simulado_calibrado
+2021-11-01,Manaus,AM,Norte,569.04,simulado_calibrado
+2021-12-01,Manaus,AM,Norte,574.77,simulado_calibrado
+2022-01-01,Manaus,AM,Norte,591.94,simulado_calibrado
+2022-02-01,Manaus,AM,Norte,587.52,simulado_calibrado
+2022-03-01,Manaus,AM,Norte,577.45,simulado_calibrado
+2022-04-01,Manaus,AM,Norte,572.33,simulado_calibrado
+2022-05-01,Manaus,AM,Norte,581.14,simulado_calibrado
+2022-06-01,Manaus,AM,Norte,594.73,simulado_calibrado
+2022-07-01,Manaus,AM,Norte,591.6,simulado_calibrado
+2022-08-01,Manaus,AM,Norte,595.03,simulado_calibrado
+2022-09-01,Manaus,AM,Norte,591.31,simulado_calibrado
+2022-10-01,Manaus,AM,Norte,601.19,simulado_calibrado
+2022-11-01,Manaus,AM,Norte,601.93,simulado_calibrado
+2022-12-01,Manaus,AM,Norte,597.99,simulado_calibrado
+2023-01-01,Manaus,AM,Norte,607.05,simulado_calibrado
+2023-02-01,Manaus,AM,Norte,612.32,simulado_calibrado
+2023-03-01,Manaus,AM,Norte,605.35,simulado_calibrado
+2023-04-01,Manaus,AM,Norte,607.74,simulado_calibrado
+2023-05-01,Manaus,AM,Norte,612.08,simulado_calibrado
+2023-06-01,Manaus,AM,Norte,613.74,simulado_calibrado
+2023-07-01,Manaus,AM,Norte,616.34,simulado_calibrado
+2023-08-01,Manaus,AM,Norte,622.13,simulado_calibrado
+2023-09-01,Manaus,AM,Norte,623.33,simulado_calibrado
+2023-10-01,Manaus,AM,Norte,630.39,simulado_calibrado
+2023-11-01,Manaus,AM,Norte,625.59,simulado_calibrado
+2023-12-01,Manaus,AM,Norte,635.44,simulado_calibrado
+2024-01-01,Manaus,AM,Norte,644.65,simulado_calibrado
+2024-02-01,Manaus,AM,Norte,652.67,simulado_calibrado
+2024-03-01,Manaus,AM,Norte,636.84,simulado_calibrado
+2024-04-01,Manaus,AM,Norte,628.04,simulado_calibrado
+2024-05-01,Manaus,AM,Norte,643.16,simulado_calibrado
+2024-06-01,Manaus,AM,Norte,651.12,simulado_calibrado
+2024-07-01,Manaus,AM,Norte,639.38,simulado_calibrado
+2024-08-01,Manaus,AM,Norte,648.67,simulado_calibrado
+2024-09-01,Manaus,AM,Norte,659.5,simulado_calibrado
+2024-10-01,Manaus,AM,Norte,650.08,simulado_calibrado
+2024-11-01,Manaus,AM,Norte,662.51,simulado_calibrado
+2024-12-01,Manaus,AM,Norte,664.59,simulado_calibrado
+2025-01-01,Manaus,AM,Norte,673.65,simulado_calibrado
+2025-02-01,Manaus,AM,Norte,679.78,simulado_calibrado
+2025-03-01,Manaus,AM,Norte,658.68,simulado_calibrado
+2025-04-01,Manaus,AM,Norte,671.77,real_dieese
+2025-05-01,Manaus,AM,Norte,699.95,real_dieese
+2025-06-01,Manaus,AM,Norte,675.25,real_dieese
+2025-07-01,Manaus,AM,Norte,674.78,real_dieese
+2025-08-01,Manaus,AM,Norte,657.22,real_dieese
+2025-09-01,Manaus,AM,Norte,642.32,real_dieese
+2025-10-01,Manaus,AM,Norte,633.25,real_dieese
+2025-11-01,Manaus,AM,Norte,629.39,real_dieese
+2025-12-01,Manaus,AM,Norte,620.42,real_dieese
+2026-01-01,Manaus,AM,Norte,647.97,real_dieese
+2020-01-01,Natal,RN,Nordeste,389.26,real_dieese
+2020-02-01,Natal,RN,Nordeste,405.88,real_dieese
+2020-03-01,Natal,RN,Nordeste,426.0,real_dieese
+2020-04-01,Natal,RN,Nordeste,428.28,real_dieese
+2020-05-01,Natal,RN,Nordeste,429.57,real_dieese
+2020-06-01,Natal,RN,Nordeste,442.46,real_dieese
+2020-07-01,Natal,RN,Nordeste,430.66,real_dieese
+2020-08-01,Natal,RN,Nordeste,419.47,real_dieese
+2020-09-01,Natal,RN,Nordeste,422.31,real_dieese
+2020-10-01,Natal,RN,Nordeste,436.76,real_dieese
+2020-11-01,Natal,RN,Nordeste,455.43,real_dieese
+2020-12-01,Natal,RN,Nordeste,458.79,real_dieese
+2021-01-01,Natal,RN,Nordeste,454.49,real_dieese
+2021-02-01,Natal,RN,Nordeste,464.43,real_dieese
+2021-03-01,Natal,RN,Nordeste,477.56,real_dieese
+2021-04-01,Natal,RN,Nordeste,478.23,real_dieese
+2021-05-01,Natal,RN,Nordeste,501.7,real_dieese
+2021-06-01,Natal,RN,Nordeste,500.2,real_dieese
+2021-07-01,Natal,RN,Nordeste,506.51,real_dieese
+2021-08-01,Natal,RN,Nordeste,508.04,real_dieese
+2021-09-01,Natal,RN,Nordeste,493.29,real_dieese
+2021-10-01,Natal,RN,Nordeste,504.66,real_dieese
+2021-11-01,Natal,RN,Nordeste,521.08,real_dieese
+2021-12-01,Natal,RN,Nordeste,529.54,real_dieese
+2022-01-01,Natal,RN,Nordeste,551.06,real_dieese
+2022-02-01,Natal,RN,Nordeste,557.2,real_dieese
+2022-03-01,Natal,RN,Nordeste,575.33,real_dieese
+2022-04-01,Natal,RN,Nordeste,595.37,real_dieese
+2022-05-01,Natal,RN,Nordeste,586.42,real_dieese
+2022-06-01,Natal,RN,Nordeste,611.79,real_dieese
+2022-07-01,Natal,RN,Nordeste,587.58,real_dieese
+2022-08-01,Natal,RN,Nordeste,580.74,real_dieese
+2022-09-01,Natal,RN,Nordeste,581.53,real_dieese
+2022-10-01,Natal,RN,Nordeste,573.4,real_dieese
+2022-11-01,Natal,RN,Nordeste,566.95,real_dieese
+2022-12-01,Natal,RN,Nordeste,584.36,real_dieese
+2023-01-01,Natal,RN,Nordeste,622.16,real_dieese
+2023-02-01,Natal,RN,Nordeste,626.15,real_dieese
+2023-03-01,Natal,RN,Nordeste,615.03,real_dieese
+2023-04-01,Natal,RN,Nordeste,605.94,real_dieese
+2023-05-01,Natal,RN,Nordeste,602.16,real_dieese
+2023-06-01,Natal,RN,Nordeste,632.27,real_dieese
+2023-07-01,Natal,RN,Nordeste,613.64,real_dieese
+2023-08-01,Natal,RN,Nordeste,581.18,real_dieese
+2023-09-01,Natal,RN,Nordeste,598.99,real_dieese
+2023-10-01,Natal,RN,Nordeste,582.12,real_dieese
+2023-11-01,Natal,RN,Nordeste,567.3,real_dieese
+2023-12-01,Natal,RN,Nordeste,556.06,real_dieese
+2024-01-01,Natal,RN,Nordeste,575.71,real_dieese
+2024-02-01,Natal,RN,Nordeste,579.31,real_dieese
+2024-03-01,Natal,RN,Nordeste,605.33,real_dieese
+2024-04-01,Natal,RN,Nordeste,632.23,real_dieese
+2024-05-01,Natal,RN,Nordeste,640.1,real_dieese
+2024-06-01,Natal,RN,Nordeste,599.29,real_dieese
+2024-07-01,Natal,RN,Nordeste,575.12,real_dieese
+2024-08-01,Natal,RN,Nordeste,555.68,real_dieese
+2024-09-01,Natal,RN,Nordeste,554.0,real_dieese
+2024-10-01,Natal,RN,Nordeste,576.23,real_dieese
+2024-11-01,Natal,RN,Nordeste,593.54,real_dieese
+2024-12-01,Natal,RN,Nordeste,617.32,real_dieese
+2025-01-01,Natal,RN,Nordeste,634.11,real_dieese
+2025-02-01,Natal,RN,Nordeste,648.58,real_dieese
+2025-03-01,Natal,RN,Nordeste,636.47,real_dieese
+2025-04-01,Natal,RN,Nordeste,657.0,real_dieese
+2025-05-01,Natal,RN,Nordeste,645.0,real_dieese
+2025-06-01,Natal,RN,Nordeste,636.95,real_dieese
+2025-07-01,Natal,RN,Nordeste,646.13,real_dieese
+2025-08-01,Natal,RN,Nordeste,622.0,real_dieese
+2025-09-01,Natal,RN,Nordeste,610.27,real_dieese
+2025-10-01,Natal,RN,Nordeste,612.18,real_dieese
+2025-11-01,Natal,RN,Nordeste,591.38,real_dieese
+2025-12-01,Natal,RN,Nordeste,597.15,real_dieese
+2026-01-01,Natal,RN,Nordeste,595.86,real_dieese
+2020-01-01,Palmas,TO,Norte,562.22,simulado_calibrado
+2020-02-01,Palmas,TO,Norte,552.06,simulado_calibrado
+2020-03-01,Palmas,TO,Norte,546.44,simulado_calibrado
+2020-04-01,Palmas,TO,Norte,544.64,simulado_calibrado
+2020-05-01,Palmas,TO,Norte,542.51,simulado_calibrado
+2020-06-01,Palmas,TO,Norte,552.34,simulado_calibrado
+2020-07-01,Palmas,TO,Norte,560.5,simulado_calibrado
+2020-08-01,Palmas,TO,Norte,608.32,simulado_calibrado
+2020-09-01,Palmas,TO,Norte,607.65,simulado_calibrado
+2020-10-01,Palmas,TO,Norte,610.93,simulado_calibrado
+2020-11-01,Palmas,TO,Norte,617.56,simulado_calibrado
+2020-12-01,Palmas,TO,Norte,612.3,simulado_calibrado
+2021-01-01,Palmas,TO,Norte,581.06,simulado_calibrado
+2021-02-01,Palmas,TO,Norte,587.49,simulado_calibrado
+2021-03-01,Palmas,TO,Norte,581.38,simulado_calibrado
+2021-04-01,Palmas,TO,Norte,578.18,simulado_calibrado
+2021-05-01,Palmas,TO,Norte,586.93,simulado_calibrado
+2021-06-01,Palmas,TO,Norte,595.66,simulado_calibrado
+2021-07-01,Palmas,TO,Norte,593.58,simulado_calibrado
+2021-08-01,Palmas,TO,Norte,597.31,simulado_calibrado
+2021-09-01,Palmas,TO,Norte,595.43,simulado_calibrado
+2021-10-01,Palmas,TO,Norte,603.4,simulado_calibrado
+2021-11-01,Palmas,TO,Norte,605.12,simulado_calibrado
+2021-12-01,Palmas,TO,Norte,611.26,simulado_calibrado
+2022-01-01,Palmas,TO,Norte,620.86,simulado_calibrado
+2022-02-01,Palmas,TO,Norte,630.78,simulado_calibrado
+2022-03-01,Palmas,TO,Norte,626.66,simulado_calibrado
+2022-04-01,Palmas,TO,Norte,612.26,simulado_calibrado
+2022-05-01,Palmas,TO,Norte,617.93,simulado_calibrado
+2022-06-01,Palmas,TO,Norte,631.93,simulado_calibrado
+2022-07-01,Palmas,TO,Norte,629.67,simulado_calibrado
+2022-08-01,Palmas,TO,Norte,636.01,simulado_calibrado
+2022-09-01,Palmas,TO,Norte,638.18,simulado_calibrado
+2022-10-01,Palmas,TO,Norte,641.85,simulado_calibrado
+2022-11-01,Palmas,TO,Norte,640.76,simulado_calibrado
+2022-12-01,Palmas,TO,Norte,648.03,simulado_calibrado
+2023-01-01,Palmas,TO,Norte,666.71,simulado_calibrado
+2023-02-01,Palmas,TO,Norte,674.86,simulado_calibrado
+2023-03-01,Palmas,TO,Norte,662.63,simulado_calibrado
+2023-04-01,Palmas,TO,Norte,662.03,simulado_calibrado
+2023-05-01,Palmas,TO,Norte,650.74,simulado_calibrado
+2023-06-01,Palmas,TO,Norte,672.29,simulado_calibrado
+2023-07-01,Palmas,TO,Norte,672.24,simulado_calibrado
+2023-08-01,Palmas,TO,Norte,685.68,simulado_calibrado
+2023-09-01,Palmas,TO,Norte,674.12,simulado_calibrado
+2023-10-01,Palmas,TO,Norte,677.41,simulado_calibrado
+2023-11-01,Palmas,TO,Norte,682.08,simulado_calibrado
+2023-12-01,Palmas,TO,Norte,677.94,simulado_calibrado
+2024-01-01,Palmas,TO,Norte,703.28,simulado_calibrado
+2024-02-01,Palmas,TO,Norte,705.7,simulado_calibrado
+2024-03-01,Palmas,TO,Norte,699.87,simulado_calibrado
+2024-04-01,Palmas,TO,Norte,693.84,simulado_calibrado
+2024-05-01,Palmas,TO,Norte,705.03,simulado_calibrado
+2024-06-01,Palmas,TO,Norte,714.59,simulado_calibrado
+2024-07-01,Palmas,TO,Norte,710.56,simulado_calibrado
+2024-08-01,Palmas,TO,Norte,712.58,simulado_calibrado
+2024-09-01,Palmas,TO,Norte,723.18,simulado_calibrado
+2024-10-01,Palmas,TO,Norte,717.79,simulado_calibrado
+2024-11-01,Palmas,TO,Norte,737.23,simulado_calibrado
+2024-12-01,Palmas,TO,Norte,737.67,simulado_calibrado
+2025-01-01,Palmas,TO,Norte,747.86,simulado_calibrado
+2025-02-01,Palmas,TO,Norte,745.45,simulado_calibrado
+2025-03-01,Palmas,TO,Norte,749.76,simulado_calibrado
+2025-04-01,Palmas,TO,Norte,746.77,real_dieese
+2025-05-01,Palmas,TO,Norte,720.37,real_dieese
+2025-06-01,Palmas,TO,Norte,717.32,real_dieese
+2025-07-01,Palmas,TO,Norte,715.77,real_dieese
+2025-08-01,Palmas,TO,Norte,720.45,real_dieese
+2025-09-01,Palmas,TO,Norte,677.87,real_dieese
+2025-10-01,Palmas,TO,Norte,695.42,real_dieese
+2025-11-01,Palmas,TO,Norte,672.61,real_dieese
+2025-12-01,Palmas,TO,Norte,677.63,real_dieese
+2026-01-01,Palmas,TO,Norte,700.44,real_dieese
+2020-01-01,Porto Alegre,RS,Sul,502.98,real_dieese
+2020-02-01,Porto Alegre,RS,Sul,492.83,real_dieese
+2020-03-01,Porto Alegre,RS,Sul,497.88,real_dieese
+2020-04-01,Porto Alegre,RS,Sul,527.01,real_dieese
+2020-05-01,Porto Alegre,RS,Sul,518.63,real_dieese
+2020-06-01,Porto Alegre,RS,Sul,512.4,real_dieese
+2020-07-01,Porto Alegre,RS,Sul,511.22,real_dieese
+2020-08-01,Porto Alegre,RS,Sul,528.61,real_dieese
+2020-09-01,Porto Alegre,RS,Sul,552.86,real_dieese
+2020-10-01,Porto Alegre,RS,Sul,581.39,real_dieese
+2020-11-01,Porto Alegre,RS,Sul,617.03,real_dieese
+2020-12-01,Porto Alegre,RS,Sul,615.66,real_dieese
+2021-01-01,Porto Alegre,RS,Sul,626.25,real_dieese
+2021-02-01,Porto Alegre,RS,Sul,632.67,real_dieese
+2021-03-01,Porto Alegre,RS,Sul,623.37,real_dieese
+2021-04-01,Porto Alegre,RS,Sul,626.11,real_dieese
+2021-05-01,Porto Alegre,RS,Sul,636.96,real_dieese
+2021-06-01,Porto Alegre,RS,Sul,642.31,real_dieese
+2021-07-01,Porto Alegre,RS,Sul,656.92,real_dieese
+2021-08-01,Porto Alegre,RS,Sul,664.67,real_dieese
+2021-09-01,Porto Alegre,RS,Sul,672.39,real_dieese
+2021-10-01,Porto Alegre,RS,Sul,691.08,real_dieese
+2021-11-01,Porto Alegre,RS,Sul,685.32,real_dieese
+2021-12-01,Porto Alegre,RS,Sul,682.9,real_dieese
+2022-01-01,Porto Alegre,RS,Sul,673.0,real_dieese
+2022-02-01,Porto Alegre,RS,Sul,695.91,real_dieese
+2022-03-01,Porto Alegre,RS,Sul,734.28,real_dieese
+2022-04-01,Porto Alegre,RS,Sul,780.86,real_dieese
+2022-05-01,Porto Alegre,RS,Sul,768.76,real_dieese
+2022-06-01,Porto Alegre,RS,Sul,754.19,real_dieese
+2022-07-01,Porto Alegre,RS,Sul,752.84,real_dieese
+2022-08-01,Porto Alegre,RS,Sul,748.06,real_dieese
+2022-09-01,Porto Alegre,RS,Sul,743.94,real_dieese
+2022-10-01,Porto Alegre,RS,Sul,768.82,real_dieese
+2022-11-01,Porto Alegre,RS,Sul,781.52,real_dieese
+2022-12-01,Porto Alegre,RS,Sul,765.63,real_dieese
+2023-01-01,Porto Alegre,RS,Sul,757.33,real_dieese
+2023-02-01,Porto Alegre,RS,Sul,741.3,real_dieese
+2023-03-01,Porto Alegre,RS,Sul,746.12,real_dieese
+2023-04-01,Porto Alegre,RS,Sul,783.55,real_dieese
+2023-05-01,Porto Alegre,RS,Sul,781.56,real_dieese
+2023-06-01,Porto Alegre,RS,Sul,773.56,real_dieese
+2023-07-01,Porto Alegre,RS,Sul,777.16,real_dieese
+2023-08-01,Porto Alegre,RS,Sul,760.59,real_dieese
+2023-09-01,Porto Alegre,RS,Sul,741.71,real_dieese
+2023-10-01,Porto Alegre,RS,Sul,739.21,real_dieese
+2023-11-01,Porto Alegre,RS,Sul,739.18,real_dieese
+2023-12-01,Porto Alegre,RS,Sul,766.53,real_dieese
+2024-01-01,Porto Alegre,RS,Sul,791.16,real_dieese
+2024-02-01,Porto Alegre,RS,Sul,796.81,real_dieese
+2024-03-01,Porto Alegre,RS,Sul,777.43,real_dieese
+2024-04-01,Porto Alegre,RS,Sul,775.63,real_dieese
+2024-05-01,Porto Alegre,RS,Sul,801.45,real_dieese
+2024-06-01,Porto Alegre,RS,Sul,804.86,real_dieese
+2024-07-01,Porto Alegre,RS,Sul,769.96,real_dieese
+2024-08-01,Porto Alegre,RS,Sul,740.82,real_dieese
+2024-09-01,Porto Alegre,RS,Sul,756.17,real_dieese
+2024-10-01,Porto Alegre,RS,Sul,774.32,real_dieese
+2024-11-01,Porto Alegre,RS,Sul,780.71,real_dieese
+2024-12-01,Porto Alegre,RS,Sul,783.72,real_dieese
+2025-01-01,Porto Alegre,RS,Sul,770.63,real_dieese
+2025-02-01,Porto Alegre,RS,Sul,769.74,real_dieese
+2025-03-01,Porto Alegre,RS,Sul,791.64,real_dieese
+2025-04-01,Porto Alegre,RS,Sul,834.22,real_dieese
+2025-05-01,Porto Alegre,RS,Sul,819.05,real_dieese
+2025-06-01,Porto Alegre,RS,Sul,831.37,real_dieese
+2025-07-01,Porto Alegre,RS,Sul,830.41,real_dieese
+2025-08-01,Porto Alegre,RS,Sul,811.14,real_dieese
+2025-09-01,Porto Alegre,RS,Sul,811.44,real_dieese
+2025-10-01,Porto Alegre,RS,Sul,823.57,real_dieese
+2025-11-01,Porto Alegre,RS,Sul,789.77,real_dieese
+2025-12-01,Porto Alegre,RS,Sul,784.22,real_dieese
+2026-01-01,Porto Alegre,RS,Sul,795.37,real_dieese
+2020-01-01,Porto Velho,RO,Norte,490.88,simulado_calibrado
+2020-02-01,Porto Velho,RO,Norte,493.45,simulado_calibrado
+2020-03-01,Porto Velho,RO,Norte,472.66,simulado_calibrado
+2020-04-01,Porto Velho,RO,Norte,475.64,simulado_calibrado
+2020-05-01,Porto Velho,RO,Norte,482.1,simulado_calibrado
+2020-06-01,Porto Velho,RO,Norte,492.27,simulado_calibrado
+2020-07-01,Porto Velho,RO,Norte,496.42,simulado_calibrado
+2020-08-01,Porto Velho,RO,Norte,539.03,simulado_calibrado
+2020-09-01,Porto Velho,RO,Norte,547.9,simulado_calibrado
+2020-10-01,Porto Velho,RO,Norte,544.7,simulado_calibrado
+2020-11-01,Porto Velho,RO,Norte,544.4,simulado_calibrado
+2020-12-01,Porto Velho,RO,Norte,540.82,simulado_calibrado
+2021-01-01,Porto Velho,RO,Norte,514.19,simulado_calibrado
+2021-02-01,Porto Velho,RO,Norte,526.42,simulado_calibrado
+2021-03-01,Porto Velho,RO,Norte,521.46,simulado_calibrado
+2021-04-01,Porto Velho,RO,Norte,518.77,simulado_calibrado
+2021-05-01,Porto Velho,RO,Norte,509.59,simulado_calibrado
+2021-06-01,Porto Velho,RO,Norte,522.75,simulado_calibrado
+2021-07-01,Porto Velho,RO,Norte,528.22,simulado_calibrado
+2021-08-01,Porto Velho,RO,Norte,539.99,simulado_calibrado
+2021-09-01,Porto Velho,RO,Norte,533.09,simulado_calibrado
+2021-10-01,Porto Velho,RO,Norte,543.05,simulado_calibrado
+2021-11-01,Porto Velho,RO,Norte,538.93,simulado_calibrado
+2021-12-01,Porto Velho,RO,Norte,546.65,simulado_calibrado
+2022-01-01,Porto Velho,RO,Norte,559.72,simulado_calibrado
+2022-02-01,Porto Velho,RO,Norte,558.3,simulado_calibrado
+2022-03-01,Porto Velho,RO,Norte,544.29,simulado_calibrado
+2022-04-01,Porto Velho,RO,Norte,542.63,simulado_calibrado
+2022-05-01,Porto Velho,RO,Norte,554.26,simulado_calibrado
+2022-06-01,Porto Velho,RO,Norte,562.42,simulado_calibrado
+2022-07-01,Porto Velho,RO,Norte,558.77,simulado_calibrado
+2022-08-01,Porto Velho,RO,Norte,562.16,simulado_calibrado
+2022-09-01,Porto Velho,RO,Norte,558.15,simulado_calibrado
+2022-10-01,Porto Velho,RO,Norte,576.98,simulado_calibrado
+2022-11-01,Porto Velho,RO,Norte,577.16,simulado_calibrado
+2022-12-01,Porto Velho,RO,Norte,575.03,simulado_calibrado
+2023-01-01,Porto Velho,RO,Norte,591.3,simulado_calibrado
+2023-02-01,Porto Velho,RO,Norte,582.52,simulado_calibrado
+2023-03-01,Porto Velho,RO,Norte,582.34,simulado_calibrado
+2023-04-01,Porto Velho,RO,Norte,585.68,simulado_calibrado
+2023-05-01,Porto Velho,RO,Norte,586.93,simulado_calibrado
+2023-06-01,Porto Velho,RO,Norte,595.62,simulado_calibrado
+2023-07-01,Porto Velho,RO,Norte,596.99,simulado_calibrado
+2023-08-01,Porto Velho,RO,Norte,604.16,simulado_calibrado
+2023-09-01,Porto Velho,RO,Norte,601.9,simulado_calibrado
+2023-10-01,Porto Velho,RO,Norte,598.13,simulado_calibrado
+2023-11-01,Porto Velho,RO,Norte,609.59,simulado_calibrado
+2023-12-01,Porto Velho,RO,Norte,614.81,simulado_calibrado
+2024-01-01,Porto Velho,RO,Norte,633.92,simulado_calibrado
+2024-02-01,Porto Velho,RO,Norte,624.38,simulado_calibrado
+2024-03-01,Porto Velho,RO,Norte,621.82,simulado_calibrado
+2024-04-01,Porto Velho,RO,Norte,615.92,simulado_calibrado
+2024-05-01,Porto Velho,RO,Norte,614.0,simulado_calibrado
+2024-06-01,Porto Velho,RO,Norte,634.66,simulado_calibrado
+2024-07-01,Porto Velho,RO,Norte,639.25,simulado_calibrado
+2024-08-01,Porto Velho,RO,Norte,637.38,simulado_calibrado
+2024-09-01,Porto Velho,RO,Norte,652.44,simulado_calibrado
+2024-10-01,Porto Velho,RO,Norte,643.91,simulado_calibrado
+2024-11-01,Porto Velho,RO,Norte,646.64,simulado_calibrado
+2024-12-01,Porto Velho,RO,Norte,649.88,simulado_calibrado
+2025-01-01,Porto Velho,RO,Norte,664.7,simulado_calibrado
+2025-02-01,Porto Velho,RO,Norte,669.47,simulado_calibrado
+2025-03-01,Porto Velho,RO,Norte,655.34,simulado_calibrado
+2025-04-01,Porto Velho,RO,Norte,665.97,real_dieese
+2025-05-01,Porto Velho,RO,Norte,646.74,real_dieese
+2025-06-01,Porto Velho,RO,Norte,635.83,real_dieese
+2025-07-01,Porto Velho,RO,Norte,636.69,real_dieese
+2025-08-01,Porto Velho,RO,Norte,631.28,real_dieese
+2025-09-01,Porto Velho,RO,Norte,621.09,real_dieese
+2025-10-01,Porto Velho,RO,Norte,618.86,real_dieese
+2025-11-01,Porto Velho,RO,Norte,614.13,real_dieese
+2025-12-01,Porto Velho,RO,Norte,592.01,real_dieese
+2026-01-01,Porto Velho,RO,Norte,601.01,real_dieese
+2020-01-01,Recife,PE,Nordeste,395.93,real_dieese
+2020-02-01,Recife,PE,Nordeste,420.27,real_dieese
+2020-03-01,Recife,PE,Nordeste,433.28,real_dieese
+2020-04-01,Recife,PE,Nordeste,461.26,real_dieese
+2020-05-01,Recife,PE,Nordeste,451.45,real_dieese
+2020-06-01,Recife,PE,Nordeste,435.3,real_dieese
+2020-07-01,Recife,PE,Nordeste,436.1,real_dieese
+2020-08-01,Recife,PE,Nordeste,439.19,real_dieese
+2020-09-01,Recife,PE,Nordeste,464.31,real_dieese
+2020-10-01,Recife,PE,Nordeste,469.05,real_dieese
+2020-11-01,Recife,PE,Nordeste,462.98,real_dieese
+2020-12-01,Recife,PE,Nordeste,469.39,real_dieese
+2021-01-01,Recife,PE,Nordeste,474.22,real_dieese
+2021-02-01,Recife,PE,Nordeste,469.71,real_dieese
+2021-03-01,Recife,PE,Nordeste,461.33,real_dieese
+2021-04-01,Recife,PE,Nordeste,471.52,real_dieese
+2021-05-01,Recife,PE,Nordeste,480.8,real_dieese
+2021-06-01,Recife,PE,Nordeste,483.92,real_dieese
+2021-07-01,Recife,PE,Nordeste,487.6,real_dieese
+2021-08-01,Recife,PE,Nordeste,491.46,real_dieese
+2021-09-01,Recife,PE,Nordeste,489.4,real_dieese
+2021-10-01,Recife,PE,Nordeste,485.26,real_dieese
+2021-11-01,Recife,PE,Nordeste,524.73,real_dieese
+2021-12-01,Recife,PE,Nordeste,532.37,real_dieese
+2022-01-01,Recife,PE,Nordeste,543.1,real_dieese
+2022-02-01,Recife,PE,Nordeste,549.2,real_dieese
+2022-03-01,Recife,PE,Nordeste,561.57,real_dieese
+2022-04-01,Recife,PE,Nordeste,582.74,real_dieese
+2022-05-01,Recife,PE,Nordeste,595.89,real_dieese
+2022-06-01,Recife,PE,Nordeste,612.34,real_dieese
+2022-07-01,Recife,PE,Nordeste,616.63,real_dieese
+2022-08-01,Recife,PE,Nordeste,598.14,real_dieese
+2022-09-01,Recife,PE,Nordeste,580.01,real_dieese
+2022-10-01,Recife,PE,Nordeste,558.4,real_dieese
+2022-11-01,Recife,PE,Nordeste,551.3,real_dieese
+2022-12-01,Recife,PE,Nordeste,565.09,real_dieese
+2023-01-01,Recife,PE,Nordeste,608.1,real_dieese
+2023-02-01,Recife,PE,Nordeste,606.93,real_dieese
+2023-03-01,Recife,PE,Nordeste,578.73,real_dieese
+2023-04-01,Recife,PE,Nordeste,582.26,real_dieese
+2023-05-01,Recife,PE,Nordeste,587.13,real_dieese
+2023-06-01,Recife,PE,Nordeste,621.14,real_dieese
+2023-07-01,Recife,PE,Nordeste,592.71,real_dieese
+2023-08-01,Recife,PE,Nordeste,580.72,real_dieese
+2023-09-01,Recife,PE,Nordeste,570.2,real_dieese
+2023-10-01,Recife,PE,Nordeste,557.1,real_dieese
+2023-11-01,Recife,PE,Nordeste,551.04,real_dieese
+2023-12-01,Recife,PE,Nordeste,538.08,real_dieese
+2024-01-01,Recife,PE,Nordeste,550.51,real_dieese
+2024-02-01,Recife,PE,Nordeste,559.68,real_dieese
+2024-03-01,Recife,PE,Nordeste,592.19,real_dieese
+2024-04-01,Recife,PE,Nordeste,617.28,real_dieese
+2024-05-01,Recife,PE,Nordeste,618.47,real_dieese
+2024-06-01,Recife,PE,Nordeste,582.9,real_dieese
+2024-07-01,Recife,PE,Nordeste,548.43,real_dieese
+2024-08-01,Recife,PE,Nordeste,533.12,real_dieese
+2024-09-01,Recife,PE,Nordeste,535.32,real_dieese
+2024-10-01,Recife,PE,Nordeste,548.19,real_dieese
+2024-11-01,Recife,PE,Nordeste,578.16,real_dieese
+2024-12-01,Recife,PE,Nordeste,588.35,real_dieese
+2025-01-01,Recife,PE,Nordeste,598.72,real_dieese
+2025-02-01,Recife,PE,Nordeste,625.33,real_dieese
+2025-03-01,Recife,PE,Nordeste,627.14,real_dieese
+2025-04-01,Recife,PE,Nordeste,652.71,real_dieese
+2025-05-01,Recife,PE,Nordeste,636.0,real_dieese
+2025-06-01,Recife,PE,Nordeste,637.62,real_dieese
+2025-07-01,Recife,PE,Nordeste,655.46,real_dieese
+2025-08-01,Recife,PE,Nordeste,629.14,real_dieese
+2025-09-01,Recife,PE,Nordeste,615.95,real_dieese
+2025-10-01,Recife,PE,Nordeste,608.03,real_dieese
+2025-11-01,Recife,PE,Nordeste,598.73,real_dieese
+2025-12-01,Recife,PE,Nordeste,596.1,real_dieese
+2026-01-01,Recife,PE,Nordeste,600.09,real_dieese
+2020-01-01,Rio Branco,AC,Norte,528.06,simulado_calibrado
+2020-02-01,Rio Branco,AC,Norte,541.09,simulado_calibrado
+2020-03-01,Rio Branco,AC,Norte,523.24,simulado_calibrado
+2020-04-01,Rio Branco,AC,Norte,513.92,simulado_calibrado
+2020-05-01,Rio Branco,AC,Norte,520.69,simulado_calibrado
+2020-06-01,Rio Branco,AC,Norte,529.21,simulado_calibrado
+2020-07-01,Rio Branco,AC,Norte,530.92,simulado_calibrado
+2020-08-01,Rio Branco,AC,Norte,580.11,simulado_calibrado
+2020-09-01,Rio Branco,AC,Norte,583.28,simulado_calibrado
+2020-10-01,Rio Branco,AC,Norte,579.31,simulado_calibrado
+2020-11-01,Rio Branco,AC,Norte,581.56,simulado_calibrado
+2020-12-01,Rio Branco,AC,Norte,585.55,simulado_calibrado
+2021-01-01,Rio Branco,AC,Norte,545.17,simulado_calibrado
+2021-02-01,Rio Branco,AC,Norte,551.47,simulado_calibrado
+2021-03-01,Rio Branco,AC,Norte,557.25,simulado_calibrado
+2021-04-01,Rio Branco,AC,Norte,552.69,simulado_calibrado
+2021-05-01,Rio Branco,AC,Norte,545.54,simulado_calibrado
+2021-06-01,Rio Branco,AC,Norte,560.36,simulado_calibrado
+2021-07-01,Rio Branco,AC,Norte,561.4,simulado_calibrado
+2021-08-01,Rio Branco,AC,Norte,577.62,simulado_calibrado
+2021-09-01,Rio Branco,AC,Norte,570.22,simulado_calibrado
+2021-10-01,Rio Branco,AC,Norte,566.39,simulado_calibrado
+2021-11-01,Rio Branco,AC,Norte,564.66,simulado_calibrado
+2021-12-01,Rio Branco,AC,Norte,563.83,simulado_calibrado
+2022-01-01,Rio Branco,AC,Norte,586.8,simulado_calibrado
+2022-02-01,Rio Branco,AC,Norte,584.49,simulado_calibrado
+2022-03-01,Rio Branco,AC,Norte,572.08,simulado_calibrado
+2022-04-01,Rio Branco,AC,Norte,569.7,simulado_calibrado
+2022-05-01,Rio Branco,AC,Norte,569.97,simulado_calibrado
+2022-06-01,Rio Branco,AC,Norte,595.06,simulado_calibrado
+2022-07-01,Rio Branco,AC,Norte,593.53,simulado_calibrado
+2022-08-01,Rio Branco,AC,Norte,591.59,simulado_calibrado
+2022-09-01,Rio Branco,AC,Norte,601.54,simulado_calibrado
+2022-10-01,Rio Branco,AC,Norte,597.06,simulado_calibrado
+2022-11-01,Rio Branco,AC,Norte,594.91,simulado_calibrado
+2022-12-01,Rio Branco,AC,Norte,609.38,simulado_calibrado
+2023-01-01,Rio Branco,AC,Norte,619.1,simulado_calibrado
+2023-02-01,Rio Branco,AC,Norte,613.85,simulado_calibrado
+2023-03-01,Rio Branco,AC,Norte,608.53,simulado_calibrado
+2023-04-01,Rio Branco,AC,Norte,598.51,simulado_calibrado
+2023-05-01,Rio Branco,AC,Norte,598.54,simulado_calibrado
+2023-06-01,Rio Branco,AC,Norte,621.92,simulado_calibrado
+2023-07-01,Rio Branco,AC,Norte,629.47,simulado_calibrado
+2023-08-01,Rio Branco,AC,Norte,615.57,simulado_calibrado
+2023-09-01,Rio Branco,AC,Norte,628.02,simulado_calibrado
+2023-10-01,Rio Branco,AC,Norte,624.62,simulado_calibrado
+2023-11-01,Rio Branco,AC,Norte,628.11,simulado_calibrado
+2023-12-01,Rio Branco,AC,Norte,630.26,simulado_calibrado
+2024-01-01,Rio Branco,AC,Norte,644.32,simulado_calibrado
+2024-02-01,Rio Branco,AC,Norte,651.64,simulado_calibrado
+2024-03-01,Rio Branco,AC,Norte,637.19,simulado_calibrado
+2024-04-01,Rio Branco,AC,Norte,635.77,simulado_calibrado
+2024-05-01,Rio Branco,AC,Norte,636.86,simulado_calibrado
+2024-06-01,Rio Branco,AC,Norte,648.37,simulado_calibrado
+2024-07-01,Rio Branco,AC,Norte,647.8,simulado_calibrado
+2024-08-01,Rio Branco,AC,Norte,652.23,simulado_calibrado
+2024-09-01,Rio Branco,AC,Norte,661.67,simulado_calibrado
+2024-10-01,Rio Branco,AC,Norte,663.2,simulado_calibrado
+2024-11-01,Rio Branco,AC,Norte,658.62,simulado_calibrado
+2024-12-01,Rio Branco,AC,Norte,666.83,simulado_calibrado
+2025-01-01,Rio Branco,AC,Norte,686.31,simulado_calibrado
+2025-02-01,Rio Branco,AC,Norte,677.11,simulado_calibrado
+2025-03-01,Rio Branco,AC,Norte,677.59,simulado_calibrado
+2025-04-01,Rio Branco,AC,Norte,677.75,real_dieese
+2025-05-01,Rio Branco,AC,Norte,654.63,real_dieese
+2025-06-01,Rio Branco,AC,Norte,640.39,real_dieese
+2025-07-01,Rio Branco,AC,Norte,641.17,real_dieese
+2025-08-01,Rio Branco,AC,Norte,641.27,real_dieese
+2025-09-01,Rio Branco,AC,Norte,620.99,real_dieese
+2025-10-01,Rio Branco,AC,Norte,631.08,real_dieese
+2025-11-01,Rio Branco,AC,Norte,635.91,real_dieese
+2025-12-01,Rio Branco,AC,Norte,626.11,real_dieese
+2026-01-01,Rio Branco,AC,Norte,631.2,real_dieese
+2020-01-01,Rio de Janeiro,RJ,Sudeste,507.13,real_dieese
+2020-02-01,Rio de Janeiro,RJ,Sudeste,505.55,real_dieese
+2020-03-01,Rio de Janeiro,RJ,Sudeste,533.65,real_dieese
+2020-04-01,Rio de Janeiro,RJ,Sudeste,544.34,real_dieese
+2020-05-01,Rio de Janeiro,RJ,Sudeste,558.81,real_dieese
+2020-06-01,Rio de Janeiro,RJ,Sudeste,512.84,real_dieese
+2020-07-01,Rio de Janeiro,RJ,Sudeste,505.72,real_dieese
+2020-08-01,Rio de Janeiro,RJ,Sudeste,529.76,real_dieese
+2020-09-01,Rio de Janeiro,RJ,Sudeste,563.75,real_dieese
+2020-10-01,Rio de Janeiro,RJ,Sudeste,592.25,real_dieese
+2020-11-01,Rio de Janeiro,RJ,Sudeste,629.63,real_dieese
+2020-12-01,Rio de Janeiro,RJ,Sudeste,621.09,real_dieese
+2021-01-01,Rio de Janeiro,RJ,Sudeste,644.0,real_dieese
+2021-02-01,Rio de Janeiro,RJ,Sudeste,629.82,real_dieese
+2021-03-01,Rio de Janeiro,RJ,Sudeste,612.56,real_dieese
+2021-04-01,Rio de Janeiro,RJ,Sudeste,622.04,real_dieese
+2021-05-01,Rio de Janeiro,RJ,Sudeste,622.76,real_dieese
+2021-06-01,Rio de Janeiro,RJ,Sudeste,619.24,real_dieese
+2021-07-01,Rio de Janeiro,RJ,Sudeste,621.34,real_dieese
+2021-08-01,Rio de Janeiro,RJ,Sudeste,634.18,real_dieese
+2021-09-01,Rio de Janeiro,RJ,Sudeste,643.06,real_dieese
+2021-10-01,Rio de Janeiro,RJ,Sudeste,673.85,real_dieese
+2021-11-01,Rio de Janeiro,RJ,Sudeste,665.6,real_dieese
+2021-12-01,Rio de Janeiro,RJ,Sudeste,666.26,real_dieese
+2022-01-01,Rio de Janeiro,RJ,Sudeste,692.83,real_dieese
+2022-02-01,Rio de Janeiro,RJ,Sudeste,697.37,real_dieese
+2022-03-01,Rio de Janeiro,RJ,Sudeste,750.71,real_dieese
+2022-04-01,Rio de Janeiro,RJ,Sudeste,768.42,real_dieese
+2022-05-01,Rio de Janeiro,RJ,Sudeste,723.55,real_dieese
+2022-06-01,Rio de Janeiro,RJ,Sudeste,733.14,real_dieese
+2022-07-01,Rio de Janeiro,RJ,Sudeste,723.75,real_dieese
+2022-08-01,Rio de Janeiro,RJ,Sudeste,717.82,real_dieese
+2022-09-01,Rio de Janeiro,RJ,Sudeste,714.14,real_dieese
+2022-10-01,Rio de Janeiro,RJ,Sudeste,736.28,real_dieese
+2022-11-01,Rio de Janeiro,RJ,Sudeste,749.25,real_dieese
+2022-12-01,Rio de Janeiro,RJ,Sudeste,752.74,real_dieese
+2023-01-01,Rio de Janeiro,RJ,Sudeste,770.19,real_dieese
+2023-02-01,Rio de Janeiro,RJ,Sudeste,745.96,real_dieese
+2023-03-01,Rio de Janeiro,RJ,Sudeste,735.62,real_dieese
+2023-04-01,Rio de Janeiro,RJ,Sudeste,750.77,real_dieese
+2023-05-01,Rio de Janeiro,RJ,Sudeste,749.76,real_dieese
+2023-06-01,Rio de Janeiro,RJ,Sudeste,741.0,real_dieese
+2023-07-01,Rio de Janeiro,RJ,Sudeste,738.12,real_dieese
+2023-08-01,Rio de Janeiro,RJ,Sudeste,722.78,real_dieese
+2023-09-01,Rio de Janeiro,RJ,Sudeste,719.92,real_dieese
+2023-10-01,Rio de Janeiro,RJ,Sudeste,721.17,real_dieese
+2023-11-01,Rio de Janeiro,RJ,Sudeste,728.27,real_dieese
+2023-12-01,Rio de Janeiro,RJ,Sudeste,738.61,real_dieese
+2024-01-01,Rio de Janeiro,RJ,Sudeste,791.77,real_dieese
+2024-02-01,Rio de Janeiro,RJ,Sudeste,832.8,real_dieese
+2024-03-01,Rio de Janeiro,RJ,Sudeste,812.25,real_dieese
+2024-04-01,Rio de Janeiro,RJ,Sudeste,801.15,real_dieese
+2024-05-01,Rio de Janeiro,RJ,Sudeste,796.67,real_dieese
+2024-06-01,Rio de Janeiro,RJ,Sudeste,814.38,real_dieese
+2024-07-01,Rio de Janeiro,RJ,Sudeste,757.64,real_dieese
+2024-08-01,Rio de Janeiro,RJ,Sudeste,745.64,real_dieese
+2024-09-01,Rio de Janeiro,RJ,Sudeste,757.3,real_dieese
+2024-10-01,Rio de Janeiro,RJ,Sudeste,773.7,real_dieese
+2024-11-01,Rio de Janeiro,RJ,Sudeste,777.66,real_dieese
+2024-12-01,Rio de Janeiro,RJ,Sudeste,779.84,real_dieese
+2025-01-01,Rio de Janeiro,RJ,Sudeste,802.88,real_dieese
+2025-02-01,Rio de Janeiro,RJ,Sudeste,814.9,real_dieese
+2025-03-01,Rio de Janeiro,RJ,Sudeste,835.5,real_dieese
+2025-04-01,Rio de Janeiro,RJ,Sudeste,849.7,real_dieese
+2025-05-01,Rio de Janeiro,RJ,Sudeste,847.99,real_dieese
+2025-06-01,Rio de Janeiro,RJ,Sudeste,843.27,real_dieese
+2025-07-01,Rio de Janeiro,RJ,Sudeste,823.59,real_dieese
+2025-08-01,Rio de Janeiro,RJ,Sudeste,801.34,real_dieese
+2025-09-01,Rio de Janeiro,RJ,Sudeste,799.22,real_dieese
+2025-10-01,Rio de Janeiro,RJ,Sudeste,801.37,real_dieese
+2025-11-01,Rio de Janeiro,RJ,Sudeste,783.96,real_dieese
+2025-12-01,Rio de Janeiro,RJ,Sudeste,792.06,real_dieese
+2026-01-01,Rio de Janeiro,RJ,Sudeste,817.6,real_dieese
+2020-01-01,Salvador,BA,Nordeste,376.49,real_dieese
+2020-02-01,Salvador,BA,Nordeste,395.49,real_dieese
+2020-03-01,Salvador,BA,Nordeste,408.06,real_dieese
+2020-04-01,Salvador,BA,Nordeste,425.12,real_dieese
+2020-05-01,Salvador,BA,Nordeste,410.33,real_dieese
+2020-06-01,Salvador,BA,Nordeste,419.18,real_dieese
+2020-07-01,Salvador,BA,Nordeste,415.22,real_dieese
+2020-08-01,Salvador,BA,Nordeste,418.72,real_dieese
+2020-09-01,Salvador,BA,Nordeste,459.33,real_dieese
+2020-10-01,Salvador,BA,Nordeste,454.5,real_dieese
+2020-11-01,Salvador,BA,Nordeste,488.1,real_dieese
+2020-12-01,Salvador,BA,Nordeste,479.08,real_dieese
+2021-01-01,Salvador,BA,Nordeste,488.94,real_dieese
+2021-02-01,Salvador,BA,Nordeste,479.19,real_dieese
+2021-03-01,Salvador,BA,Nordeste,461.28,real_dieese
+2021-04-01,Salvador,BA,Nordeste,457.56,real_dieese
+2021-05-01,Salvador,BA,Nordeste,470.14,real_dieese
+2021-06-01,Salvador,BA,Nordeste,467.3,real_dieese
+2021-07-01,Salvador,BA,Nordeste,482.58,real_dieese
+2021-08-01,Salvador,BA,Nordeste,485.44,real_dieese
+2021-09-01,Salvador,BA,Nordeste,478.86,real_dieese
+2021-10-01,Salvador,BA,Nordeste,487.59,real_dieese
+2021-11-01,Salvador,BA,Nordeste,505.94,real_dieese
+2021-12-01,Salvador,BA,Nordeste,518.21,real_dieese
+2022-01-01,Salvador,BA,Nordeste,540.01,real_dieese
+2022-02-01,Salvador,BA,Nordeste,552.3,real_dieese
+2022-03-01,Salvador,BA,Nordeste,560.39,real_dieese
+2022-04-01,Salvador,BA,Nordeste,575.84,real_dieese
+2022-05-01,Salvador,BA,Nordeste,578.88,real_dieese
+2022-06-01,Salvador,BA,Nordeste,580.82,real_dieese
+2022-07-01,Salvador,BA,Nordeste,586.54,real_dieese
+2022-08-01,Salvador,BA,Nordeste,576.93,real_dieese
+2022-09-01,Salvador,BA,Nordeste,560.31,real_dieese
+2022-10-01,Salvador,BA,Nordeste,562.59,real_dieese
+2022-11-01,Salvador,BA,Nordeste,550.67,real_dieese
+2022-12-01,Salvador,BA,Nordeste,570.7,real_dieese
+2023-01-01,Salvador,BA,Nordeste,594.83,real_dieese
+2023-02-01,Salvador,BA,Nordeste,596.88,real_dieese
+2023-03-01,Salvador,BA,Nordeste,591.4,real_dieese
+2023-04-01,Salvador,BA,Nordeste,585.99,real_dieese
+2023-05-01,Salvador,BA,Nordeste,594.32,real_dieese
+2023-06-01,Salvador,BA,Nordeste,595.84,real_dieese
+2023-07-01,Salvador,BA,Nordeste,596.04,real_dieese
+2023-08-01,Salvador,BA,Nordeste,575.81,real_dieese
+2023-09-01,Salvador,BA,Nordeste,571.01,real_dieese
+2023-10-01,Salvador,BA,Nordeste,563.1,real_dieese
+2023-11-01,Salvador,BA,Nordeste,550.86,real_dieese
+2023-12-01,Salvador,BA,Nordeste,560.81,real_dieese
+2024-01-01,Salvador,BA,Nordeste,593.26,real_dieese
+2024-02-01,Salvador,BA,Nordeste,604.3,real_dieese
+2024-03-01,Salvador,BA,Nordeste,620.13,real_dieese
+2024-04-01,Salvador,BA,Nordeste,640.12,real_dieese
+2024-05-01,Salvador,BA,Nordeste,623.05,real_dieese
+2024-06-01,Salvador,BA,Nordeste,613.22,real_dieese
+2024-07-01,Salvador,BA,Nordeste,579.75,real_dieese
+2024-08-01,Salvador,BA,Nordeste,560.72,real_dieese
+2024-09-01,Salvador,BA,Nordeste,553.62,real_dieese
+2024-10-01,Salvador,BA,Nordeste,560.65,real_dieese
+2024-11-01,Salvador,BA,Nordeste,574.78,real_dieese
+2024-12-01,Salvador,BA,Nordeste,583.89,real_dieese
+2025-01-01,Salvador,BA,Nordeste,620.23,real_dieese
+2025-02-01,Salvador,BA,Nordeste,628.8,real_dieese
+2025-03-01,Salvador,BA,Nordeste,633.58,real_dieese
+2025-04-01,Salvador,BA,Nordeste,632.12,real_dieese
+2025-05-01,Salvador,BA,Nordeste,628.97,real_dieese
+2025-06-01,Salvador,BA,Nordeste,623.85,real_dieese
+2025-07-01,Salvador,BA,Nordeste,635.08,real_dieese
+2025-08-01,Salvador,BA,Nordeste,616.23,real_dieese
+2025-09-01,Salvador,BA,Nordeste,601.74,real_dieese
+2025-10-01,Salvador,BA,Nordeste,606.39,real_dieese
+2025-11-01,Salvador,BA,Nordeste,598.19,real_dieese
+2025-12-01,Salvador,BA,Nordeste,607.48,real_dieese
+2026-01-01,Salvador,BA,Nordeste,616.28,real_dieese
+2020-01-01,São Luís,MA,Nordeste,488.37,simulado_calibrado
+2020-02-01,São Luís,MA,Nordeste,501.1,simulado_calibrado
+2020-03-01,São Luís,MA,Nordeste,500.02,simulado_calibrado
+2020-04-01,São Luís,MA,Nordeste,479.84,simulado_calibrado
+2020-05-01,São Luís,MA,Nordeste,493.67,simulado_calibrado
+2020-06-01,São Luís,MA,Nordeste,504.45,simulado_calibrado
+2020-07-01,São Luís,MA,Nordeste,500.84,simulado_calibrado
+2020-08-01,São Luís,MA,Nordeste,555.82,simulado_calibrado
+2020-09-01,São Luís,MA,Nordeste,548.84,simulado_calibrado
+2020-10-01,São Luís,MA,Nordeste,558.59,simulado_calibrado
+2020-11-01,São Luís,MA,Nordeste,573.9,simulado_calibrado
+2020-12-01,São Luís,MA,Nordeste,554.67,simulado_calibrado
+2021-01-01,São Luís,MA,Nordeste,533.32,simulado_calibrado
+2021-02-01,São Luís,MA,Nordeste,534.64,simulado_calibrado
+2021-03-01,São Luís,MA,Nordeste,525.72,simulado_calibrado
+2021-04-01,São Luís,MA,Nordeste,527.15,simulado_calibrado
+2021-05-01,São Luís,MA,Nordeste,531.45,simulado_calibrado
+2021-06-01,São Luís,MA,Nordeste,540.4,simulado_calibrado
+2021-07-01,São Luís,MA,Nordeste,535.55,simulado_calibrado
+2021-08-01,São Luís,MA,Nordeste,553.98,simulado_calibrado
+2021-09-01,São Luís,MA,Nordeste,535.61,simulado_calibrado
+2021-10-01,São Luís,MA,Nordeste,541.97,simulado_calibrado
+2021-11-01,São Luís,MA,Nordeste,550.66,simulado_calibrado
+2021-12-01,São Luís,MA,Nordeste,552.95,simulado_calibrado
+2022-01-01,São Luís,MA,Nordeste,568.75,simulado_calibrado
+2022-02-01,São Luís,MA,Nordeste,576.99,simulado_calibrado
+2022-03-01,São Luís,MA,Nordeste,560.06,simulado_calibrado
+2022-04-01,São Luís,MA,Nordeste,555.53,simulado_calibrado
+2022-05-01,São Luís,MA,Nordeste,554.7,simulado_calibrado
+2022-06-01,São Luís,MA,Nordeste,571.88,simulado_calibrado
+2022-07-01,São Luís,MA,Nordeste,570.14,simulado_calibrado
+2022-08-01,São Luís,MA,Nordeste,572.93,simulado_calibrado
+2022-09-01,São Luís,MA,Nordeste,580.06,simulado_calibrado
+2022-10-01,São Luís,MA,Nordeste,585.35,simulado_calibrado
+2022-11-01,São Luís,MA,Nordeste,571.97,simulado_calibrado
+2022-12-01,São Luís,MA,Nordeste,587.67,simulado_calibrado
+2023-01-01,São Luís,MA,Nordeste,599.16,simulado_calibrado
+2023-02-01,São Luís,MA,Nordeste,608.19,simulado_calibrado
+2023-03-01,São Luís,MA,Nordeste,593.27,simulado_calibrado
+2023-04-01,São Luís,MA,Nordeste,594.98,simulado_calibrado
+2023-05-01,São Luís,MA,Nordeste,587.97,simulado_calibrado
+2023-06-01,São Luís,MA,Nordeste,592.15,simulado_calibrado
+2023-07-01,São Luís,MA,Nordeste,611.51,simulado_calibrado
+2023-08-01,São Luís,MA,Nordeste,605.01,simulado_calibrado
+2023-09-01,São Luís,MA,Nordeste,604.31,simulado_calibrado
+2023-10-01,São Luís,MA,Nordeste,615.29,simulado_calibrado
+2023-11-01,São Luís,MA,Nordeste,617.03,simulado_calibrado
+2023-12-01,São Luís,MA,Nordeste,625.37,simulado_calibrado
+2024-01-01,São Luís,MA,Nordeste,641.24,simulado_calibrado
+2024-02-01,São Luís,MA,Nordeste,640.38,simulado_calibrado
+2024-03-01,São Luís,MA,Nordeste,626.0,simulado_calibrado
+2024-04-01,São Luís,MA,Nordeste,625.44,simulado_calibrado
+2024-05-01,São Luís,MA,Nordeste,627.89,simulado_calibrado
+2024-06-01,São Luís,MA,Nordeste,642.58,simulado_calibrado
+2024-07-01,São Luís,MA,Nordeste,638.49,simulado_calibrado
+2024-08-01,São Luís,MA,Nordeste,644.01,simulado_calibrado
+2024-09-01,São Luís,MA,Nordeste,651.73,simulado_calibrado
+2024-10-01,São Luís,MA,Nordeste,658.6,simulado_calibrado
+2024-11-01,São Luís,MA,Nordeste,660.39,simulado_calibrado
+2024-12-01,São Luís,MA,Nordeste,659.18,simulado_calibrado
+2025-01-01,São Luís,MA,Nordeste,672.8,simulado_calibrado
+2025-02-01,São Luís,MA,Nordeste,680.56,simulado_calibrado
+2025-03-01,São Luís,MA,Nordeste,663.04,simulado_calibrado
+2025-04-01,São Luís,MA,Nordeste,671.77,real_dieese
+2025-05-01,São Luís,MA,Nordeste,667.98,real_dieese
+2025-06-01,São Luís,MA,Nordeste,655.32,real_dieese
+2025-07-01,São Luís,MA,Nordeste,664.52,real_dieese
+2025-08-01,São Luís,MA,Nordeste,644.21,real_dieese
+2025-09-01,São Luís,MA,Nordeste,623.92,real_dieese
+2025-10-01,São Luís,MA,Nordeste,643.31,real_dieese
+2025-11-01,São Luís,MA,Nordeste,626.82,real_dieese
+2025-12-01,São Luís,MA,Nordeste,629.43,real_dieese
+2026-01-01,São Luís,MA,Nordeste,625.86,real_dieese
+2020-01-01,São Paulo,SP,Sudeste,517.51,real_dieese
+2020-02-01,São Paulo,SP,Sudeste,519.76,real_dieese
+2020-03-01,São Paulo,SP,Sudeste,518.5,real_dieese
+2020-04-01,São Paulo,SP,Sudeste,556.25,real_dieese
+2020-05-01,São Paulo,SP,Sudeste,556.36,real_dieese
+2020-06-01,São Paulo,SP,Sudeste,547.03,real_dieese
+2020-07-01,São Paulo,SP,Sudeste,524.74,real_dieese
+2020-08-01,São Paulo,SP,Sudeste,539.95,real_dieese
+2020-09-01,São Paulo,SP,Sudeste,563.35,real_dieese
+2020-10-01,São Paulo,SP,Sudeste,595.87,real_dieese
+2020-11-01,São Paulo,SP,Sudeste,629.18,real_dieese
+2020-12-01,São Paulo,SP,Sudeste,631.46,real_dieese
+2021-01-01,São Paulo,SP,Sudeste,654.15,real_dieese
+2021-02-01,São Paulo,SP,Sudeste,639.47,real_dieese
+2021-03-01,São Paulo,SP,Sudeste,626.0,real_dieese
+2021-04-01,São Paulo,SP,Sudeste,632.61,real_dieese
+2021-05-01,São Paulo,SP,Sudeste,636.4,real_dieese
+2021-06-01,São Paulo,SP,Sudeste,626.76,real_dieese
+2021-07-01,São Paulo,SP,Sudeste,640.51,real_dieese
+2021-08-01,São Paulo,SP,Sudeste,650.5,real_dieese
+2021-09-01,São Paulo,SP,Sudeste,673.45,real_dieese
+2021-10-01,São Paulo,SP,Sudeste,693.79,real_dieese
+2021-11-01,São Paulo,SP,Sudeste,692.27,real_dieese
+2021-12-01,São Paulo,SP,Sudeste,690.51,real_dieese
+2022-01-01,São Paulo,SP,Sudeste,713.86,real_dieese
+2022-02-01,São Paulo,SP,Sudeste,715.65,real_dieese
+2022-03-01,São Paulo,SP,Sudeste,761.19,real_dieese
+2022-04-01,São Paulo,SP,Sudeste,803.99,real_dieese
+2022-05-01,São Paulo,SP,Sudeste,777.93,real_dieese
+2022-06-01,São Paulo,SP,Sudeste,777.01,real_dieese
+2022-07-01,São Paulo,SP,Sudeste,760.45,real_dieese
+2022-08-01,São Paulo,SP,Sudeste,749.78,real_dieese
+2022-09-01,São Paulo,SP,Sudeste,750.74,real_dieese
+2022-10-01,São Paulo,SP,Sudeste,762.2,real_dieese
+2022-11-01,São Paulo,SP,Sudeste,782.68,real_dieese
+2022-12-01,São Paulo,SP,Sudeste,791.29,real_dieese
+2023-01-01,São Paulo,SP,Sudeste,790.57,real_dieese
+2023-02-01,São Paulo,SP,Sudeste,779.38,real_dieese
+2023-03-01,São Paulo,SP,Sudeste,782.23,real_dieese
+2023-04-01,São Paulo,SP,Sudeste,794.68,real_dieese
+2023-05-01,São Paulo,SP,Sudeste,791.82,real_dieese
+2023-06-01,São Paulo,SP,Sudeste,783.05,real_dieese
+2023-07-01,São Paulo,SP,Sudeste,769.95,real_dieese
+2023-08-01,São Paulo,SP,Sudeste,748.47,real_dieese
+2023-09-01,São Paulo,SP,Sudeste,734.77,real_dieese
+2023-10-01,São Paulo,SP,Sudeste,738.13,real_dieese
+2023-11-01,São Paulo,SP,Sudeste,749.28,real_dieese
+2023-12-01,São Paulo,SP,Sudeste,761.01,real_dieese
+2024-01-01,São Paulo,SP,Sudeste,793.39,real_dieese
+2024-02-01,São Paulo,SP,Sudeste,808.38,real_dieese
+2024-03-01,São Paulo,SP,Sudeste,813.26,real_dieese
+2024-04-01,São Paulo,SP,Sudeste,822.84,real_dieese
+2024-05-01,São Paulo,SP,Sudeste,826.85,real_dieese
+2024-06-01,São Paulo,SP,Sudeste,832.69,real_dieese
+2024-07-01,São Paulo,SP,Sudeste,809.77,real_dieese
+2024-08-01,São Paulo,SP,Sudeste,786.35,real_dieese
+2024-09-01,São Paulo,SP,Sudeste,792.47,real_dieese
+2024-10-01,São Paulo,SP,Sudeste,805.84,real_dieese
+2024-11-01,São Paulo,SP,Sudeste,828.39,real_dieese
+2024-12-01,São Paulo,SP,Sudeste,841.29,real_dieese
+2025-01-01,São Paulo,SP,Sudeste,851.82,real_dieese
+2025-02-01,São Paulo,SP,Sudeste,860.53,real_dieese
+2025-03-01,São Paulo,SP,Sudeste,880.72,real_dieese
+2025-04-01,São Paulo,SP,Sudeste,909.25,real_dieese
+2025-05-01,São Paulo,SP,Sudeste,896.15,real_dieese
+2025-06-01,São Paulo,SP,Sudeste,882.76,real_dieese
+2025-07-01,São Paulo,SP,Sudeste,865.9,real_dieese
+2025-08-01,São Paulo,SP,Sudeste,850.84,real_dieese
+2025-09-01,São Paulo,SP,Sudeste,842.26,real_dieese
+2025-10-01,São Paulo,SP,Sudeste,847.14,real_dieese
+2025-11-01,São Paulo,SP,Sudeste,841.23,real_dieese
+2025-12-01,São Paulo,SP,Sudeste,845.95,real_dieese
+2026-01-01,São Paulo,SP,Sudeste,854.37,real_dieese
+2020-01-01,Teresina,PI,Nordeste,507.78,simulado_calibrado
+2020-02-01,Teresina,PI,Nordeste,507.5,simulado_calibrado
+2020-03-01,Teresina,PI,Nordeste,504.72,simulado_calibrado
+2020-04-01,Teresina,PI,Nordeste,498.86,simulado_calibrado
+2020-05-01,Teresina,PI,Nordeste,504.79,simulado_calibrado
+2020-06-01,Teresina,PI,Nordeste,507.13,simulado_calibrado
+2020-07-01,Teresina,PI,Nordeste,510.81,simulado_calibrado
+2020-08-01,Teresina,PI,Nordeste,550.92,simulado_calibrado
+2020-09-01,Teresina,PI,Nordeste,556.29,simulado_calibrado
+2020-10-01,Teresina,PI,Nordeste,563.11,simulado_calibrado
+2020-11-01,Teresina,PI,Nordeste,567.74,simulado_calibrado
+2020-12-01,Teresina,PI,Nordeste,562.08,simulado_calibrado
+2021-01-01,Teresina,PI,Nordeste,542.16,simulado_calibrado
+2021-02-01,Teresina,PI,Nordeste,547.2,simulado_calibrado
+2021-03-01,Teresina,PI,Nordeste,534.47,simulado_calibrado
+2021-04-01,Teresina,PI,Nordeste,536.35,simulado_calibrado
+2021-05-01,Teresina,PI,Nordeste,525.65,simulado_calibrado
+2021-06-01,Teresina,PI,Nordeste,533.97,simulado_calibrado
+2021-07-01,Teresina,PI,Nordeste,533.93,simulado_calibrado
+2021-08-01,Teresina,PI,Nordeste,552.94,simulado_calibrado
+2021-09-01,Teresina,PI,Nordeste,551.38,simulado_calibrado
+2021-10-01,Teresina,PI,Nordeste,550.49,simulado_calibrado
+2021-11-01,Teresina,PI,Nordeste,554.85,simulado_calibrado
+2021-12-01,Teresina,PI,Nordeste,550.51,simulado_calibrado
+2022-01-01,Teresina,PI,Nordeste,582.24,simulado_calibrado
+2022-02-01,Teresina,PI,Nordeste,573.43,simulado_calibrado
+2022-03-01,Teresina,PI,Nordeste,564.83,simulado_calibrado
+2022-04-01,Teresina,PI,Nordeste,562.14,simulado_calibrado
+2022-05-01,Teresina,PI,Nordeste,563.63,simulado_calibrado
+2022-06-01,Teresina,PI,Nordeste,573.66,simulado_calibrado
+2022-07-01,Teresina,PI,Nordeste,571.37,simulado_calibrado
+2022-08-01,Teresina,PI,Nordeste,580.48,simulado_calibrado
+2022-09-01,Teresina,PI,Nordeste,590.34,simulado_calibrado
+2022-10-01,Teresina,PI,Nordeste,590.48,simulado_calibrado
+2022-11-01,Teresina,PI,Nordeste,594.55,simulado_calibrado
+2022-12-01,Teresina,PI,Nordeste,586.88,simulado_calibrado
+2023-01-01,Teresina,PI,Nordeste,599.2,simulado_calibrado
+2023-02-01,Teresina,PI,Nordeste,606.45,simulado_calibrado
+2023-03-01,Teresina,PI,Nordeste,598.35,simulado_calibrado
+2023-04-01,Teresina,PI,Nordeste,597.43,simulado_calibrado
+2023-05-01,Teresina,PI,Nordeste,586.37,simulado_calibrado
+2023-06-01,Teresina,PI,Nordeste,614.47,simulado_calibrado
+2023-07-01,Teresina,PI,Nordeste,608.99,simulado_calibrado
+2023-08-01,Teresina,PI,Nordeste,610.6,simulado_calibrado
+2023-09-01,Teresina,PI,Nordeste,610.65,simulado_calibrado
+2023-10-01,Teresina,PI,Nordeste,610.43,simulado_calibrado
+2023-11-01,Teresina,PI,Nordeste,625.83,simulado_calibrado
+2023-12-01,Teresina,PI,Nordeste,625.1,simulado_calibrado
+2024-01-01,Teresina,PI,Nordeste,633.87,simulado_calibrado
+2024-02-01,Teresina,PI,Nordeste,636.96,simulado_calibrado
+2024-03-01,Teresina,PI,Nordeste,632.2,simulado_calibrado
+2024-04-01,Teresina,PI,Nordeste,635.75,simulado_calibrado
+2024-05-01,Teresina,PI,Nordeste,629.16,simulado_calibrado
+2024-06-01,Teresina,PI,Nordeste,635.65,simulado_calibrado
+2024-07-01,Teresina,PI,Nordeste,645.06,simulado_calibrado
+2024-08-01,Teresina,PI,Nordeste,648.06,simulado_calibrado
+2024-09-01,Teresina,PI,Nordeste,639.1,simulado_calibrado
+2024-10-01,Teresina,PI,Nordeste,655.48,simulado_calibrado
+2024-11-01,Teresina,PI,Nordeste,657.78,simulado_calibrado
+2024-12-01,Teresina,PI,Nordeste,665.62,simulado_calibrado
+2025-01-01,Teresina,PI,Nordeste,687.91,simulado_calibrado
+2025-02-01,Teresina,PI,Nordeste,687.59,simulado_calibrado
+2025-03-01,Teresina,PI,Nordeste,670.49,simulado_calibrado
+2025-04-01,Teresina,PI,Nordeste,675.1,real_dieese
+2025-05-01,Teresina,PI,Nordeste,670.79,real_dieese
+2025-06-01,Teresina,PI,Nordeste,672.41,real_dieese
+2025-07-01,Teresina,PI,Nordeste,677.0,real_dieese
+2025-08-01,Teresina,PI,Nordeste,663.41,real_dieese
+2025-09-01,Teresina,PI,Nordeste,645.98,real_dieese
+2025-10-01,Teresina,PI,Nordeste,646.72,real_dieese
+2025-11-01,Teresina,PI,Nordeste,636.26,real_dieese
+2025-12-01,Teresina,PI,Nordeste,645.09,real_dieese
+2026-01-01,Teresina,PI,Nordeste,641.8,real_dieese
+2020-01-01,Vitória,ES,Sudeste,492.2,real_dieese
+2020-02-01,Vitória,ES,Sudeste,480.03,real_dieese
+2020-03-01,Vitória,ES,Sudeste,504.78,real_dieese
+2020-04-01,Vitória,ES,Sudeste,537.89,real_dieese
+2020-05-01,Vitória,ES,Sudeste,536.73,real_dieese
+2020-06-01,Vitória,ES,Sudeste,500.01,real_dieese
+2020-07-01,Vitória,ES,Sudeste,484.8,real_dieese
+2020-08-01,Vitória,ES,Sudeste,509.45,real_dieese
+2020-09-01,Vitória,ES,Sudeste,539.36,real_dieese
+2020-10-01,Vitória,ES,Sudeste,552.85,real_dieese
+2020-11-01,Vitória,ES,Sudeste,606.59,real_dieese
+2020-12-01,Vitória,ES,Sudeste,600.28,real_dieese
+2021-01-01,Vitória,ES,Sudeste,624.62,real_dieese
+2021-02-01,Vitória,ES,Sudeste,609.27,real_dieese
+2021-03-01,Vitória,ES,Sudeste,596.91,real_dieese
+2021-04-01,Vitória,ES,Sudeste,610.98,real_dieese
+2021-05-01,Vitória,ES,Sudeste,616.96,real_dieese
+2021-06-01,Vitória,ES,Sudeste,611.29,real_dieese
+2021-07-01,Vitória,ES,Sudeste,612.45,real_dieese
+2021-08-01,Vitória,ES,Sudeste,618.96,real_dieese
+2021-09-01,Vitória,ES,Sudeste,633.03,real_dieese
+2021-10-01,Vitória,ES,Sudeste,670.99,real_dieese
+2021-11-01,Vitória,ES,Sudeste,668.17,real_dieese
+2021-12-01,Vitória,ES,Sudeste,662.01,real_dieese
+2022-01-01,Vitória,ES,Sudeste,677.54,real_dieese
+2022-02-01,Vitória,ES,Sudeste,682.54,real_dieese
+2022-03-01,Vitória,ES,Sudeste,704.93,real_dieese
+2022-04-01,Vitória,ES,Sudeste,729.31,real_dieese
+2022-05-01,Vitória,ES,Sudeste,698.24,real_dieese
+2022-06-01,Vitória,ES,Sudeste,692.84,real_dieese
+2022-07-01,Vitória,ES,Sudeste,700.75,real_dieese
+2022-08-01,Vitória,ES,Sudeste,697.39,real_dieese
+2022-09-01,Vitória,ES,Sudeste,686.26,real_dieese
+2022-10-01,Vitória,ES,Sudeste,707.78,real_dieese
+2022-11-01,Vitória,ES,Sudeste,713.57,real_dieese
+2022-12-01,Vitória,ES,Sudeste,728.78,real_dieese
+2023-01-01,Vitória,ES,Sudeste,726.23,real_dieese
+2023-02-01,Vitória,ES,Sudeste,709.21,real_dieese
+2023-03-01,Vitória,ES,Sudeste,699.16,real_dieese
+2023-04-01,Vitória,ES,Sudeste,703.9,real_dieese
+2023-05-01,Vitória,ES,Sudeste,706.06,real_dieese
+2023-06-01,Vitória,ES,Sudeste,691.34,real_dieese
+2023-07-01,Vitória,ES,Sudeste,674.54,real_dieese
+2023-08-01,Vitória,ES,Sudeste,660.88,real_dieese
+2023-09-01,Vitória,ES,Sudeste,681.91,real_dieese
+2023-10-01,Vitória,ES,Sudeste,675.16,real_dieese
+2023-11-01,Vitória,ES,Sudeste,675.45,real_dieese
+2023-12-01,Vitória,ES,Sudeste,688.86,real_dieese
+2024-01-01,Vitória,ES,Sudeste,719.3,real_dieese
+2024-02-01,Vitória,ES,Sudeste,731.83,real_dieese
+2024-03-01,Vitória,ES,Sudeste,729.34,real_dieese
+2024-04-01,Vitória,ES,Sudeste,726.82,real_dieese
+2024-05-01,Vitória,ES,Sudeste,723.91,real_dieese
+2024-06-01,Vitória,ES,Sudeste,718.43,real_dieese
+2024-07-01,Vitória,ES,Sudeste,688.45,real_dieese
+2024-08-01,Vitória,ES,Sudeste,684.21,real_dieese
+2024-09-01,Vitória,ES,Sudeste,694.87,real_dieese
+2024-10-01,Vitória,ES,Sudeste,708.06,real_dieese
+2024-11-01,Vitória,ES,Sudeste,726.51,real_dieese
+2024-12-01,Vitória,ES,Sudeste,747.42,real_dieese
+2025-01-01,Vitória,ES,Sudeste,735.31,real_dieese
+2025-02-01,Vitória,ES,Sudeste,745.49,real_dieese
+2025-03-01,Vitória,ES,Sudeste,762.94,real_dieese
+2025-04-01,Vitória,ES,Sudeste,792.83,real_dieese
+2025-05-01,Vitória,ES,Sudeste,780.69,real_dieese
+2025-06-01,Vitória,ES,Sudeste,782.39,real_dieese
+2025-07-01,Vitória,ES,Sudeste,767.42,real_dieese
+2025-08-01,Vitória,ES,Sudeste,743.47,real_dieese
+2025-09-01,Vitória,ES,Sudeste,745.01,real_dieese
+2025-10-01,Vitória,ES,Sudeste,746.22,real_dieese
+2025-11-01,Vitória,ES,Sudeste,731.52,real_dieese
+2025-12-01,Vitória,ES,Sudeste,727.22,real_dieese
+2026-01-01,Vitória,ES,Sudeste,742.85,real_dieese
