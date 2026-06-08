@@ -1,0 +1,31 @@
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Dados locais grandes (opcional — CSVs processados podem ser regenerados)
+# data/processed/*.db
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.env
