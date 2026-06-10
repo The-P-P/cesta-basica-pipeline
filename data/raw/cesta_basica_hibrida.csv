@@ -72,6 +72,8 @@
 2025-11-01,Aracaju,SE,Nordeste,538.1,real_dieese
 2025-12-01,Aracaju,SE,Nordeste,539.49,real_dieese
 2026-01-01,Aracaju,SE,Nordeste,552.65,real_dieese
+2026-02-01,Aracaju,SE,Nordeste,562.88,real_dieese
+2026-03-01,Aracaju,SE,Nordeste,598.45,real_dieese
 2020-01-01,Belo Horizonte,MG,Sudeste,456.35,real_dieese
 2020-02-01,Belo Horizonte,MG,Sudeste,459.1,real_dieese
 2020-03-01,Belo Horizonte,MG,Sudeste,461.28,real_dieese
@@ -144,6 +146,8 @@
 2025-11-01,Belo Horizonte,MG,Sudeste,712.01,real_dieese
 2025-12-01,Belo Horizonte,MG,Sudeste,723.26,real_dieese
 2026-01-01,Belo Horizonte,MG,Sudeste,737.86,real_dieese
+2026-02-01,Belo Horizonte,MG,Sudeste,736.86,real_dieese
+2026-03-01,Belo Horizonte,MG,Sudeste,784.32,real_dieese
 2020-01-01,Belém,PA,Norte,415.56,real_dieese
 2020-02-01,Belém,PA,Norte,432.95,real_dieese
 2020-03-01,Belém,PA,Norte,418.8,real_dieese
@@ -217,6 +221,8 @@
 2025-11-01,Belém,PA,Norte,666.15,real_dieese
 2025-12-01,Belém,PA,Norte,666.57,real_dieese
 2026-01-01,Belém,PA,Norte,673.55,real_dieese
+2026-02-01,Belém,PA,Norte,674.12,real_dieese
+2026-03-01,Belém,PA,Norte,700.68,real_dieese
 2020-01-01,Boa Vista,RR,Norte,555.17,simulado_calibrado
 2020-02-01,Boa Vista,RR,Norte,564.72,simulado_calibrado
 2020-03-01,Boa Vista,RR,Norte,555.84,simulado_calibrado
@@ -290,6 +296,8 @@
 2025-11-01,Boa Vista,RR,Norte,669.19,real_dieese
 2025-12-01,Boa Vista,RR,Norte,652.14,real_dieese
 2026-01-01,Boa Vista,RR,Norte,655.79,real_dieese
+2026-02-01,Boa Vista,RR,Norte,659.19,real_dieese
+2026-03-01,Boa Vista,RR,Norte,680.01,real_dieese
 2020-01-01,Brasília,DF,Centro-Oeste,483.17,real_dieese
 2020-02-01,Brasília,DF,Centro-Oeste,481.78,real_dieese
 2020-03-01,Brasília,DF,Centro-Oeste,484.15,real_dieese
@@ -363,6 +371,8 @@
 2025-11-01,Brasília,DF,Centro-Oeste,703.4,real_dieese
 2025-12-01,Brasília,DF,Centro-Oeste,714.21,real_dieese
 2026-01-01,Brasília,DF,Centro-Oeste,725.98,real_dieese
+2026-02-01,Brasília,DF,Centro-Oeste,712.06,real_dieese
+2026-03-01,Brasília,DF,Centro-Oeste,746.41,real_dieese
 2020-01-01,Campo Grande,MS,Centro-Oeste,458.0,real_dieese
 2020-02-01,Campo Grande,MS,Centro-Oeste,445.4,real_dieese
 2020-03-01,Campo Grande,MS,Centro-Oeste,474.53,real_dieese
@@ -436,6 +446,8 @@
 2025-11-01,Campo Grande,MS,Centro-Oeste,779.56,real_dieese
 2025-12-01,Campo Grande,MS,Centro-Oeste,775.9,real_dieese
 2026-01-01,Campo Grande,MS,Centro-Oeste,783.41,real_dieese
+2026-02-01,Campo Grande,MS,Centro-Oeste,780.29,real_dieese
+2026-03-01,Campo Grande,MS,Centro-Oeste,805.93,real_dieese
 2020-01-01,Cuiabá,MT,Centro-Oeste,616.37,simulado_calibrado
 2020-02-01,Cuiabá,MT,Centro-Oeste,615.01,simulado_calibrado
 2020-03-01,Cuiabá,MT,Centro-Oeste,613.7,simulado_calibrado
@@ -509,6 +521,8 @@
 2025-11-01,Cuiabá,MT,Centro-Oeste,789.98,real_dieese
 2025-12-01,Cuiabá,MT,Centro-Oeste,791.29,real_dieese
 2026-01-01,Cuiabá,MT,Centro-Oeste,810.82,real_dieese
+2026-02-01,Cuiabá,MT,Centro-Oeste,793.77,real_dieese
+2026-03-01,Cuiabá,MT,Centro-Oeste,838.4,real_dieese
 2020-01-01,Curitiba,PR,Sul,452.32,real_dieese
 2020-02-01,Curitiba,PR,Sul,447.91,real_dieese
 2020-03-01,Curitiba,PR,Sul,465.47,real_dieese
@@ -582,6 +596,8 @@
 2025-11-01,Curitiba,PR,Sul,745.59,real_dieese
 2025-12-01,Curitiba,PR,Sul,737.88,real_dieese
 2026-01-01,Curitiba,PR,Sul,748.05,real_dieese
+2026-02-01,Curitiba,PR,Sul,745.56,real_dieese
+2026-03-01,Curitiba,PR,Sul,769.61,real_dieese
 2020-01-01,Florianópolis,SC,Sul,489.13,real_dieese
 2020-02-01,Florianópolis,SC,Sul,493.15,real_dieese
 2020-03-01,Florianópolis,SC,Sul,517.13,real_dieese
@@ -655,6 +671,8 @@
 2025-11-01,Florianópolis,SC,Sul,800.68,real_dieese
 2025-12-01,Florianópolis,SC,Sul,801.29,real_dieese
 2026-01-01,Florianópolis,SC,Sul,806.33,real_dieese
+2026-02-01,Florianópolis,SC,Sul,797.53,real_dieese
+2026-03-01,Florianópolis,SC,Sul,824.35,real_dieese
 2020-01-01,Fortaleza,CE,Nordeste,433.39,real_dieese
 2020-02-01,Fortaleza,CE,Nordeste,462.99,real_dieese
 2020-03-01,Fortaleza,CE,Nordeste,475.11,real_dieese
@@ -728,6 +746,8 @@
 2025-11-01,Fortaleza,CE,Nordeste,670.63,real_dieese
 2025-12-01,Fortaleza,CE,Nordeste,677.0,real_dieese
 2026-01-01,Fortaleza,CE,Nordeste,694.06,real_dieese
+2026-02-01,Fortaleza,CE,Nordeste,692.99,real_dieese
+2026-03-01,Fortaleza,CE,Nordeste,727.9,real_dieese
 2020-01-01,Goiânia,GO,Centro-Oeste,455.08,real_dieese
 2020-02-01,Goiânia,GO,Centro-Oeste,448.62,real_dieese
 2020-03-01,Goiânia,GO,Centro-Oeste,456.18,real_dieese
@@ -801,6 +821,8 @@
 2025-11-01,Goiânia,GO,Centro-Oeste,717.39,real_dieese
 2025-12-01,Goiânia,GO,Centro-Oeste,725.95,real_dieese
 2026-01-01,Goiânia,GO,Centro-Oeste,735.94,real_dieese
+2026-02-01,Goiânia,GO,Centro-Oeste,731.34,real_dieese
+2026-03-01,Goiânia,GO,Centro-Oeste,760.44,real_dieese
 2020-01-01,João Pessoa,PB,Nordeste,388.02,real_dieese
 2020-02-01,João Pessoa,PB,Nordeste,403.98,real_dieese
 2020-03-01,João Pessoa,PB,Nordeste,414.05,real_dieese
@@ -874,6 +896,8 @@
 2025-11-01,João Pessoa,PB,Nordeste,597.66,real_dieese
 2025-12-01,João Pessoa,PB,Nordeste,597.66,real_dieese
 2026-01-01,João Pessoa,PB,Nordeste,606.39,real_dieese
+2026-02-01,João Pessoa,PB,Nordeste,618.73,real_dieese
+2026-03-01,João Pessoa,PB,Nordeste,652.95,real_dieese
 2020-01-01,Macapá,AP,Norte,502.19,simulado_calibrado
 2020-02-01,Macapá,AP,Norte,500.66,simulado_calibrado
 2020-03-01,Macapá,AP,Norte,492.04,simulado_calibrado
@@ -947,6 +971,8 @@
 2025-11-01,Macapá,AP,Norte,643.25,real_dieese
 2025-12-01,Macapá,AP,Norte,651.15,real_dieese
 2026-01-01,Macapá,AP,Norte,661.96,real_dieese
+2026-02-01,Macapá,AP,Norte,660.76,real_dieese
+2026-03-01,Macapá,AP,Norte,672.06,real_dieese
 2020-01-01,Maceió,AL,Nordeste,468.35,simulado_calibrado
 2020-02-01,Maceió,AL,Nordeste,475.78,simulado_calibrado
 2020-03-01,Maceió,AL,Nordeste,468.65,simulado_calibrado
@@ -1020,6 +1046,8 @@
 2025-11-01,Maceió,AL,Nordeste,571.47,real_dieese
 2025-12-01,Maceió,AL,Nordeste,589.69,real_dieese
 2026-01-01,Maceió,AL,Nordeste,592.83,real_dieese
+2026-02-01,Maceió,AL,Nordeste,603.92,real_dieese
+2026-03-01,Maceió,AL,Nordeste,644.77,real_dieese
 2020-01-01,Manaus,AM,Norte,524.48,simulado_calibrado
 2020-02-01,Manaus,AM,Norte,530.07,simulado_calibrado
 2020-03-01,Manaus,AM,Norte,535.84,simulado_calibrado
@@ -1093,6 +1121,8 @@
 2025-11-01,Manaus,AM,Norte,629.39,real_dieese
 2025-12-01,Manaus,AM,Norte,620.42,real_dieese
 2026-01-01,Manaus,AM,Norte,647.97,real_dieese
+2026-02-01,Manaus,AM,Norte,628.9,real_dieese
+2026-03-01,Manaus,AM,Norte,675.56,real_dieese
 2020-01-01,Natal,RN,Nordeste,389.26,real_dieese
 2020-02-01,Natal,RN,Nordeste,405.88,real_dieese
 2020-03-01,Natal,RN,Nordeste,426.0,real_dieese
@@ -1166,6 +1196,8 @@
 2025-11-01,Natal,RN,Nordeste,591.38,real_dieese
 2025-12-01,Natal,RN,Nordeste,597.15,real_dieese
 2026-01-01,Natal,RN,Nordeste,595.86,real_dieese
+2026-02-01,Natal,RN,Nordeste,616.84,real_dieese
+2026-03-01,Natal,RN,Nordeste,653.77,real_dieese
 2020-01-01,Palmas,TO,Norte,562.22,simulado_calibrado
 2020-02-01,Palmas,TO,Norte,552.06,simulado_calibrado
 2020-03-01,Palmas,TO,Norte,546.44,simulado_calibrado
@@ -1239,6 +1271,8 @@
 2025-11-01,Palmas,TO,Norte,672.61,real_dieese
 2025-12-01,Palmas,TO,Norte,677.63,real_dieese
 2026-01-01,Palmas,TO,Norte,700.44,real_dieese
+2026-02-01,Palmas,TO,Norte,695.28,real_dieese
+2026-03-01,Palmas,TO,Norte,717.45,real_dieese
 2020-01-01,Porto Alegre,RS,Sul,502.98,real_dieese
 2020-02-01,Porto Alegre,RS,Sul,492.83,real_dieese
 2020-03-01,Porto Alegre,RS,Sul,497.88,real_dieese
@@ -1312,6 +1346,8 @@
 2025-11-01,Porto Alegre,RS,Sul,789.77,real_dieese
 2025-12-01,Porto Alegre,RS,Sul,784.22,real_dieese
 2026-01-01,Porto Alegre,RS,Sul,795.37,real_dieese
+2026-02-01,Porto Alegre,RS,Sul,786.84,real_dieese
+2026-03-01,Porto Alegre,RS,Sul,799.79,real_dieese
 2020-01-01,Porto Velho,RO,Norte,490.88,simulado_calibrado
 2020-02-01,Porto Velho,RO,Norte,493.45,simulado_calibrado
 2020-03-01,Porto Velho,RO,Norte,472.66,simulado_calibrado
@@ -1385,6 +1421,8 @@
 2025-11-01,Porto Velho,RO,Norte,614.13,real_dieese
 2025-12-01,Porto Velho,RO,Norte,592.01,real_dieese
 2026-01-01,Porto Velho,RO,Norte,601.01,real_dieese
+2026-02-01,Porto Velho,RO,Norte,601.69,real_dieese
+2026-03-01,Porto Velho,RO,Norte,623.42,real_dieese
 2020-01-01,Recife,PE,Nordeste,395.93,real_dieese
 2020-02-01,Recife,PE,Nordeste,420.27,real_dieese
 2020-03-01,Recife,PE,Nordeste,433.28,real_dieese
@@ -1458,6 +1496,8 @@
 2025-11-01,Recife,PE,Nordeste,598.73,real_dieese
 2025-12-01,Recife,PE,Nordeste,596.1,real_dieese
 2026-01-01,Recife,PE,Nordeste,600.09,real_dieese
+2026-02-01,Recife,PE,Nordeste,611.98,real_dieese
+2026-03-01,Recife,PE,Nordeste,654.62,real_dieese
 2020-01-01,Rio Branco,AC,Norte,528.06,simulado_calibrado
 2020-02-01,Rio Branco,AC,Norte,541.09,simulado_calibrado
 2020-03-01,Rio Branco,AC,Norte,523.24,simulado_calibrado
@@ -1531,6 +1571,8 @@
 2025-11-01,Rio Branco,AC,Norte,635.91,real_dieese
 2025-12-01,Rio Branco,AC,Norte,626.11,real_dieese
 2026-01-01,Rio Branco,AC,Norte,631.2,real_dieese
+2026-02-01,Rio Branco,AC,Norte,631.83,real_dieese
+2026-03-01,Rio Branco,AC,Norte,641.15,real_dieese
 2020-01-01,Rio de Janeiro,RJ,Sudeste,507.13,real_dieese
 2020-02-01,Rio de Janeiro,RJ,Sudeste,505.55,real_dieese
 2020-03-01,Rio de Janeiro,RJ,Sudeste,533.65,real_dieese
@@ -1604,6 +1646,8 @@
 2025-11-01,Rio de Janeiro,RJ,Sudeste,783.96,real_dieese
 2025-12-01,Rio de Janeiro,RJ,Sudeste,792.06,real_dieese
 2026-01-01,Rio de Janeiro,RJ,Sudeste,817.6,real_dieese
+2026-02-01,Rio de Janeiro,RJ,Sudeste,826.98,real_dieese
+2026-03-01,Rio de Janeiro,RJ,Sudeste,867.97,real_dieese
 2020-01-01,Salvador,BA,Nordeste,376.49,real_dieese
 2020-02-01,Salvador,BA,Nordeste,395.49,real_dieese
 2020-03-01,Salvador,BA,Nordeste,408.06,real_dieese
@@ -1677,6 +1721,8 @@
 2025-11-01,Salvador,BA,Nordeste,598.19,real_dieese
 2025-12-01,Salvador,BA,Nordeste,607.48,real_dieese
 2026-01-01,Salvador,BA,Nordeste,616.28,real_dieese
+2026-02-01,Salvador,BA,Nordeste,617.94,real_dieese
+2026-03-01,Salvador,BA,Nordeste,662.14,real_dieese
 2020-01-01,São Luís,MA,Nordeste,488.37,simulado_calibrado
 2020-02-01,São Luís,MA,Nordeste,501.1,simulado_calibrado
 2020-03-01,São Luís,MA,Nordeste,500.02,simulado_calibrado
@@ -1750,6 +1796,8 @@
 2025-11-01,São Luís,MA,Nordeste,626.82,real_dieese
 2025-12-01,São Luís,MA,Nordeste,629.43,real_dieese
 2026-01-01,São Luís,MA,Nordeste,625.86,real_dieese
+2026-02-01,São Luís,MA,Nordeste,630.01,real_dieese
+2026-03-01,São Luís,MA,Nordeste,634.26,real_dieese
 2020-01-01,São Paulo,SP,Sudeste,517.51,real_dieese
 2020-02-01,São Paulo,SP,Sudeste,519.76,real_dieese
 2020-03-01,São Paulo,SP,Sudeste,518.5,real_dieese
@@ -1823,6 +1871,8 @@
 2025-11-01,São Paulo,SP,Sudeste,841.23,real_dieese
 2025-12-01,São Paulo,SP,Sudeste,845.95,real_dieese
 2026-01-01,São Paulo,SP,Sudeste,854.37,real_dieese
+2026-02-01,São Paulo,SP,Sudeste,852.87,real_dieese
+2026-03-01,São Paulo,SP,Sudeste,883.94,real_dieese
 2020-01-01,Teresina,PI,Nordeste,507.78,simulado_calibrado
 2020-02-01,Teresina,PI,Nordeste,507.5,simulado_calibrado
 2020-03-01,Teresina,PI,Nordeste,504.72,simulado_calibrado
@@ -1896,6 +1946,8 @@
 2025-11-01,Teresina,PI,Nordeste,636.26,real_dieese
 2025-12-01,Teresina,PI,Nordeste,645.09,real_dieese
 2026-01-01,Teresina,PI,Nordeste,641.8,real_dieese
+2026-02-01,Teresina,PI,Nordeste,648.65,real_dieese
+2026-03-01,Teresina,PI,Nordeste,668.78,real_dieese
 2020-01-01,Vitória,ES,Sudeste,492.2,real_dieese
 2020-02-01,Vitória,ES,Sudeste,480.03,real_dieese
 2020-03-01,Vitória,ES,Sudeste,504.78,real_dieese
@@ -1969,3 +2021,5 @@
 2025-11-01,Vitória,ES,Sudeste,731.52,real_dieese
 2025-12-01,Vitória,ES,Sudeste,727.22,real_dieese
 2026-01-01,Vitória,ES,Sudeste,742.85,real_dieese
+2026-02-01,Vitória,ES,Sudeste,756.15,real_dieese
+2026-03-01,Vitória,ES,Sudeste,790.19,real_dieese

@@ -1,13 +1,13 @@
 ﻿serie,modelo,metrica,valor
-São Luís,SARIMA,MAE,35.3538
-São Luís,SARIMA,RMSE,47.4874
-São Luís,SARIMA,MAPE,5.5716
-São Luís,Prophet,MAE,47.5801
-São Luís,Prophet,RMSE,60.4693
-São Luís,Prophet,MAPE,7.476
-Média Nacional,SARIMA,MAE,13.8956
-Média Nacional,SARIMA,RMSE,19.3839
-Média Nacional,SARIMA,MAPE,1.9977
-Média Nacional,Prophet,MAE,12.6575
-Média Nacional,Prophet,RMSE,17.5942
-Média Nacional,Prophet,MAPE,1.8252
+São Luís,SARIMA,MAE,41.5135
+São Luís,SARIMA,RMSE,53.4486
+São Luís,SARIMA,MAPE,6.5497
+São Luís,Prophet,MAE,49.1501
+São Luís,Prophet,RMSE,63.9596
+São Luís,Prophet,MAPE,7.7353
+Média Nacional,SARIMA,MAE,16.2078
+Média Nacional,SARIMA,RMSE,22.1715
+Média Nacional,SARIMA,MAPE,2.3275
+Média Nacional,Prophet,MAE,14.2678
+Média Nacional,Prophet,RMSE,18.8871
+Média Nacional,Prophet,MAPE,2.0516

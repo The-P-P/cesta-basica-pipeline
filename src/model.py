@@ -26,7 +26,7 @@ COR_HISTORICO = "#1a3a5c"
 COR_OTIMISTA = "#27ae60"
 COR_MODERADO = "#e67e22"
 COR_CONSERVADOR = "#c0392b"
-FONTE_DADOS = "Fonte: Dados simulados baseados em DIEESE"
+FONTE_DADOS = "Fonte: DIEESE (dados reais até mar/2026)"
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = BASE_DIR / "outputs" / "graficos"

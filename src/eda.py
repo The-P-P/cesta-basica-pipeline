@@ -24,7 +24,7 @@ COR_MEDIA_NACIONAL = "#2980b9"
 BASE_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = BASE_DIR / "outputs" / "graficos"
 DPI = 150
-FONTE_DADOS = "Fonte: Dados simulados baseados em DIEESE"
+FONTE_DADOS = "Fonte: DIEESE (dados reais até mar/2026)"
 
 
 def _configurar_figura(figsize=(14, 8)):
