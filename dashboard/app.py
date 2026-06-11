@@ -71,18 +71,25 @@ def filtrar_periodo(df: pd.DataFrame, inicio: pd.Timestamp, fim: pd.Timestamp) -
 
 def grafico_comparacao(dfs: list[pd.DataFrame], titulo: str, tema: dict) -> go.Figure:
     fig = go.Figure()
+    paleta = (
+        tema["comparacao"]
+        + px.colors.qualitative.Alphabet
+        + px.colors.qualitative.Dark24
+        + px.colors.qualitative.Set3
+    )
     for i, serie in enumerate(dfs):
         nome = serie["capital"].iloc[0]
-        cor = tema["comparacao"][i % len(tema["comparacao"])]
+        cor = paleta[i % len(paleta)]
         fig.add_trace(
             go.Scatter(
                 x=serie["data"],
                 y=serie["custo"],
                 mode="lines",
                 name=nome,
-                line=dict(color=cor, width=2.5),
+                line=dict(color=cor, width=2 if len(dfs) <= 5 else 1.5),
             )
         )
+    altura = 420 if len(dfs) <= 8 else 520
     return layout_plotly(
         fig,
         tema,
@@ -90,18 +97,16 @@ def grafico_comparacao(dfs: list[pd.DataFrame], titulo: str, tema: dict) -> go.F
         xaxis_title="Data",
         yaxis_title="Custo (R$)",
         hovermode="x unified",
-        legend=legenda_responsiva(),
-        height=400,
-        margin=margens_grafico(),
+        legend=legenda_responsiva(font_size=10 if len(dfs) > 8 else 11),
+        height=altura,
+        margin=margens_grafico(mobile_friendly=len(dfs) <= 12),
     )
 
 
 def cor_historico_capital(capital: str, tema: dict) -> str:
-    if capital == "São Luís":
-        return tema["sao_luis"]
     if capital == "Média Nacional":
         return tema["media"]
-    return tema["primary"]
+    return tema["destaque"]
 
 
 def projecao_dez_2030(projecoes: pd.DataFrame, capital: str, cenario: str) -> float | None:
@@ -184,7 +189,7 @@ def grafico_metricas(metricas: pd.DataFrame, serie: str, tema: dict) -> go.Figur
         color="modelo",
         title=f"Métricas de erro — {serie}",
         labels={"valor": "Valor", "rotulo": ""},
-        color_discrete_map={"SARIMA": tema["media"], "Prophet": tema["sao_luis"]},
+        color_discrete_map={"SARIMA": tema["media"], "Prophet": tema["destaque"]},
     )
     return layout_plotly(
         fig,
@@ -239,12 +244,28 @@ def render_hero(tema: dict) -> None:
     )
 
 
-def indice_capital_padrao(opcoes: list[str], preferida: str = "São Luís") -> int:
+def obter_todas_capitais(df: pd.DataFrame) -> list[str]:
+    """Retorna todas as capitais disponíveis nos dados, ordenadas alfabeticamente."""
+    return sorted(df["capital"].dropna().unique().tolist())
+
+
+def obter_opcoes_capitais(df: pd.DataFrame) -> list[str]:
+    """Capitais + média nacional agregada."""
+    return obter_todas_capitais(df) + ["Média Nacional"]
+
+
+def capitais_por_regiao(df: pd.DataFrame, regiao: str) -> list[str]:
+    if regiao == "Todas":
+        return obter_todas_capitais(df)
+    return sorted(df[df["regiao"] == regiao]["capital"].dropna().unique().tolist())
+
+
+def indice_capital_padrao(opcoes: list[str], preferida: str = "Média Nacional") -> int:
     return opcoes.index(preferida) if preferida in opcoes else 0
 
 
 def capitais_comparacao_padrao(opcoes: list[str]) -> list[str]:
-    preferidas = ["São Luís", "São Paulo", "Média Nacional"]
+    preferidas = ["São Paulo", "Brasília", "Média Nacional"]
     selecionadas = [capital for capital in preferidas if capital in opcoes]
     if selecionadas:
         return selecionadas[:3]
@@ -265,13 +286,15 @@ def render_sidebar(df: pd.DataFrame) -> dict:
     modo = st.sidebar.radio("Modo", ["Explorar capital", "Comparar capitais"])
 
     regioes = ["Todas"] + sorted(df["regiao"].dropna().unique().tolist())
-    regiao = st.sidebar.selectbox("Região", regioes)
+    regiao = st.sidebar.selectbox(
+        "Região (destaque no comparativo)",
+        regioes,
+        help="Filtra a seleção rápida por região. Todas as 27 capitais permanecem disponíveis.",
+    )
 
-    capitais_regiao = df["capital"].unique().tolist()
-    if regiao != "Todas":
-        capitais_regiao = sorted(df[df["regiao"] == regiao]["capital"].unique().tolist())
-
-    opcoes_capital = sorted(capitais_regiao) + ["Média Nacional"]
+    opcoes_capital = obter_opcoes_capitais(df)
+    n_capitais = len(obter_todas_capitais(df))
+    st.sidebar.caption(f"{n_capitais} capitais + média nacional disponíveis")
 
     data_min = df["data"].min().date()
     data_max = df["data"].max().date()
@@ -299,12 +322,21 @@ def render_sidebar(df: pd.DataFrame) -> dict:
         comparar = []
     else:
         capital = None
+        comparar_key = f"comparar_{regiao}"
+
+        col_todas, col_regiao, col_limpar = st.sidebar.columns(3)
+        if col_todas.button("Todas", use_container_width=True):
+            st.session_state[comparar_key] = opcoes_capital
+        if col_regiao.button("Região", use_container_width=True):
+            st.session_state[comparar_key] = capitais_por_regiao(df, regiao) + ["Média Nacional"]
+        if col_limpar.button("Limpar", use_container_width=True):
+            st.session_state[comparar_key] = []
+
         comparar = st.sidebar.multiselect(
-            "Capitais para comparar (até 3)",
+            "Capitais para comparar",
             opcoes_capital,
             default=capitais_comparacao_padrao(opcoes_capital),
-            max_selections=3,
-            key=f"comparar_{regiao}",
+            key=comparar_key,
         )
 
     return {
@@ -316,6 +348,35 @@ def render_sidebar(df: pd.DataFrame) -> dict:
         "periodo": periodo,
         "cenarios": cenarios,
     }
+
+
+def render_ranking_todas_capitais(
+    df: pd.DataFrame,
+    data_ref: pd.Timestamp,
+    regiao: str,
+) -> None:
+    ranking = ranking_ultimo_mes(df, data_ref)
+    if regiao != "Todas":
+        ranking = (
+            ranking[ranking["regiao"] == regiao]
+            .sort_values("custo", ascending=False)
+            .reset_index(drop=True)
+        )
+        ranking["posicao"] = ranking.index + 1
+
+    media_nacional = float(df[df["data"] == data_ref]["custo"].mean())
+    tabela = ranking[["posicao", "capital", "estado", "regiao", "custo"]].copy()
+    tabela["custo"] = tabela["custo"].round(2)
+    tabela["vs média BR (R$)"] = (tabela["custo"] - media_nacional).round(2)
+    tabela.columns = ["Pos.", "Capital", "UF", "Região", "Custo (R$)", "vs média BR (R$)"]
+
+    titulo = (
+        "Ranking de todas as capitais"
+        if regiao == "Todas"
+        else f"Ranking — região {regiao}"
+    )
+    st.markdown(f'<p class="section-title">{titulo}</p>', unsafe_allow_html=True)
+    st.dataframe(tabela, use_container_width=True, hide_index=True)
 
 
 def render_kpis(df: pd.DataFrame, capital: str, data_ref: pd.Timestamp) -> None:
@@ -408,7 +469,7 @@ def main() -> None:
             config=CONFIG_PLOTLY,
         )
 
-        serie_metrica = "São Luís" if capital == "São Luís" else "Média Nacional" if capital == "Média Nacional" else None
+        serie_metrica = "Média Nacional" if capital == "Média Nacional" else None
         if serie_metrica:
             st.markdown('<p class="section-title">Validação dos modelos</p>', unsafe_allow_html=True)
             st.plotly_chart(
@@ -454,6 +515,8 @@ def main() -> None:
             )
         st.dataframe(pd.DataFrame(resumo), use_container_width=True, hide_index=True)
 
+    render_ranking_todas_capitais(df_periodo, data_ref, filtros["regiao"])
+
     with st.expander("Metodologia e fontes"):
         st.markdown(
             """
@@ -462,7 +525,7 @@ def main() -> None:
               inflação anual composta de 3% (Otimista), 4,5% (Moderado) e 6% (Conservador),
               com leve ajuste de sazonalidade mensal.
             - **Validação:** SARIMA e Prophet comparam previsões no período de teste (métricas disponíveis
-              para São Luís e Média Nacional).
+              para a média nacional agregada).
             - **Limitação:** projeções são estimativas de cenário, não previsões garantidas.
             - **Atualização:** execute o pipeline localmente para regenerar os CSVs em `outputs/`.
             """

@@ -21,7 +21,6 @@ warnings.filterwarnings("ignore")
 plt.style.use("seaborn-v0_8-whitegrid")
 
 # Paleta e configuração
-COR_SAO_LUIS = "#1a5c38"
 COR_HISTORICO = "#1a3a5c"
 COR_OTIMISTA = "#27ae60"
 COR_MODERADO = "#e67e22"
@@ -219,11 +218,11 @@ def avaliar_modelos(
     series_alvo: List[str] = None,
 ) -> pd.DataFrame:
     """
-    Avalia SARIMA e Prophet para séries alvo (São Luís e Média Nacional).
+    Avalia SARIMA e Prophet para a série agregada (Média Nacional).
     Retorna DataFrame com métricas.
     """
     if series_alvo is None:
-        series_alvo = ["São Luís", "Média Nacional"]
+        series_alvo = ["Média Nacional"]
 
     resultados = []
 
@@ -278,7 +277,7 @@ def avaliar_modelos(
 
 def gerar_projecoes_cenarios(
     df: pd.DataFrame,
-    capital: str = "São Luís",
+    capital: str = "Média Nacional",
 ) -> Tuple[pd.DataFrame, Optional[Prophet], pd.Series]:
     """
     Gera projeções em 3 cenários (abr/2026 a dez/2030).
@@ -452,7 +451,7 @@ def executar_modelagem(df: pd.DataFrame) -> Dict:
         df_proj, _, serie = gerar_projecoes_cenarios(df, capital=capital)
         todas_projecoes.append(df_proj)
 
-        if capital not in ("São Luís", "Média Nacional"):
+        if capital != "Média Nacional":
             continue
 
         projecoes_dict = {}
@@ -462,12 +461,12 @@ def executar_modelagem(df: pd.DataFrame) -> Dict:
                 index=pd.to_datetime(df_proj[df_proj["cenario"] == cenario]["data"]),
             )
 
-        nome_arquivo = (
-            "projecao_sao_luis_2020_2030.png"
-            if capital == "São Luís"
-            else "projecao_media_nacional_2020_2030.png"
+        grafico_projecao(
+            serie,
+            projecoes_dict,
+            capital,
+            "projecao_media_nacional_2020_2030.png",
         )
-        grafico_projecao(serie, projecoes_dict, capital, nome_arquivo)
 
     # Salvar todas as projeções
     df_todas = pd.concat(todas_projecoes, ignore_index=True)

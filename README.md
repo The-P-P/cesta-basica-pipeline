@@ -3,7 +3,7 @@
 **TCC — Engenharia de Software**  
 *Desenvolvimento de Pipeline para Análise e Projeção de Preços da Cesta Básica no Brasil (2020–2030) Utilizando Séries Temporais*
 
-Pipeline modular e reprodutível para análise exploratória, modelagem preditiva (SARIMA e Prophet) e projeção de cenários do custo da cesta básica nas 27 capitais brasileiras, com destaque para **São Luís/MA**.
+Pipeline modular e reprodutível para análise exploratória, modelagem preditiva (SARIMA e Prophet) e projeção de cenários do custo da cesta básica nas **27 capitais brasileiras**, com agregação e destaque para a **média nacional**.
 
 ---
 
@@ -58,7 +58,7 @@ python -c "from load import executar_pipeline; from eda import executar_eda; fro
 
    | data       | capital    | custo   |
    |------------|------------|---------|
-   | 2020-01-01 | São Luís   | 490.00  |
+   | 2020-01-01 | Aracaju    | 368.69  |
    | 2020-01-01 | São Paulo  | 654.12  |
    | ...        | ...        | ...     |
 
@@ -107,18 +107,17 @@ Ao executar o pipeline completo, os seguintes arquivos são criados em `outputs/
 
 | Arquivo | Descrição |
 |---------|-----------|
-| `01_evolucao_historica_nacional.png` | Evolução 2020–2026 com destaque SP, São Luís e média |
+| `01_evolucao_historica_nacional.png` | Evolução 2020–2026 com destaque na média nacional e São Paulo |
 | `02_heatmap_capitais.png` | Heatmap custo médio por capital e ano |
-| `03_decomposicao_sao_luis.png` | Decomposição temporal (tendência, sazonalidade, resíduo) |
+| `03_decomposicao_media_nacional.png` | Decomposição temporal da média nacional (tendência, sazonalidade, resíduo) |
 | `04_boxplot_regional.png` | Distribuição de preços por região |
 | `05_ranking_capitais_marco2026.png` | Ranking horizontal — março/2026 |
-| `projecao_sao_luis_2020_2030.png` | **Gráfico principal** — projeções 3 cenários |
-| `projecao_media_nacional_2020_2030.png` | Projeção da média nacional |
+| `projecao_media_nacional_2020_2030.png` | **Gráfico principal** — projeções da média nacional em 3 cenários |
 | `projecoes_2026_2030.csv` | Projeções das **27 capitais** + média nacional (3 cenários) |
 
 ### Exemplo — Gráfico Principal
 
-O gráfico de projeção de São Luís mostra:
+O gráfico de projeção da média nacional mostra:
 - Linha histórica sólida (2020–mar/2026)
 - Três cenários pontilhados até dez/2030 (Otimista 3%, Moderado 4,5%, Conservador 6%)
 - Faixa sombreada de incerteza
@@ -151,9 +150,9 @@ O gráfico de projeção de São Luís mostra:
 
 | Elemento | Cor | Hex |
 |----------|-----|-----|
-| São Luís | Verde escuro | `#1a5c38` |
-| São Paulo | Vermelho | `#c0392b` |
 | Média Nacional | Azul | `#2980b9` |
+| São Paulo | Vermelho | `#c0392b` |
+| Destaque / primária | Verde escuro | `#1a5c38` |
 | Cenário Otimista | Verde | `#27ae60` |
 | Cenário Moderado | Laranja | `#e67e22` |
 | Cenário Conservador | Vermelho | `#c0392b` |

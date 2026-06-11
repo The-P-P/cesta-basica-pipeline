@@ -66,13 +66,7 @@ def _gerar_serie_capital(
     meses_desde_inicio = np.arange(n_meses)
 
     # Valor alvo em jan/2020 (deflação de ~26% sobre mar/2026)
-    if capital == "São Luís":
-        custo_jan2020 = 490.0
-    else:
-        custo_jan2020 = custo_mar2026 * FATOR_DEFLACAO_2020
-
-    # Ruído reduzido no primeiro mês para ancorar jan/2020
-    ruido_inicial = np.random.normal(0, 2, 1)[0] if capital == "São Luís" else 0
+    custo_jan2020 = custo_mar2026 * FATOR_DEFLACAO_2020
 
     # Tendência: crescimento mensal composto
     taxa_mensal = (1 + crescimento_anual) ** (1 / 12) - 1
@@ -95,14 +89,8 @@ def _gerar_serie_capital(
 
     # Ruído gaussiano
     ruido = np.random.normal(0, RUIDO_STD, n_meses)
-    if capital == "São Luís":
-        ruido[0] = ruido_inicial
 
     custos = tendencia * sazonalidade * choque_covid + ruido
-
-    # Ancorar São Luís em ~R$ 490 em jan/2020
-    if capital == "São Luís":
-        custos[0] = 490.0 + ruido_inicial
 
     # Ajuste fino para aproximar o valor de mar/2026
     idx_mar2026 = np.where((datas.year == 2026) & (datas.month == 3))[0]
@@ -238,10 +226,6 @@ def _reconstruir_historico_calibrado(df_real_capital: pd.DataFrame, capital: str
 
     ruido = np.random.normal(0, 5.0, len(datas_hist))
     custos = np.maximum(tendencia * fator_sazonal * choque + ruido, 100.0)
-
-    # Ajuste de São Luís para partir próximo de 490 em jan/2020
-    if capital == "São Luís" and len(custos) > 0:
-        custos[0] = 490.0 + np.random.normal(0, 2)
 
     meta = _mapa_capitais()[capital]
     return pd.DataFrame({

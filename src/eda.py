@@ -17,9 +17,10 @@ from transform import calcular_media_nacional
 plt.style.use("seaborn-v0_8-whitegrid")
 
 # Paleta consistente
-COR_SAO_LUIS = "#1a5c38"
+COR_DESTAQUE = "#2980b9"
 COR_SAO_PAULO = "#c0392b"
 COR_MEDIA_NACIONAL = "#2980b9"
+COR_BAR_EXTREMO = "#1a5c38"
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = BASE_DIR / "outputs" / "graficos"
@@ -48,29 +49,26 @@ def _salvar_figura(fig, nome_arquivo: str):
 def grafico_evolucao_historica(df: pd.DataFrame) -> Path:
     """
     Gráfico 1 — Evolução histórica nacional (2020-2026).
-    Destaque: São Luís (verde), São Paulo (vermelho), Média Nacional (azul tracejado).
+    Destaque: Média Nacional (azul) e São Paulo (vermelho) como referência.
     """
     fig, ax = _configurar_figura((16, 9))
     media_nacional = calcular_media_nacional(df)
 
     # Todas as capitais em cinza claro
     for capital in df["capital"].unique():
-        if capital not in ("São Luís", "São Paulo"):
+        if capital != "São Paulo":
             serie = df[df["capital"] == capital]
             ax.plot(serie["data"], serie["custo"], color="gray", alpha=0.3, linewidth=0.8)
 
     # Destaques
     sp = df[df["capital"] == "São Paulo"]
-    sl = df[df["capital"] == "São Luís"]
     ax.plot(sp["data"], sp["custo"], color=COR_SAO_PAULO, linewidth=2.5, label="São Paulo")
-    ax.plot(sl["data"], sl["custo"], color=COR_SAO_LUIS, linewidth=2.5, label="São Luís")
-
     ax.plot(
         media_nacional["data"],
         media_nacional["media_nacional"],
         color=COR_MEDIA_NACIONAL,
         linewidth=2.5,
-        linestyle="--",
+        linestyle="-",
         label="Média Nacional",
     )
 
@@ -129,20 +127,6 @@ def grafico_heatmap_capitais(df: pd.DataFrame) -> Path:
         cbar_kws={"label": "Custo Médio (R$)"},
     )
 
-    # Destacar linha de São Luís com borda
-    if "São Luís" in pivot.index:
-        idx_sl = list(pivot.index).index("São Luís")
-        ax.add_patch(
-            mpatches.Rectangle(
-                (0, idx_sl),
-                len(pivot.columns),
-                1,
-                fill=False,
-                edgecolor=COR_SAO_LUIS,
-                linewidth=3,
-            )
-        )
-
     ax.set_title(
         "Variação do Custo da Cesta Básica por Capital (R$)",
         fontsize=16,
@@ -156,12 +140,12 @@ def grafico_heatmap_capitais(df: pd.DataFrame) -> Path:
     return _salvar_figura(fig, "02_heatmap_capitais.png")
 
 
-def grafico_decomposicao_sao_luis(df: pd.DataFrame) -> Path:
+def grafico_decomposicao_media_nacional(df: pd.DataFrame) -> Path:
     """
-    Gráfico 3 — Decomposição da série temporal de São Luís.
+    Gráfico 3 — Decomposição da série temporal da média nacional.
     """
-    serie = df[df["capital"] == "São Luís"].set_index("data")["custo"]
-    serie = serie.asfreq("MS")
+    media_nacional = calcular_media_nacional(df)
+    serie = media_nacional.set_index("data")["media_nacional"].asfreq("MS")
 
     decomp = seasonal_decompose(serie, model="additive", period=12)
 
@@ -169,7 +153,7 @@ def grafico_decomposicao_sao_luis(df: pd.DataFrame) -> Path:
     fig.patch.set_facecolor("white")
 
     componentes = [
-        (decomp.observed, "Série Original", COR_SAO_LUIS),
+        (decomp.observed, "Série Original", COR_DESTAQUE),
         (decomp.trend, "Tendência", COR_MEDIA_NACIONAL),
         (decomp.seasonal, "Sazonalidade", "#e67e22"),
         (decomp.resid, "Resíduo", "#7f8c8d"),
@@ -182,7 +166,7 @@ def grafico_decomposicao_sao_luis(df: pd.DataFrame) -> Path:
         ax.set_facecolor("white")
 
     axes[0].set_title(
-        "Decomposição da Série Temporal — São Luís/MA",
+        "Decomposição da Série Temporal — Média Nacional",
         fontsize=16,
         fontweight="bold",
         pad=15,
@@ -191,19 +175,19 @@ def grafico_decomposicao_sao_luis(df: pd.DataFrame) -> Path:
     fig.text(0.12, 0.02, FONTE_DADOS, fontsize=9, color="gray")
     plt.tight_layout()
 
-    return _salvar_figura(fig, "03_decomposicao_sao_luis.png")
+    return _salvar_figura(fig, "03_decomposicao_media_nacional.png")
 
 
 def grafico_boxplot_regional(df: pd.DataFrame) -> Path:
     """
-    Gráfico 4 — Boxplot comparativo por região com São Luís destacada.
+    Gráfico 4 — Boxplot comparativo por região.
     """
     fig, ax = _configurar_figura((14, 8))
 
     ordem_regioes = ["Norte", "Nordeste", "Centro-Oeste", "Sul", "Sudeste"]
     cores_regioes = {
         "Norte": "#3498db",
-        "Nordeste": COR_SAO_LUIS,
+        "Nordeste": "#16a085",
         "Centro-Oeste": "#9b59b6",
         "Sul": "#2ecc71",
         "Sudeste": COR_SAO_PAULO,
@@ -221,18 +205,14 @@ def grafico_boxplot_regional(df: pd.DataFrame) -> Path:
         width=0.6,
     )
 
-    # Destacar São Luís no boxplot do Nordeste
-    sl = df[df["capital"] == "São Luís"]
-    ax.scatter(
-        x=[1],  # índice de Nordeste na ordem
-        y=[sl["custo"].mean()],
-        color="gold",
-        s=200,
-        zorder=5,
-        edgecolors="black",
-        linewidths=1.5,
-        marker="*",
-        label="São Luís (média)",
+    # Marcar média nacional no período
+    media_geral = df["custo"].mean()
+    ax.axhline(
+        media_geral,
+        color=COR_MEDIA_NACIONAL,
+        linestyle="--",
+        linewidth=1.5,
+        label=f"Média nacional (R$ {media_geral:,.0f})".replace(",", "."),
     )
 
     ax.set_title(
@@ -261,9 +241,11 @@ def grafico_ranking_capitais(df: pd.DataFrame) -> Path:
     ranking = mes_ref.sort_values("custo", ascending=True)
     label_mes = data_ref.strftime("%b/%Y")
 
+    media_ref = ranking["custo"].mean()
     cores = [
-        COR_SAO_LUIS if c == "São Luís" else COR_MEDIA_NACIONAL
-        for c in ranking["capital"]
+        COR_BAR_EXTREMO if abs(c - media_ref) == abs(ranking["custo"] - media_ref).min()
+        else "#95a5a6"
+        for c in ranking["custo"]
     ]
 
     bars = ax.barh(ranking["capital"], ranking["custo"], color=cores, edgecolor="white")
@@ -278,6 +260,14 @@ def grafico_ranking_capitais(df: pd.DataFrame) -> Path:
             fontsize=9,
         )
 
+    ax.axvline(
+        media_ref,
+        color=COR_MEDIA_NACIONAL,
+        linestyle="--",
+        linewidth=1.5,
+        label=f"Média nacional (R$ {media_ref:,.2f})".replace(",", "X").replace(".", ",").replace("X", "."),
+    )
+
     ax.set_title(
         f"Custo da Cesta Básica por Capital — {label_mes}",
         fontsize=16,
@@ -288,10 +278,9 @@ def grafico_ranking_capitais(df: pd.DataFrame) -> Path:
     ax.set_ylabel("Capital", fontsize=12)
     ax.grid(True, alpha=0.3, axis="x")
 
-    # Legenda customizada
-    patch_sl = mpatches.Patch(color=COR_SAO_LUIS, label="São Luís")
-    patch_outras = mpatches.Patch(color=COR_MEDIA_NACIONAL, label="Demais capitais")
-    ax.legend(handles=[patch_sl, patch_outras], loc="lower right")
+    patch_media = mpatches.Patch(color=COR_MEDIA_NACIONAL, label="Referência: média nacional")
+    patch_outras = mpatches.Patch(color="#95a5a6", label="Demais capitais")
+    ax.legend(handles=[patch_media, patch_outras], loc="lower right")
     fig.text(0.12, 0.02, FONTE_DADOS, fontsize=9, color="gray")
 
     return _salvar_figura(fig, "05_ranking_capitais_marco2026.png")
@@ -304,7 +293,7 @@ def executar_eda(df: pd.DataFrame) -> dict:
     caminhos = {
         "evolucao": grafico_evolucao_historica(df),
         "heatmap": grafico_heatmap_capitais(df),
-        "decomposicao": grafico_decomposicao_sao_luis(df),
+        "decomposicao": grafico_decomposicao_media_nacional(df),
         "boxplot": grafico_boxplot_regional(df),
         "ranking": grafico_ranking_capitais(df),
     }

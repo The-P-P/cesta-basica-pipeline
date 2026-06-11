@@ -17,7 +17,7 @@ class Tema(TypedDict):
     accent_light: str
     plotly_template: str
     grid: str
-    sao_luis: str
+    destaque: str
     media: str
     comparacao: list[str]
     cenarios: dict[str, str]
@@ -36,7 +36,7 @@ TEMAS: dict[str, Tema] = {
         "accent_light": "#e8f3ec",
         "plotly_template": "plotly_white",
         "grid": "#e2ebe6",
-        "sao_luis": "#1a5c38",
+        "destaque": "#1a5c38",
         "media": "#2980b9",
         "comparacao": ["#1a5c38", "#c0392b", "#2980b9", "#8e44ad", "#d35400"],
         "cenarios": {
@@ -57,7 +57,7 @@ TEMAS: dict[str, Tema] = {
         "accent_light": "#1a2e24",
         "plotly_template": "plotly_dark",
         "grid": "#2d333b",
-        "sao_luis": "#3ddc84",
+        "destaque": "#3ddc84",
         "media": "#58a6ff",
         "comparacao": ["#3ddc84", "#ff7b72", "#58a6ff", "#d2a8ff", "#ffa657"],
         "cenarios": {
@@ -78,7 +78,7 @@ TEMAS: dict[str, Tema] = {
         "accent_light": "#e8eef5",
         "plotly_template": "plotly_white",
         "grid": "#e2e8f0",
-        "sao_luis": "#1e3a5f",
+        "destaque": "#1e3a5f",
         "media": "#2563eb",
         "comparacao": ["#1e3a5f", "#dc2626", "#2563eb", "#7c3aed", "#ea580c"],
         "cenarios": {
@@ -99,7 +99,7 @@ TEMAS: dict[str, Tema] = {
         "accent_light": "#eeeeee",
         "plotly_template": "simple_white",
         "grid": "#cccccc",
-        "sao_luis": "#000000",
+        "destaque": "#000000",
         "media": "#0047ab",
         "comparacao": ["#000000", "#cc0000", "#0047ab", "#6600cc", "#cc6600"],
         "cenarios": {
