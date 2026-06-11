@@ -103,6 +103,120 @@ def grafico_comparacao(dfs: list[pd.DataFrame], titulo: str, tema: dict) -> go.F
     )
 
 
+def grafico_regiao_com_projecao(
+    df: pd.DataFrame,
+    projecoes: pd.DataFrame,
+    capitais: list[str],
+    cenarios: list[str],
+    regiao: str,
+    inicio: pd.Timestamp,
+    fim: pd.Timestamp,
+    tema: dict,
+) -> go.Figure:
+    """Gráfico com histórico e projeções de todas as capitais de uma região."""
+    fig = go.Figure()
+    paleta = (
+        tema["comparacao"]
+        + px.colors.qualitative.Alphabet
+        + px.colors.qualitative.Dark24
+    )
+
+    for i, capital in enumerate(capitais):
+        cor = paleta[i % len(paleta)]
+        historico = filtrar_periodo(serie_capital(df, capital), inicio, fim)
+
+        fig.add_trace(
+            go.Scatter(
+                x=historico["data"],
+                y=historico["custo"],
+                mode="lines",
+                name=capital,
+                legendgroup=capital,
+                line=dict(color=cor, width=2.5),
+            )
+        )
+
+        for cenario in cenarios:
+            proj = projecoes[
+                (projecoes["capital"] == capital) & (projecoes["cenario"] == cenario)
+            ].sort_values("data")
+            if proj.empty:
+                continue
+            fig.add_trace(
+                go.Scatter(
+                    x=proj["data"],
+                    y=proj["custo_projetado"],
+                    mode="lines",
+                    name=f"{capital} — {cenario}",
+                    legendgroup=capital,
+                    showlegend=False,
+                    line=dict(color=cor, width=1.5, dash="dash"),
+                )
+            )
+
+    fig.add_vline(
+        x=DATA_PROJECAO_INICIO,
+        line_dash="dot",
+        line_color=tema["text_muted"],
+        annotation_text="Projeções",
+        annotation_position="top right",
+        annotation_font_color=tema["text_muted"],
+    )
+
+    return layout_plotly(
+        fig,
+        tema,
+        title=f"Evolução e projeção — região {regiao}",
+        xaxis_title="Data",
+        yaxis_title="Custo (R$)",
+        hovermode="x unified",
+        legend=legenda_responsiva(font_size=10),
+        height=480,
+        margin=margens_grafico(),
+    )
+
+
+def render_kpis_regiao(df: pd.DataFrame, regiao: str, data_ref: pd.Timestamp) -> None:
+    snapshot = df[(df["data"] == data_ref) & (df["regiao"] == regiao)]
+    if snapshot.empty:
+        st.warning("Sem dados para a região selecionada.")
+        return
+
+    media_regiao = float(snapshot["custo"].mean())
+    media_nacional = float(df[df["data"] == data_ref]["custo"].mean())
+    mais_cara = snapshot.loc[snapshot["custo"].idxmax()]
+    mais_barata = snapshot.loc[snapshot["custo"].idxmin()]
+
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("Capitais na região", str(len(snapshot)))
+    col2.metric("Média regional", f"R$ {media_regiao:,.2f}")
+    col3.metric("Mais cara", f"{mais_cara['capital']}")
+    col4.metric("vs média BR", f"R$ {media_regiao - media_nacional:+,.2f}")
+    st.caption(
+        f"Faixa regional: R$ {mais_barata['custo']:,.2f} ({mais_barata['capital']}) "
+        f"– R$ {mais_cara['custo']:,.2f} ({mais_cara['capital']})"
+    )
+
+
+def render_projecoes_regiao(
+    projecoes: pd.DataFrame,
+    capitais: list[str],
+    cenarios: list[str],
+) -> None:
+    if not cenarios:
+        return
+
+    st.markdown('<p class="section-title">Projeção dez/2030 por capital</p>', unsafe_allow_html=True)
+    linhas = []
+    for capital in capitais:
+        linha = {"Capital": capital}
+        for cenario in cenarios:
+            valor = projecao_dez_2030(projecoes, capital, cenario)
+            linha[cenario] = round(valor, 2) if valor is not None else None
+        linhas.append(linha)
+    st.dataframe(pd.DataFrame(linhas), use_container_width=True, hide_index=True)
+
+
 def cor_historico_capital(capital: str, tema: dict) -> str:
     if capital == "Média Nacional":
         return tema["media"]
@@ -287,9 +401,9 @@ def render_sidebar(df: pd.DataFrame) -> dict:
 
     regioes = ["Todas"] + sorted(df["regiao"].dropna().unique().tolist())
     regiao = st.sidebar.selectbox(
-        "Região (destaque no comparativo)",
+        "Região",
         regioes,
-        help="Filtra a seleção rápida por região. Todas as 27 capitais permanecem disponíveis.",
+        help="Com uma região selecionada, o gráfico exibe todas as capitais dela.",
     )
 
     opcoes_capital = obter_opcoes_capitais(df)
@@ -313,29 +427,41 @@ def render_sidebar(df: pd.DataFrame) -> dict:
     )
 
     if modo == "Explorar capital":
-        capital = st.sidebar.selectbox(
-            "Capital",
-            opcoes_capital,
-            index=indice_capital_padrao(opcoes_capital),
-            key=f"capital_{regiao}",
-        )
+        if regiao == "Todas":
+            capital = st.sidebar.selectbox(
+                "Capital",
+                opcoes_capital,
+                index=indice_capital_padrao(opcoes_capital),
+                key="capital_todas",
+            )
+        else:
+            capital = None
+            capitais_regiao = capitais_por_regiao(df, regiao)
+            st.sidebar.info(
+                f"Exibindo **{len(capitais_regiao)} capitais** da região **{regiao}** no gráfico."
+            )
         comparar = []
     else:
         capital = None
         comparar_key = f"comparar_{regiao}"
 
+        if comparar_key not in st.session_state:
+            if regiao != "Todas":
+                st.session_state[comparar_key] = capitais_por_regiao(df, regiao)
+            else:
+                st.session_state[comparar_key] = capitais_comparacao_padrao(opcoes_capital)
+
         col_todas, col_regiao, col_limpar = st.sidebar.columns(3)
         if col_todas.button("Todas", use_container_width=True):
             st.session_state[comparar_key] = opcoes_capital
         if col_regiao.button("Região", use_container_width=True):
-            st.session_state[comparar_key] = capitais_por_regiao(df, regiao) + ["Média Nacional"]
+            st.session_state[comparar_key] = capitais_por_regiao(df, regiao)
         if col_limpar.button("Limpar", use_container_width=True):
             st.session_state[comparar_key] = []
 
         comparar = st.sidebar.multiselect(
             "Capitais para comparar",
             opcoes_capital,
-            default=capitais_comparacao_padrao(opcoes_capital),
             key=comparar_key,
         )
 
@@ -450,33 +576,58 @@ def main() -> None:
     render_hero(tema)
 
     if filtros["modo"] == "Explorar capital":
-        capital = filtros["capital"]
-        render_kpis(df_periodo, capital, data_ref)
+        if filtros["regiao"] != "Todas":
+            regiao = filtros["regiao"]
+            capitais_regiao = capitais_por_regiao(df, regiao)
+            render_kpis_regiao(df_periodo, regiao, data_ref)
+            render_projecoes_regiao(projecoes, capitais_regiao, filtros["cenarios"])
 
-        historico = filtrar_periodo(serie_capital(df, capital), inicio, fim)
-        render_projecoes_resumo(projecoes, capital, filtros["cenarios"])
-
-        st.markdown('<p class="section-title">Gráfico histórico e cenários</p>', unsafe_allow_html=True)
-        st.plotly_chart(
-            grafico_capital_com_projecao(
-                historico,
-                projecoes,
-                capital,
-                filtros["cenarios"],
-                tema,
-            ),
-            use_container_width=True,
-            config=CONFIG_PLOTLY,
-        )
-
-        serie_metrica = "Média Nacional" if capital == "Média Nacional" else None
-        if serie_metrica:
-            st.markdown('<p class="section-title">Validação dos modelos</p>', unsafe_allow_html=True)
+            st.markdown(
+                '<p class="section-title">Gráfico histórico e cenários — região</p>',
+                unsafe_allow_html=True,
+            )
             st.plotly_chart(
-                grafico_metricas(metricas, serie_metrica, tema),
+                grafico_regiao_com_projecao(
+                    df,
+                    projecoes,
+                    capitais_regiao,
+                    filtros["cenarios"],
+                    regiao,
+                    inicio,
+                    fim,
+                    tema,
+                ),
                 use_container_width=True,
                 config=CONFIG_PLOTLY,
             )
+        else:
+            capital = filtros["capital"]
+            render_kpis(df_periodo, capital, data_ref)
+
+            historico = filtrar_periodo(serie_capital(df, capital), inicio, fim)
+            render_projecoes_resumo(projecoes, capital, filtros["cenarios"])
+
+            st.markdown('<p class="section-title">Gráfico histórico e cenários</p>', unsafe_allow_html=True)
+            st.plotly_chart(
+                grafico_capital_com_projecao(
+                    historico,
+                    projecoes,
+                    capital,
+                    filtros["cenarios"],
+                    tema,
+                ),
+                use_container_width=True,
+                config=CONFIG_PLOTLY,
+            )
+
+            serie_metrica = "Média Nacional" if capital == "Média Nacional" else None
+            if serie_metrica:
+                st.markdown('<p class="section-title">Validação dos modelos</p>', unsafe_allow_html=True)
+                st.plotly_chart(
+                    grafico_metricas(metricas, serie_metrica, tema),
+                    use_container_width=True,
+                    config=CONFIG_PLOTLY,
+                )
 
     else:
         if not filtros["comparar"]:
