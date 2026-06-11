@@ -1,4 +1,4 @@
-"""Temas visuais do dashboard."""
+"""Temas visuais do dashboard — Claro e Escuro."""
 
 from __future__ import annotations
 
@@ -8,6 +8,7 @@ from typing import TypedDict
 class Tema(TypedDict):
     nome: str
     primary: str
+    primary_soft: str
     bg: str
     bg_secondary: str
     text: str
@@ -15,6 +16,11 @@ class Tema(TypedDict):
     card_bg: str
     card_border: str
     accent_light: str
+    hero_title: str
+    hero_subtitle: str
+    hero_gradient: str
+    shadow_sm: str
+    shadow_md: str
     plotly_template: str
     grid: str
     destaque: str
@@ -24,197 +30,295 @@ class Tema(TypedDict):
 
 
 TEMAS: dict[str, Tema] = {
-    "Claro (TCC)": {
-        "nome": "Claro (TCC)",
-        "primary": "#1a5c38",
-        "bg": "#ffffff",
-        "bg_secondary": "#f0f4f1",
-        "text": "#1a1a1a",
-        "text_muted": "#5c6b63",
-        "card_bg": "#f7faf8",
-        "card_border": "#c8ddd0",
-        "accent_light": "#e8f3ec",
-        "plotly_template": "plotly_white",
-        "grid": "#e2ebe6",
-        "destaque": "#1a5c38",
-        "media": "#2980b9",
-        "comparacao": ["#1a5c38", "#c0392b", "#2980b9", "#8e44ad", "#d35400"],
-        "cenarios": {
-            "Otimista": "#27ae60",
-            "Moderado": "#e67e22",
-            "Conservador": "#c0392b",
-        },
-    },
-    "Escuro": {
-        "nome": "Escuro",
-        "primary": "#3ddc84",
-        "bg": "#0e1117",
-        "bg_secondary": "#161b22",
-        "text": "#f0f3f1",
-        "text_muted": "#9aa8a0",
-        "card_bg": "#1c2128",
-        "card_border": "#30363d",
-        "accent_light": "#1a2e24",
-        "plotly_template": "plotly_dark",
-        "grid": "#2d333b",
-        "destaque": "#3ddc84",
-        "media": "#58a6ff",
-        "comparacao": ["#3ddc84", "#ff7b72", "#58a6ff", "#d2a8ff", "#ffa657"],
-        "cenarios": {
-            "Otimista": "#3fb950",
-            "Moderado": "#d29922",
-            "Conservador": "#f85149",
-        },
-    },
-    "Azul Institucional": {
-        "nome": "Azul Institucional",
-        "primary": "#1e3a5f",
-        "bg": "#f8fafc",
-        "bg_secondary": "#eef2f7",
+    "Claro": {
+        "nome": "Claro",
+        "primary": "#166534",
+        "primary_soft": "#dcfce7",
+        "bg": "#f8faf9",
+        "bg_secondary": "#ffffff",
         "text": "#0f172a",
         "text_muted": "#64748b",
         "card_bg": "#ffffff",
-        "card_border": "#cbd5e1",
-        "accent_light": "#e8eef5",
+        "card_border": "#e2e8f0",
+        "accent_light": "#ecfdf5",
+        "hero_title": "#ffffff",
+        "hero_subtitle": "rgba(255, 255, 255, 0.88)",
+        "hero_gradient": "linear-gradient(135deg, #14532d 0%, #166534 45%, #059669 100%)",
+        "shadow_sm": "0 1px 3px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04)",
+        "shadow_md": "0 4px 16px rgba(15, 23, 42, 0.08), 0 2px 6px rgba(15, 23, 42, 0.04)",
         "plotly_template": "plotly_white",
-        "grid": "#e2e8f0",
-        "destaque": "#1e3a5f",
-        "media": "#2563eb",
-        "comparacao": ["#1e3a5f", "#dc2626", "#2563eb", "#7c3aed", "#ea580c"],
+        "grid": "#eef2f6",
+        "destaque": "#166534",
+        "media": "#1d4ed8",
+        "comparacao": [
+            "#166534",
+            "#b91c1c",
+            "#1d4ed8",
+            "#7c3aed",
+            "#b45309",
+            "#0e7490",
+            "#be185d",
+        ],
         "cenarios": {
-            "Otimista": "#16a34a",
+            "Otimista": "#059669",
             "Moderado": "#d97706",
             "Conservador": "#dc2626",
         },
     },
-    "Alto Contraste": {
-        "nome": "Alto Contraste",
-        "primary": "#000000",
-        "bg": "#ffffff",
-        "bg_secondary": "#f5f5f5",
-        "text": "#000000",
-        "text_muted": "#333333",
-        "card_bg": "#ffffff",
-        "card_border": "#000000",
-        "accent_light": "#eeeeee",
-        "plotly_template": "simple_white",
-        "grid": "#cccccc",
-        "destaque": "#000000",
-        "media": "#0047ab",
-        "comparacao": ["#000000", "#cc0000", "#0047ab", "#6600cc", "#cc6600"],
+    "Escuro": {
+        "nome": "Escuro",
+        "primary": "#34d399",
+        "primary_soft": "#064e3b",
+        "bg": "#0c1017",
+        "bg_secondary": "#131a24",
+        "text": "#e8edf4",
+        "text_muted": "#94a3b8",
+        "card_bg": "#161f2c",
+        "card_border": "#243044",
+        "accent_light": "#0f2a22",
+        "hero_title": "#ecfdf5",
+        "hero_subtitle": "rgba(236, 253, 245, 0.78)",
+        "hero_gradient": "linear-gradient(135deg, #0f172a 0%, #14532d 55%, #065f46 100%)",
+        "shadow_sm": "0 1px 3px rgba(0, 0, 0, 0.35)",
+        "shadow_md": "0 8px 24px rgba(0, 0, 0, 0.45)",
+        "plotly_template": "plotly_dark",
+        "grid": "#1e293b",
+        "destaque": "#34d399",
+        "media": "#60a5fa",
+        "comparacao": [
+            "#34d399",
+            "#f87171",
+            "#60a5fa",
+            "#c084fc",
+            "#fbbf24",
+            "#22d3ee",
+            "#f472b6",
+        ],
         "cenarios": {
-            "Otimista": "#006600",
-            "Moderado": "#cc6600",
-            "Conservador": "#cc0000",
+            "Otimista": "#34d399",
+            "Moderado": "#fbbf24",
+            "Conservador": "#f87171",
         },
     },
 }
 
 
 def obter_tema(nome: str) -> Tema:
-    return TEMAS.get(nome, TEMAS["Claro (TCC)"])
+    return TEMAS.get(nome, TEMAS["Claro"])
 
 
 def css_tema(tema: Tema) -> str:
     return f"""
     <style>
-        .stApp {{
-            background-color: {tema["bg"]};
-            color: {tema["text"]};
-        }}
-        [data-testid="stSidebar"] {{
-            background-color: {tema["bg_secondary"]};
-            border-right: 1px solid {tema["card_border"]};
-        }}
-        [data-testid="stSidebar"] * {{
-            color: {tema["text"]} !important;
-        }}
-        [data-testid="stMetric"] {{
-            background-color: {tema["card_bg"]};
-            border: 1px solid {tema["card_border"]};
-            border-radius: 10px;
-            padding: 12px 16px;
-            box-shadow: 0 1px 2px rgba(0,0,0,0.04);
-        }}
-        [data-testid="stMetricLabel"] {{
-            color: {tema["text_muted"]} !important;
-        }}
-        [data-testid="stMetricValue"] {{
-            color: {tema["primary"]} !important;
-        }}
-        .dashboard-hero {{
-            background: linear-gradient(135deg, {tema["primary"]} 0%, {tema["accent_light"]} 100%);
-            border-radius: 12px;
-            padding: 1.25rem 1.5rem;
-            margin-bottom: 1.5rem;
-            border: 1px solid {tema["card_border"]};
-        }}
-        .dashboard-hero h1 {{
-            color: {tema["bg"] if tema["nome"] != "Alto Contraste" else tema["text"]};
-            margin: 0;
-            font-size: 1.75rem;
-        }}
-        .dashboard-hero p {{
-            color: {tema["bg"] if tema["nome"] not in ("Alto Contraste", "Claro (TCC)") else tema["text_muted"]};
-            margin: 0.35rem 0 0 0;
-            opacity: 0.92;
-        }}
-        div[data-testid="stExpander"] {{
-            border: 1px solid {tema["card_border"]};
-            border-radius: 10px;
-            background-color: {tema["card_bg"]};
-        }}
-        .stButton > button[kind="primary"] {{
-            background-color: {tema["primary"]};
-            border-color: {tema["primary"]};
-        }}
-        .mobile-hint {{
-            display: none;
-            background-color: {tema["accent_light"]};
-            color: {tema["text"]};
-            border: 1px solid {tema["card_border"]};
-            border-radius: 8px;
-            padding: 0.65rem 0.9rem;
-            margin-bottom: 1rem;
-            font-size: 0.9rem;
-            text-align: center;
-        }}
-        .section-title {{
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: {tema["text"]};
-            margin: 0.5rem 0 0.75rem 0;
-        }}
-        .caption-mobile {{
-            color: {tema["text_muted"]};
-            font-size: 0.85rem;
-            line-height: 1.4;
-            margin-bottom: 0.5rem;
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        html, body, [class*="css"] {{
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         }}
 
-        /* --- Mobile / tablet --- */
+        .stApp {{
+            background: {tema["bg"]};
+            color: {tema["text"]};
+        }}
+
+        section[data-testid="stMain"] .block-container {{
+            padding-top: 1.5rem;
+            max-width: 1200px;
+        }}
+
+        [data-testid="stSidebar"] {{
+            background: {tema["bg_secondary"]};
+            border-right: 1px solid {tema["card_border"]};
+            box-shadow: {tema["shadow_sm"]};
+        }}
+
+        [data-testid="stSidebar"] > div:first-child {{
+            padding-top: 1.25rem;
+        }}
+
+        [data-testid="stSidebar"] h2,
+        [data-testid="stSidebar"] h3,
+        [data-testid="stSidebar"] label,
+        [data-testid="stSidebar"] p,
+        [data-testid="stSidebar"] span {{
+            color: {tema["text"]} !important;
+        }}
+
+        [data-testid="stSidebar"] hr {{
+            border-color: {tema["card_border"]};
+            opacity: 0.7;
+        }}
+
+        [data-testid="stMetric"] {{
+            background: {tema["card_bg"]};
+            border: 1px solid {tema["card_border"]};
+            border-radius: 14px;
+            padding: 14px 18px;
+            box-shadow: {tema["shadow_sm"]};
+            transition: box-shadow 0.2s ease, transform 0.2s ease;
+        }}
+
+        [data-testid="stMetric"]:hover {{
+            box-shadow: {tema["shadow_md"]};
+        }}
+
+        [data-testid="stMetricLabel"] {{
+            color: {tema["text_muted"]} !important;
+            font-size: 0.82rem !important;
+            font-weight: 500 !important;
+            letter-spacing: 0.01em;
+        }}
+
+        [data-testid="stMetricValue"] {{
+            color: {tema["primary"]} !important;
+            font-weight: 700 !important;
+            letter-spacing: -0.02em;
+        }}
+
+        .dashboard-hero {{
+            background: {tema["hero_gradient"]};
+            border-radius: 16px;
+            padding: 1.6rem 1.85rem;
+            margin-bottom: 1.75rem;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            box-shadow: {tema["shadow_md"]};
+            position: relative;
+            overflow: hidden;
+        }}
+
+        .dashboard-hero::before {{
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at 85% 15%, rgba(255,255,255,0.14) 0%, transparent 55%);
+            pointer-events: none;
+        }}
+
+        .dashboard-hero h1 {{
+            color: {tema["hero_title"]};
+            margin: 0;
+            font-size: 1.85rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            position: relative;
+        }}
+
+        .dashboard-hero p {{
+            color: {tema["hero_subtitle"]};
+            margin: 0.45rem 0 0 0;
+            font-size: 0.95rem;
+            font-weight: 400;
+            position: relative;
+        }}
+
+        .section-title {{
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: {tema["text"]};
+            letter-spacing: -0.01em;
+            margin: 1.25rem 0 0.65rem 0;
+            padding-bottom: 0.35rem;
+            border-bottom: 2px solid {tema["primary_soft"] if tema["nome"] == "Claro" else tema["card_border"]};
+            display: inline-block;
+        }}
+
+        .caption-mobile,
+        .stCaption {{
+            color: {tema["text_muted"]} !important;
+            font-size: 0.875rem !important;
+            line-height: 1.5;
+        }}
+
+        div[data-testid="stExpander"] {{
+            border: 1px solid {tema["card_border"]};
+            border-radius: 14px;
+            background: {tema["card_bg"]};
+            box-shadow: {tema["shadow_sm"]};
+            overflow: hidden;
+        }}
+
+        div[data-testid="stPlotlyChart"] {{
+            background: {tema["card_bg"]};
+            border: 1px solid {tema["card_border"]};
+            border-radius: 14px;
+            padding: 0.35rem;
+            box-shadow: {tema["shadow_sm"]};
+        }}
+
+        div[data-testid="stDataFrame"] {{
+            border: 1px solid {tema["card_border"]};
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: {tema["shadow_sm"]};
+        }}
+
+        .stButton > button {{
+            border-radius: 10px;
+            font-weight: 500;
+            transition: all 0.15s ease;
+        }}
+
+        .stButton > button[kind="primary"],
+        .stButton > button[kind="secondary"] {{
+            border-color: {tema["card_border"]};
+        }}
+
+        .stButton > button:hover {{
+            border-color: {tema["primary"]};
+            color: {tema["primary"]};
+        }}
+
+        div[data-testid="stAlert"] {{
+            border-radius: 12px;
+            border: 1px solid {tema["card_border"]};
+        }}
+
+        .mobile-hint {{
+            display: none;
+            background: {tema["accent_light"]};
+            color: {tema["text"]};
+            border: 1px solid {tema["card_border"]};
+            border-radius: 12px;
+            padding: 0.7rem 1rem;
+            margin-bottom: 1rem;
+            font-size: 0.875rem;
+            text-align: center;
+        }}
+
+        div[data-baseweb="select"] > div,
+        div[data-baseweb="input"] > div {{
+            border-radius: 10px !important;
+            border-color: {tema["card_border"]} !important;
+            background-color: {tema["card_bg"]} !important;
+        }}
+
+        .stRadio > div {{
+            gap: 0.5rem;
+        }}
+
+        .stRadio label {{
+            font-weight: 500 !important;
+        }}
+
         @media (max-width: 768px) {{
             .mobile-hint {{
                 display: block;
             }}
             .dashboard-hero {{
-                padding: 0.9rem 1rem;
-                margin-bottom: 1rem;
-                border-radius: 10px;
+                padding: 1.1rem 1.2rem;
+                margin-bottom: 1.25rem;
+                border-radius: 14px;
             }}
             .dashboard-hero h1 {{
-                font-size: 1.35rem;
-                line-height: 1.25;
+                font-size: 1.4rem;
             }}
             .dashboard-hero p {{
-                font-size: 0.82rem;
-                line-height: 1.35;
+                font-size: 0.85rem;
             }}
             section[data-testid="stMain"] .block-container {{
-                padding-top: 0.75rem;
-                padding-left: 0.75rem;
-                padding-right: 0.75rem;
-                max-width: 100%;
+                padding-top: 0.85rem;
+                padding-left: 0.85rem;
+                padding-right: 0.85rem;
             }}
             section[data-testid="stMain"] div[data-testid="stHorizontalBlock"] {{
                 gap: 0.5rem;
@@ -227,26 +331,17 @@ def css_tema(tema: Tema) -> str:
             }}
             [data-testid="stMetric"] {{
                 padding: 10px 12px;
-                margin-bottom: 0.25rem;
             }}
             [data-testid="stMetricLabel"] {{
                 font-size: 0.78rem !important;
-                white-space: normal !important;
-                line-height: 1.2 !important;
             }}
             [data-testid="stMetricValue"] {{
-                font-size: 1.15rem !important;
+                font-size: 1.1rem !important;
             }}
-            div[data-testid="stPlotlyChart"] {{
-                overflow-x: auto;
-                -webkit-overflow-scrolling: touch;
-            }}
+            div[data-testid="stPlotlyChart"],
             div[data-testid="stDataFrame"] {{
                 overflow-x: auto;
                 -webkit-overflow-scrolling: touch;
-            }}
-            div[data-testid="stExpander"] {{
-                font-size: 0.92rem;
             }}
             [data-testid="stSidebar"] {{
                 min-width: min(85vw, 300px) !important;
@@ -260,10 +355,7 @@ def css_tema(tema: Tema) -> str:
                 min-width: 100% !important;
             }}
             .dashboard-hero h1 {{
-                font-size: 1.2rem;
-            }}
-            [data-testid="stMetricValue"] {{
-                font-size: 1.05rem !important;
+                font-size: 1.25rem;
             }}
         }}
     </style>
@@ -281,7 +373,6 @@ def _mesclar_dict(base: dict, extra: dict) -> dict:
 
 
 def legenda_responsiva(font_size: int = 11) -> dict:
-    """Legenda abaixo do gráfico — melhor em telas estreitas."""
     return {
         "orientation": "h",
         "yanchor": "top",
@@ -294,14 +385,14 @@ def legenda_responsiva(font_size: int = 11) -> dict:
 
 def margens_grafico(mobile_friendly: bool = True) -> dict:
     if mobile_friendly:
-        return dict(t=48, b=100, l=48, r=16)
-    return dict(t=60, b=40, l=60, r=24)
+        return dict(t=52, b=100, l=52, r=20)
+    return dict(t=64, b=48, l=64, r=28)
 
 
 def layout_plotly(fig, tema: Tema, **kwargs):
     """Aplica estilo do tema em um gráfico Plotly."""
     legend = _mesclar_dict(
-        {"font": {"color": tema["text"]}},
+        {"font": {"color": tema["text"], "family": "Inter, sans-serif"}},
         kwargs.pop("legend", {}),
     )
     xaxis = _mesclar_dict(
@@ -309,6 +400,8 @@ def layout_plotly(fig, tema: Tema, **kwargs):
             "gridcolor": tema["grid"],
             "linecolor": tema["card_border"],
             "zerolinecolor": tema["grid"],
+            "tickfont": {"color": tema["text_muted"]},
+            "titlefont": {"color": tema["text"]},
         },
         kwargs.pop("xaxis", {}),
     )
@@ -317,16 +410,18 @@ def layout_plotly(fig, tema: Tema, **kwargs):
             "gridcolor": tema["grid"],
             "linecolor": tema["card_border"],
             "zerolinecolor": tema["grid"],
+            "tickfont": {"color": tema["text_muted"]},
+            "titlefont": {"color": tema["text"]},
         },
         kwargs.pop("yaxis", {}),
     )
 
     fig.update_layout(
         template=tema["plotly_template"],
-        paper_bgcolor=tema["bg"],
-        plot_bgcolor=tema["card_bg"],
-        font=dict(color=tema["text"]),
-        title_font=dict(color=tema["text"]),
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(color=tema["text"], family="Inter, sans-serif"),
+        title_font=dict(color=tema["text"], size=16, family="Inter, sans-serif"),
         legend=legend,
         xaxis=xaxis,
         yaxis=yaxis,

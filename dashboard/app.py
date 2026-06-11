@@ -371,23 +371,11 @@ def aplicar_tema(nome_tema: str) -> dict:
 
 
 def render_hero(tema: dict) -> None:
-    titulo_cor = tema["bg"] if tema["nome"] in ("Escuro", "Azul Institucional") else tema["text"]
-    if tema["nome"] == "Claro (TCC)":
-        titulo_cor = "#ffffff"
-        subtitulo_cor = "#e8f3ec"
-    elif tema["nome"] == "Alto Contraste":
-        titulo_cor = tema["text"]
-        subtitulo_cor = tema["text_muted"]
-    else:
-        subtitulo_cor = tema["bg"] if tema["nome"] == "Escuro" else "#e2e8f0"
-
     st.markdown(
         f"""
         <div class="dashboard-hero">
-            <h1 style="color:{titulo_cor};">Cesta Básica Brasil</h1>
-            <p style="color:{subtitulo_cor};">
-                Pipeline de análise e projeção de preços — TCC Engenharia de Software
-            </p>
+            <h1>Cesta Básica Brasil</h1>
+            <p>Pipeline de análise e projeção de preços — TCC Engenharia de Software</p>
         </div>
         """,
         unsafe_allow_html=True,
@@ -428,11 +416,12 @@ def capitais_comparacao_padrao(opcoes: list[str]) -> list[str]:
 
 def render_sidebar(df: pd.DataFrame) -> dict:
     st.sidebar.header("Aparência")
-    tema_nome = st.sidebar.selectbox(
-        "Tema visual",
+    tema_nome = st.sidebar.radio(
+        "Tema",
         list(TEMAS.keys()),
         index=0,
-        help="Altera cores da interface e dos gráficos.",
+        horizontal=True,
+        help="Alterna entre visual claro e escuro.",
     )
 
     st.sidebar.divider()
