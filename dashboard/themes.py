@@ -395,26 +395,6 @@ def layout_plotly(fig, tema: Tema, **kwargs):
         {"font": {"color": tema["text"], "family": "Inter, sans-serif"}},
         kwargs.pop("legend", {}),
     )
-    xaxis = _mesclar_dict(
-        {
-            "gridcolor": tema["grid"],
-            "linecolor": tema["card_border"],
-            "zerolinecolor": tema["grid"],
-            "tickfont": {"color": tema["text_muted"]},
-            "titlefont": {"color": tema["text"]},
-        },
-        kwargs.pop("xaxis", {}),
-    )
-    yaxis = _mesclar_dict(
-        {
-            "gridcolor": tema["grid"],
-            "linecolor": tema["card_border"],
-            "zerolinecolor": tema["grid"],
-            "tickfont": {"color": tema["text_muted"]},
-            "titlefont": {"color": tema["text"]},
-        },
-        kwargs.pop("yaxis", {}),
-    )
 
     fig.update_layout(
         template=tema["plotly_template"],
@@ -423,8 +403,20 @@ def layout_plotly(fig, tema: Tema, **kwargs):
         font=dict(color=tema["text"], family="Inter, sans-serif"),
         title_font=dict(color=tema["text"], size=16, family="Inter, sans-serif"),
         legend=legend,
-        xaxis=xaxis,
-        yaxis=yaxis,
         **kwargs,
+    )
+    fig.update_xaxes(
+        gridcolor=tema["grid"],
+        linecolor=tema["card_border"],
+        zerolinecolor=tema["grid"],
+        tickfont=dict(color=tema["text_muted"]),
+        title_font=dict(color=tema["text"]),
+    )
+    fig.update_yaxes(
+        gridcolor=tema["grid"],
+        linecolor=tema["card_border"],
+        zerolinecolor=tema["grid"],
+        tickfont=dict(color=tema["text_muted"]),
+        title_font=dict(color=tema["text"]),
     )
     return fig
