@@ -69,7 +69,13 @@ def filtrar_periodo(df: pd.DataFrame, inicio: pd.Timestamp, fim: pd.Timestamp) -
     return df[(df["data"] >= inicio) & (df["data"] <= fim)]
 
 
-def grafico_comparacao(dfs: list[pd.DataFrame], titulo: str, tema: dict) -> go.Figure:
+def grafico_comparacao(
+    dfs: list[pd.DataFrame],
+    titulo: str,
+    tema: dict,
+    projecoes: pd.DataFrame | None = None,
+    cenarios: list[str] | None = None,
+) -> go.Figure:
     fig = go.Figure()
     paleta = (
         tema["comparacao"]
@@ -77,19 +83,53 @@ def grafico_comparacao(dfs: list[pd.DataFrame], titulo: str, tema: dict) -> go.F
         + px.colors.qualitative.Dark24
         + px.colors.qualitative.Set3
     )
+    cenarios = cenarios or []
+
     for i, serie in enumerate(dfs):
-        nome = serie["capital"].iloc[0]
+        capital = serie["capital"].iloc[0]
         cor = paleta[i % len(paleta)]
+
         fig.add_trace(
             go.Scatter(
                 x=serie["data"],
                 y=serie["custo"],
                 mode="lines",
-                name=nome,
+                name=capital,
+                legendgroup=capital,
                 line=dict(color=cor, width=2 if len(dfs) <= 5 else 1.5),
             )
         )
-    altura = 420 if len(dfs) <= 8 else 520
+
+        if projecoes is not None and cenarios:
+            for cenario in cenarios:
+                proj = projecoes[
+                    (projecoes["capital"] == capital) & (projecoes["cenario"] == cenario)
+                ].sort_values("data")
+                if proj.empty:
+                    continue
+                fig.add_trace(
+                    go.Scatter(
+                        x=proj["data"],
+                        y=proj["custo_projetado"],
+                        mode="lines",
+                        name=f"{capital} — {cenario}",
+                        legendgroup=capital,
+                        showlegend=len(cenarios) == 1,
+                        line=dict(color=cor, width=1.5, dash="dash"),
+                    )
+                )
+
+    if cenarios and projecoes is not None:
+        fig.add_vline(
+            x=DATA_PROJECAO_INICIO,
+            line_dash="dot",
+            line_color=tema["text_muted"],
+            annotation_text="Projeções",
+            annotation_position="top right",
+            annotation_font_color=tema["text_muted"],
+        )
+
+    altura = 480 if cenarios else (420 if len(dfs) <= 8 else 520)
     return layout_plotly(
         fig,
         tema,
@@ -639,11 +679,24 @@ def main() -> None:
             for cap in filtros["comparar"]
         ]
         st.markdown('<p class="section-title">Comparativo entre capitais</p>', unsafe_allow_html=True)
+        if filtros["cenarios"]:
+            st.caption(
+                "Linhas sólidas: histórico. Linhas tracejadas: projeções dos cenários selecionados."
+            )
         st.plotly_chart(
-            grafico_comparacao(series, "Comparativo de custo entre capitais", tema),
+            grafico_comparacao(
+                series,
+                "Comparativo de custo entre capitais",
+                tema,
+                projecoes=projecoes,
+                cenarios=filtros["cenarios"],
+            ),
             use_container_width=True,
             config=CONFIG_PLOTLY,
         )
+
+        if filtros["cenarios"]:
+            render_projecoes_regiao(projecoes, filtros["comparar"], filtros["cenarios"])
 
         st.markdown('<p class="section-title">Resumo do período</p>', unsafe_allow_html=True)
         resumo = []
